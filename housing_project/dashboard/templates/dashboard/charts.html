@@ -64,25 +64,33 @@
         </div>
     </div>
 
+    {{ line_labels|json_script:"line-labels-data" }}
+    {{ line_values|json_script:"line-values-data" }}
+    {{ bar_labels|json_script:"bar-labels-data" }}
+    {{ bar_values|json_script:"bar-values-data" }}
+    {{ comp_labels|json_script:"comp-labels-data" }}
+    {{ toronto_vals|json_script:"toronto-vals-data" }}
+    {{ vancouver_vals|json_script:"vancouver-vals-data" }}
+
     <script>
-        const lineLabels = {{ line_labels|safe }};
-        const lineValues = {{ line_values|safe }};
+        const lineLabels = JSON.parse(document.getElementById("line-labels-data").textContent);
+        const lineValues = JSON.parse(document.getElementById("line-values-data").textContent);
 
-        const barLabels = {{ bar_labels|safe }};
-        const barValues = {{ bar_values|safe }};
+        const barLabels = JSON.parse(document.getElementById("bar-labels-data").textContent);
+        const barValues = JSON.parse(document.getElementById("bar-values-data").textContent);
 
-        const compLabels = {{ comp_labels|safe }};
-        const torontoVals = {{ toronto_vals|safe }};
-        const vancouverVals = {{ vancouver_vals|safe }};
+        const compLabels = JSON.parse(document.getElementById("comp-labels-data").textContent);
+        const torontoVals = JSON.parse(document.getElementById("toronto-vals-data").textContent);
+        const vancouverVals = JSON.parse(document.getElementById("vancouver-vals-data").textContent);
 
-        new Chart(document.getElementById('lineChart'), {
-            type: 'line',
+        new Chart(document.getElementById("lineChart"), {
+            type: "line",
             data: {
                 labels: lineLabels,
                 datasets: [{
-                    label: 'Canada Index',
+                    label: "Canada Index",
                     data: lineValues,
-                    borderColor: '#3498db',
+                    borderColor: "#3498db",
                     fill: false,
                     tension: 0.3
                 }]
@@ -99,14 +107,14 @@
             }
         });
 
-        new Chart(document.getElementById('barChart'), {
-            type: 'bar',
+        new Chart(document.getElementById("barChart"), {
+            type: "bar",
             data: {
                 labels: barLabels,
                 datasets: [{
-                    label: 'Index Value',
+                    label: "Index Value",
                     data: barValues,
-                    backgroundColor: '#e67e22'
+                    backgroundColor: "#e67e22"
                 }]
             },
             options: {
@@ -114,21 +122,21 @@
             }
         });
 
-        new Chart(document.getElementById('compChart'), {
-            type: 'line',
+        new Chart(document.getElementById("compChart"), {
+            type: "line",
             data: {
                 labels: compLabels,
                 datasets: [
                     {
-                        label: 'Toronto',
+                        label: "Toronto",
                         data: torontoVals,
-                        borderColor: '#e74c3c',
+                        borderColor: "#e74c3c",
                         fill: false
                     },
                     {
-                        label: 'Vancouver',
+                        label: "Vancouver",
                         data: vancouverVals,
-                        borderColor: '#2ecc71',
+                        borderColor: "#2ecc71",
                         fill: false
                     }
                 ]
