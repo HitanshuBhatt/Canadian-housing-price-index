@@ -4,33 +4,64 @@
     <title>Housing Dashboard</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
-        body {
-            font-family: 'Segoe UI', sans-serif;
-            background: #f8f9fa;
-            padding: 20px;
+        /* Navigation bar */
+       body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #f4f7f6;
+            color: #333;
         }
 
+        nav {
+            background: #2c3e50;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: #3498db;
+        }
+ /* navigation bar end  */
+
         .container {
-            max-width: 1000px;
+            max-width: 1200px;
             margin: auto;
         }
 
+        .header-card,
         .chart-card {
             background: white;
-            padding: 20px;
-            margin-bottom: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 24px;
+            margin-bottom: 24px;
+            border-radius: 14px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
         }
 
         h1, h2 {
-            color: #333;
+            color: #1f3c88;
             text-align: center;
+            margin-bottom: 12px;
+        }
+
+        .subtext {
+            text-align: center;
+            color: #555;
+            margin-bottom: 18px;
         }
 
         .top-link {
             text-align: center;
-            margin-bottom: 20px;
+            margin-top: 10px;
         }
 
         .top-link a {
@@ -38,115 +69,191 @@
             text-decoration: none;
             font-weight: bold;
         }
+
+        .chart-wrap {
+            position: relative;
+            height: 380px;
+        }
+
+        .info-box {
+            text-align: center;
+            background: #eef3ff;
+            color: #1f3c88;
+            padding: 10px 14px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
     </style>
 </head>
 <body>
+    <!-- navigation bar -->
+ <nav>
+    <div style="font-size: 1.5rem; font-weight: bold;">HousingAnalytics</div>
+    <div>
+        <a href="{% url 'home' %}">Home</a>
+        <a href="{% url 'upload_csv' %}">Upload Data</a>
+        <a href="{% url 'charts' %}">View Charts</a>
+    </div>
+</nav>
     <div class="container">
-        <h1>Canadian Housing Data Dashboard</h1>
-
-        <div class="top-link">
-            <a href="{% url 'upload_csv' %}">Upload New Data</a>
+        <div class="header-card">
+            <h1>Canadian Housing Data Dashboard</h1>
+            <p class="subtext">Simple view of Canadian housing trends using uploaded CSV data.</p>
+            <div class="info-box">Category shown: {{ selected_category }}</div>
+            <div class="top-link">
+                <a href="{% url 'upload_csv' %}">Upload New CSV</a>
+            </div>
         </div>
 
         <div class="chart-card">
-            <h2>National Housing Price Index (2020-2025)</h2>
-            <canvas id="lineChart"></canvas>
+            <h2>Canada Housing Trend</h2>
+            <p class="subtext">Monthly index values for Canada from 2020 to 2025</p>
+            <div class="chart-wrap">
+                <canvas id="lineChart"></canvas>
+            </div>
         </div>
 
         <div class="chart-card">
-            <h2>Price Index by Province (As of {{ latest_date }})</h2>
-            <canvas id="barChart"></canvas>
+            <h2>Province Comparison</h2>
+            <p class="subtext">Latest available date: {{ latest_date }}</p>
+            <div class="chart-wrap">
+                <canvas id="barChart"></canvas>
+            </div>
         </div>
 
         <div class="chart-card">
-            <h2>Toronto vs. Vancouver Trend</h2>
-            <canvas id="compChart"></canvas>
+            <h2>Toronto vs Vancouver</h2>
+            <p class="subtext">Trend comparison for two major cities</p>
+            <div class="chart-wrap">
+                <canvas id="compChart"></canvas>
+            </div>
         </div>
     </div>
 
-    {{ line_labels|json_script:"line-labels-data" }}
-    {{ line_values|json_script:"line-values-data" }}
-    {{ bar_labels|json_script:"bar-labels-data" }}
-    {{ bar_values|json_script:"bar-values-data" }}
-    {{ comp_labels|json_script:"comp-labels-data" }}
-    {{ toronto_vals|json_script:"toronto-vals-data" }}
-    {{ vancouver_vals|json_script:"vancouver-vals-data" }}
-
     <script>
-        const lineLabels = JSON.parse(document.getElementById("line-labels-data").textContent);
-        const lineValues = JSON.parse(document.getElementById("line-values-data").textContent);
+        const lineLabels = JSON.parse('{{ line_labels|safe }}');
+        const lineValues = JSON.parse('{{ line_values|safe }}');
 
-        const barLabels = JSON.parse(document.getElementById("bar-labels-data").textContent);
-        const barValues = JSON.parse(document.getElementById("bar-values-data").textContent);
+        const barLabels = JSON.parse('{{ bar_labels|safe }}');
+        const barValues = JSON.parse('{{ bar_values|safe }}');
 
-        const compLabels = JSON.parse(document.getElementById("comp-labels-data").textContent);
-        const torontoVals = JSON.parse(document.getElementById("toronto-vals-data").textContent);
-        const vancouverVals = JSON.parse(document.getElementById("vancouver-vals-data").textContent);
+        const compLabels = JSON.parse('{{ comp_labels|safe }}');
+        const torontoVals = JSON.parse('{{ toronto_vals|safe }}');
+        const vancouverVals = JSON.parse('{{ vancouver_vals|safe }}');
 
-        new Chart(document.getElementById("lineChart"), {
-            type: "line",
+        new Chart(document.getElementById('lineChart'), {
+            type: 'line',
             data: {
                 labels: lineLabels,
                 datasets: [{
-                    label: "Canada Index",
+                    label: 'Canada',
                     data: lineValues,
-                    borderColor: "#3498db",
-                    fill: false,
-                    tension: 0.3
+                    borderColor: '#2f80ed',
+                    backgroundColor: 'rgba(47, 128, 237, 0.12)',
+                    fill: true,
+                    tension: 0.3,
+                    pointRadius: 3
                 }]
             },
             options: {
                 responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: true }
+                },
                 scales: {
                     x: {
                         ticks: {
                             maxTicksLimit: 12
+                        }
+                    },
+                    y: {
+                        beginAtZero: false,
+                        title: {
+                            display: true,
+                            text: 'Index Value'
                         }
                     }
                 }
             }
         });
 
-        new Chart(document.getElementById("barChart"), {
-            type: "bar",
+        new Chart(document.getElementById('barChart'), {
+            type: 'bar',
             data: {
                 labels: barLabels,
                 datasets: [{
-                    label: "Index Value",
+                    label: 'Province Index',
                     data: barValues,
-                    backgroundColor: "#e67e22"
+                    backgroundColor: '#f2994a'
                 }]
             },
             options: {
-                responsive: true
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: true }
+                },
+                scales: {
+                    x: {
+                        ticks: {
+                            autoSkip: false,
+                            maxRotation: 45,
+                            minRotation: 25
+                        }
+                    },
+                    y: {
+                        beginAtZero: false,
+                        title: {
+                            display: true,
+                            text: 'Index Value'
+                        }
+                    }
+                }
             }
         });
 
-        new Chart(document.getElementById("compChart"), {
-            type: "line",
+        new Chart(document.getElementById('compChart'), {
+            type: 'line',
             data: {
                 labels: compLabels,
                 datasets: [
                     {
-                        label: "Toronto",
+                        label: 'Toronto',
                         data: torontoVals,
-                        borderColor: "#e74c3c",
-                        fill: false
+                        borderColor: '#eb5757',
+                        fill: false,
+                        tension: 0.3,
+                        pointRadius: 3
                     },
                     {
-                        label: "Vancouver",
+                        label: 'Vancouver',
                         data: vancouverVals,
-                        borderColor: "#2ecc71",
-                        fill: false
+                        borderColor: '#27ae60',
+                        fill: false,
+                        tension: 0.3,
+                        pointRadius: 3
                     }
                 ]
             },
             options: {
                 responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: true }
+                },
                 scales: {
                     x: {
                         ticks: {
                             maxTicksLimit: 12
+                        }
+                    },
+                    y: {
+                        beginAtZero: false,
+                        title: {
+                            display: true,
+                            text: 'Index Value'
                         }
                     }
                 }
