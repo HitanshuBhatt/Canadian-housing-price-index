@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Housing Data</title>
+</head>
+<body>
+    <h1>Upload Canadian Housing CSV</h1>
+    
+    {% if success %}
+        <p style="color: green;">Data uploaded successfully!</p>
+    {% endif %}
+
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Upload and Process</button>
+    </form>
+</body>
+</html>
