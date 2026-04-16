@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Housing Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #f8f9fa;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .chart-card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        .top-link {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .top-link a {
+            color: #1f3c88;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Canadian Housing Data Dashboard</h1>
+
+        <div class="top-link">
+            <a href="{% url 'upload_csv' %}">Upload New Data</a>
+        </div>
+
+        <div class="chart-card">
+            <h2>National Housing Price Index (2020-2025)</h2>
+            <canvas id="lineChart"></canvas>
+        </div>
+
+        <div class="chart-card">
+            <h2>Price Index by Province (As of {{ latest_date }})</h2>
+            <canvas id="barChart"></canvas>
+        </div>
+
+        <div class="chart-card">
+            <h2>Toronto vs. Vancouver Trend</h2>
+            <canvas id="compChart"></canvas>
+        </div>
+    </div>
+
+    <script>
+        const lineLabels = {{ line_labels|safe }};
+        const lineValues = {{ line_values|safe }};
+
+        const barLabels = {{ bar_labels|safe }};
+        const barValues = {{ bar_values|safe }};
+
+        const compLabels = {{ comp_labels|safe }};
+        const torontoVals = {{ toronto_vals|safe }};
+        const vancouverVals = {{ vancouver_vals|safe }};
+
+        new Chart(document.getElementById('lineChart'), {
+            type: 'line',
+            data: {
+                labels: lineLabels,
+                datasets: [{
+                    label: 'Canada Index',
+                    data: lineValues,
+                    borderColor: '#3498db',
+                    fill: false,
+                    tension: 0.3
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    x: {
+                        ticks: {
+                            maxTicksLimit: 12
+                        }
+                    }
+                }
+            }
+        });
+
+        new Chart(document.getElementById('barChart'), {
+            type: 'bar',
+            data: {
+                labels: barLabels,
+                datasets: [{
+                    label: 'Index Value',
+                    data: barValues,
+                    backgroundColor: '#e67e22'
+                }]
+            },
+            options: {
+                responsive: true
+            }
+        });
+
+        new Chart(document.getElementById('compChart'), {
+            type: 'line',
+            data: {
+                labels: compLabels,
+                datasets: [
+                    {
+                        label: 'Toronto',
+                        data: torontoVals,
+                        borderColor: '#e74c3c',
+                        fill: false
+                    },
+                    {
+                        label: 'Vancouver',
+                        data: vancouverVals,
+                        borderColor: '#2ecc71',
+                        fill: false
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    x: {
+                        ticks: {
+                            maxTicksLimit: 12
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
