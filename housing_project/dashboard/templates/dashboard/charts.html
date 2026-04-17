@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Housing Dashboard</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
@@ -12,6 +13,7 @@
             color: #333;
         }
 
+               /* Navigation Header */
         nav {
             background: #2c3e50;
             padding: 1rem 2rem;
@@ -21,6 +23,7 @@
             color: white;
         }
 
+        /* Navigation links styling */
         nav a {
             color: white;
             text-decoration: none;
@@ -28,13 +31,74 @@
             font-weight: 500;
         }
 
+        /* Hover effect for navigation links */
         nav a:hover {
             color: #3498db;
         }
 
+        /* Right side of navbar where links and user profile are shown */
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        /* Profile menu wrapper so dropdown stays attached to initials button */
+        .profile-menu {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Circular button used to show user initials after login */
+        .initials-btn {
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            border: none;
+            background: #3498db;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        /* Hover effect for initials button */
+        .initials-btn:hover {
+            background: #2980b9;
+        }
+
+        /* Dropdown box that appears when user clicks initials */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            right: 0;
+            top: 48px;
+            background: white;
+            min-width: 140px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+            border-radius: 8px;
+            overflow: hidden;
+            z-index: 1000;
+        }
+
+        /* Dropdown link styling */
+        .dropdown-content a {
+            display: block;
+            padding: 12px 16px;
+            color: #333;
+            text-decoration: none;
+            margin: 0;
+        }
+
+        /* Hover effect for dropdown link */
+        .dropdown-content a:hover {
+            background: #f4f7f6;
+            color: #1f3c88;
+        }
         .container {
             max-width: 1200px;
-            margin: auto;
+            margin: 30px auto;
+            padding: 0 20px;
         }
 
         .header-card,
@@ -56,6 +120,10 @@
             text-align: center;
             color: #555;
             margin-bottom: 18px;
+            line-height: 1.6;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .top-link {
@@ -83,18 +151,89 @@
             margin-bottom: 15px;
             font-weight: 600;
         }
+
+        .filter-box {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            background: #eee;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .selection-panel {
+            width: 200px;
+            max-height: 300px;
+            overflow-y: auto;
+            border: 1px solid #ccc;
+            padding: 10px;
+            background: white;
+            border-radius: 8px;
+        }
+
+        .interactive-layout {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .interactive-chart-area {
+            flex: 1;
+            min-width: 300px;
+            height: 420px;
+        }
+
+        .date-range-box {
+            margin-top: 20px;
+        }
+
+        .date-range-box input,
+        .filter-box select {
+            padding: 8px 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            margin-top: 6px;
+        }
+
+        #selection_warning {
+            color: red;
+            font-weight: bold;
+            display: none;
+        }
     </style>
 </head>
 <body>
     <!-- navigation bar -->
     <nav>
-        <div style="font-size: 1.5rem; font-weight: bold;">HousingAnalytics</div>
-        <div>
-            <a href="{% url 'home' %}">Home</a>
-            <a href="{% url 'upload_csv' %}">Upload Data</a>
-            <a href="{% url 'charts' %}">View Charts</a>
+    <!-- Website on left side -->
+    <div style="font-size: 1.5rem; font-weight: bold;">HousingAnalytics</div>
+
+    <!-- Right side navigation links -->
+    <div class="nav-right">
+        <a href="{% url 'home' %}">Home</a>
+        <a href="{% url 'upload_csv' %}">Upload Data</a>
+        <a href="{% url 'charts' %}">View Charts</a>
+
+        <!-- If user is logged in then show initials button and logout dropdown -->
+        {% if request.user.is_authenticated %}
+        <div class="profile-menu">
+            <button type="button" class="initials-btn" onclick="toggleDropdown()">
+                {{ request.user.first_name|default:request.user.username|slice:":1"|upper }}{{ request.user.last_name|slice:":1"|upper }}
+            </button>
+
+            <!-- Dropdown menu with logout option -->
+            <div id="profileDropdown" class="dropdown-content">
+                <a href="{% url 'logout' %}">Logout</a>
+            </div>
         </div>
-    </nav>
+        {% else %}
+            <!-- If user is not logged in then show login and signup links -->
+            <a href="{% url 'login' %}">Login</a>
+            <a href="{% url 'signup' %}">Sign Up</a>
+        {% endif %}
+    </div>
+</nav>
 
     <div class="container">
         <div class="header-card">
@@ -108,8 +247,8 @@
 
         <div class="chart-card">
             <h2>Canada Housing Trend</h2>
-            <p class="subtext">Monthly index values for Canada from 2020 to 2025</p>
-            <p>
+            <p class="subtext">Monthly index values for Canada from 2020 to 2025.</p>
+            <p class="subtext">
                 This chart shows monthly house price index values for Canada from January 2020 to December 2025.
                 Higher index values indicate higher housing price levels compared with the base period.
             </p>
@@ -121,8 +260,8 @@
         <div class="chart-card">
             <h2>Province Comparison</h2>
             <p class="subtext">Latest available date: {{ latest_date }}</p>
-            <p>
-                This chart compares provincial house price index values on December 1, 2025.
+            <p class="subtext">
+                This chart compares provincial house price index values for the latest available date.
                 Higher index values indicate relatively stronger housing price levels among the provinces shown.
             </p>
             <div class="chart-wrap">
@@ -132,8 +271,8 @@
 
         <div class="chart-card">
             <h2>Toronto vs Vancouver</h2>
-            <p class="subtext">Trend comparison for two major cities</p>
-            <p>
+            <p class="subtext">Trend comparison for two major cities.</p>
+            <p class="subtext">
                 This chart presents monthly house price index values for Toronto and Vancouver
                 from January 2020 to December 2025.
                 The index values are used to compare residential housing price trends over time
@@ -144,11 +283,14 @@
             </div>
         </div>
 
-        <!-- interactive chart -->
         <div class="chart-card">
             <h2>Interactive Market Explorer</h2>
+            <p class="subtext">
+                Select up to four provinces or cities and compare their housing price index trends
+                over a custom date range.
+            </p>
 
-            <div style="margin-bottom: 20px; display: flex; gap: 20px; flex-wrap: wrap; background: #eee; padding: 15px; border-radius: 8px;">
+            <div class="filter-box">
                 <div>
                     <strong>1. Select Type:</strong><br>
                     <input type="radio" name="geo_type" value="province" checked onclick="toggleGeoList('province')"> Provinces
@@ -163,33 +305,33 @@
                     </select>
                 </div>
 
-                <div id="selection_warning" style="color: red; font-weight: bold; display: none;">
+                <div id="selection_warning">
                     Max 4 selections allowed!
                 </div>
             </div>
 
-            <div style="display: flex; gap: 20px;">
-                <div style="width: 200px; max-height: 300px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; background: white;">
+            <div class="interactive-layout">
+                <div class="selection-panel">
                     <div id="province_checks">
                         {% for p in province_list %}
-                        <label><input type="checkbox" class="geo-check" value="{{ p }}" onchange="handleCheck(this)"> {{ p }}</label><br>
+                            <label><input type="checkbox" class="geo-check" value="{{ p }}" onchange="handleCheck(this)"> {{ p }}</label><br>
                         {% endfor %}
                     </div>
 
                     <div id="city_checks" style="display:none;">
                         {% for c in city_list %}
-                        <label><input type="checkbox" class="geo-check" value="{{ c }}" onchange="handleCheck(this)"> {{ c }}</label><br>
+                            <label><input type="checkbox" class="geo-check" value="{{ c }}" onchange="handleCheck(this)"> {{ c }}</label><br>
                         {% endfor %}
                     </div>
                 </div>
 
-                <div style="flex-grow: 1;">
+                <div class="interactive-chart-area">
                     <canvas id="interactiveChart"></canvas>
                 </div>
             </div>
 
-            <div style="margin-top: 20px;">
-                <strong>3. Date Range:</strong><br>
+            <div class="date-range-box">
+                <strong>3. Date Range:</strong><br><br>
                 <input type="date"
                        id="startDate"
                        min="{{ earliest_date|date:'Y-m-d' }}"
@@ -343,7 +485,6 @@
         let interactiveChart = null;
 
         function toggleGeoList(type) {
-            /* uncheck old boxes when switching province/city */
             document.querySelectorAll('.geo-check').forEach(c => c.checked = false);
 
             if (type === 'province') {
@@ -386,7 +527,6 @@
             const colors = ['#3498db', '#e74c3c', '#2ecc71', '#f1c40f'];
 
             const datasets = selectedGeos.map((geo, index) => {
-                /* this part now filters the selected geo data using start and end date */
                 const filteredPoints = (fullData[geo] || []).filter(point => {
                     return point.x >= start && point.x <= end;
                 });
@@ -408,6 +548,7 @@
                 },
                 options: {
                     responsive: true,
+                    maintainAspectRatio: false,
                     parsing: false,
                     scales: {
                         x: {
@@ -428,10 +569,32 @@
             });
         }
 
-        /* start with empty chart until user selects province/city */
         updateInteractiveChart();
 
-   
+
+
+
+        //  navigation bar initials 
+    // function to open and close dropdown when initials button is clicked
+    function toggleDropdown() {
+        const dropdown = document.getElementById("profileDropdown");
+        if (dropdown.style.display === "block") {
+            dropdown.style.display = "none";
+        } else {
+            dropdown.style.display = "block";
+        }
+    }
+
+    // this closes the dropdown if user clicks anywhere outside the initials button
+    window.onclick = function(event) {
+        if (!event.target.matches('.initials-btn')) {
+            const dropdown = document.getElementById("profileDropdown");
+            if (dropdown && dropdown.style.display === "block") {
+                dropdown.style.display = "none";
+            }
+        }
+    }
+
     </script>
 </body>
 </html>

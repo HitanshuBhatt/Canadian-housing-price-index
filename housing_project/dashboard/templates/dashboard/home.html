@@ -4,41 +4,183 @@
     <meta charset="UTF-8">
     <title>Housing Data Portal</title>
     <style>
-        /* Main page styling */
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background-color: #f4f7f6; color: #333; }
+        /* Main page styling for the full home page */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
 
         /* Navigation Header */
-        nav { background: #2c3e50; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; color: white; }
-        nav a { color: white; text-decoration: none; margin-left: 20px; font-weight: 500; }
-        nav a:hover { color: #3498db; }
-        
+        nav {
+            background: #2c3e50;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+
+        /* Navigation links styling */
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 500;
+        }
+
+        /* Hover effect for navigation links */
+        nav a:hover {
+            color: #3498db;
+        }
+
+        /* Right side of navbar where links and user profile are shown */
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        /* Profile menu wrapper so dropdown stays attached to initials button */
+        .profile-menu {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Circular button used to show user initials after login */
+        .initials-btn {
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            border: none;
+            background: #3498db;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        /* Hover effect for initials button */
+        .initials-btn:hover {
+            background: #2980b9;
+        }
+
+        /* Dropdown box that appears when user clicks initials */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            right: 0;
+            top: 48px;
+            background: white;
+            min-width: 140px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+            border-radius: 8px;
+            overflow: hidden;
+            z-index: 1000;
+        }
+
+        /* Dropdown link styling */
+        .dropdown-content a {
+            display: block;
+            padding: 12px 16px;
+            color: #333;
+            text-decoration: none;
+            margin: 0;
+        }
+
+        /* Hover effect for dropdown link */
+        .dropdown-content a:hover {
+            background: #f4f7f6;
+            color: #1f3c88;
+        }
+
         /* Hero section styling */
-        .hero { background: white; padding: 60px 20px; text-align: center; border-bottom: 1px solid #ddd; }
+        .hero {
+            background: white;
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
 
         /* Main content container */
-        .container { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
-        
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
         /* Grid layout for info cards */
-        .info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
 
         /* Individual card styling */
-        .card { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); }
-        .card h3 { color: #2c3e50; margin-top: 0; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
-        
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+        }
+
+        /* Card heading styling */
+        .card h3 {
+            color: #2c3e50;
+            margin-top: 0;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
         /* Button styling */
-        .btn { display: inline-block; background: #3498db; color: white; padding: 12px 25px; border-radius: 5px; text-decoration: none; margin-top: 20px; transition: 0.3s; }
-        .btn:hover { background: #2980b9; }
+        .btn {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: 0.3s;
+        }
+
+        /* Hover effect for button */
+        .btn:hover {
+            background: #2980b9;
+        }
     </style>
 </head>
 <body>
 
 <!-- Navigation bar -->
 <nav>
+    <!-- Website on left side -->
     <div style="font-size: 1.5rem; font-weight: bold;">HousingAnalytics</div>
-    <div>
+
+    <!-- Right side navigation links -->
+    <div class="nav-right">
         <a href="{% url 'home' %}">Home</a>
         <a href="{% url 'upload_csv' %}">Upload Data</a>
         <a href="{% url 'charts' %}">View Charts</a>
+
+        <!-- If user is logged in then show initials button and logout dropdown -->
+        {% if request.user.is_authenticated %}
+        <div class="profile-menu">
+            <button type="button" class="initials-btn" onclick="toggleDropdown()">
+                {{ request.user.first_name|default:request.user.username|slice:":1"|upper }}{{ request.user.last_name|slice:":1"|upper }}
+            </button>
+
+            <!-- Dropdown menu with logout option -->
+            <div id="profileDropdown" class="dropdown-content">
+                <a href="{% url 'logout' %}">Logout</a>
+            </div>
+        </div>
+        {% else %}
+            <!-- If user is not logged in then show login and signup links -->
+            <a href="{% url 'login' %}">Login</a>
+            <a href="{% url 'signup' %}">Sign Up</a>
+        {% endif %}
     </div>
 </nav>
 
@@ -68,11 +210,33 @@
                 <li><strong>National Trend:</strong> Monthly price index line chart for all of Canada.</li>
                 <li><strong>Regional Comparison:</strong> Bar charts comparing latest provincial costs.</li>
                 <li><strong>City Head-to-Head:</strong> Direct trend comparison (Toronto vs. Vancouver).</li>
-                <li><strong>Province/City </strong> Trend Comparison between a maximum of any four provinces or cities of your choice</li>
+                <li><strong>Province/City:</strong> Trend comparison between a maximum of any four provinces or cities of your choice.</li>
             </ul>
         </div>
     </div>
 </div>
+
+<script>
+    // function to open and close dropdown when initials button is clicked
+    function toggleDropdown() {
+        const dropdown = document.getElementById("profileDropdown");
+        if (dropdown.style.display === "block") {
+            dropdown.style.display = "none";
+        } else {
+            dropdown.style.display = "block";
+        }
+    }
+
+    // this closes the dropdown if user clicks anywhere outside the initials button
+    window.onclick = function(event) {
+        if (!event.target.matches('.initials-btn')) {
+            const dropdown = document.getElementById("profileDropdown");
+            if (dropdown && dropdown.style.display === "block") {
+                dropdown.style.display = "none";
+            }
+        }
+    }
+</script>
 
 </body>
 </html>
