@@ -22,10 +22,10 @@ from django.http import HttpResponse
 def home(request):
     return HttpResponse("welcome to the housing data dashboard")
 
+
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', home), 
-    path('', include('dashboard.urls')), #  connects to dashboard urls 
+    path("admin/", admin.site.urls),
+    path("", include("dashboard.urls")),
 ]
 
 
