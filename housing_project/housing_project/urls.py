@@ -18,14 +18,15 @@ from django.contrib import admin
 from django.urls import path
 from django.urls import include
 from django.http import HttpResponse
-
+# 
+#  testing purpose to return a message to show surver is running 
 def home(request):
     return HttpResponse("welcome to the housing data dashboard")
 
 
 urlpatterns = [
-    path("admin/", admin.site.urls),
-    path("", include("dashboard.urls")),
+    path("admin/", admin.site.urls), #admin route 
+    path("", include("dashboard.urls")), # dashboard route to include all URLS in dashboard app 
 ]
 
 
