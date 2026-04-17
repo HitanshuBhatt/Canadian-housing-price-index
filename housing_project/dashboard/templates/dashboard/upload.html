@@ -21,7 +21,7 @@
             color: white;
         }
 
-        /* Navigation links */
+        /* Navigation links styling */
         nav a {
             color: white;
             text-decoration: none;
@@ -29,15 +29,75 @@
             font-weight: 500;
         }
 
-        /* Navigation hover effect */
+        /* Hover effect for navigation links */
         nav a:hover {
             color: #3498db;
+        }
+
+        /* Right side of navbar where links and user profile are shown */
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        /* Profile menu wrapper so dropdown stays attached to initials button */
+        .profile-menu {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Circular button used to show user initials after login */
+        .initials-btn {
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            border: none;
+            background: #3498db;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        /* Hover effect for initials button */
+        .initials-btn:hover {
+            background: #2980b9;
+        }
+
+        /* Dropdown box that appears when user clicks initials */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            right: 0;
+            top: 48px;
+            background: white;
+            min-width: 140px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+            border-radius: 8px;
+            overflow: hidden;
+            z-index: 1000;
+        }
+
+        /* Dropdown link styling */
+        .dropdown-content a {
+            display: block;
+            padding: 12px 16px;
+            color: #333;
+            text-decoration: none;
+            margin: 0;
+        }
+
+        /* Hover effect for dropdown link */
+        .dropdown-content a:hover {
+            background: #f4f7f6;
+            color: #1f3c88;
         }
 
         /* Main upload box */
         .container {
             max-width: 700px;
-            margin: auto;
+            margin: 40px auto;
             background: white;
             padding: 30px;
             border-radius: 12px;
@@ -75,7 +135,7 @@
         }
 
         /* Upload button styling */
-        button {
+        button.upload-btn {
             background: #1f3c88;
             color: white;
             border: none;
@@ -86,7 +146,7 @@
         }
 
         /* Upload button hover effect */
-        button:hover {
+        button.upload-btn:hover {
             background: #162d66;
         }
 
@@ -105,42 +165,86 @@
     </style>
 </head>
 <body>
-    <!-- Navigation bar -->
-   <nav>
-        <div style="font-size: 1.5rem; font-weight: bold;">HousingAnalytics</div>
-        <div>
-            <a href="{% url 'home' %}">Home</a>
-            <a href="{% url 'upload_csv' %}">Upload Data</a>
-            <a href="{% url 'charts' %}">View Charts</a>
-            <a href="{% url 'logout' %}">Logout</a>
+
+<!-- Navigation bar -->
+<nav>
+    <!-- Website on left side -->
+    <div style="font-size: 1.5rem; font-weight: bold;">HousingAnalytics</div>
+
+    <!-- Right side navigation links -->
+    <div class="nav-right">
+        <a href="{% url 'home' %}">Home</a>
+        <a href="{% url 'upload_csv' %}">Upload Data</a>
+        <a href="{% url 'charts' %}">View Charts</a>
+
+        <!-- If user is logged in then show initials button and logout dropdown -->
+        {% if request.user.is_authenticated %}
+        <div class="profile-menu">
+            <button type="button" class="initials-btn" onclick="toggleDropdown()">
+                {{ request.user.first_name|default:request.user.username|slice:":1"|upper }}{{ request.user.last_name|slice:":1"|upper }}
+            </button>
+
+            <!-- Dropdown menu with logout option -->
+            <div id="profileDropdown" class="dropdown-content">
+                <a href="{% url 'logout' %}">Logout</a>
+            </div>
         </div>
-    </nav>
-    <!-- Main upload section -->
-    <div class="container">
-        <h1>Upload Canadian Housing CSV</h1>
-        <p class="info">Upload a CSV file with columns: Date, GEO, Category, VALUE</p>
-
-        <!-- Show success message after upload -->
-        {% if success %}
-            <p class="success">Data uploaded successfully.</p>
+        {% else %}
+            <!-- If user is not logged in then show login and signup links -->
+            <a href="{% url 'login' %}">Login</a>
+            <a href="{% url 'signup' %}">Sign Up</a>
         {% endif %}
-
-        <!-- Show error message if upload fails -->
-        {% if error_message %}
-            <p class="error">{{ error_message }}</p>
-        {% endif %}
-
-        <!-- CSV upload form -->
-        <form method="post" enctype="multipart/form-data">
-            {% csrf_token %}
-            {{ form.as_p }}
-            <button type="submit">Upload and Process</button>
-        </form>
-
-        <!-- Link back to dashboard -->
-        <div class="link-box">
-            <a href="{% url 'home' %}">Go to Dashboard</a>
-        </div>
     </div>
+</nav>
+
+<!-- Main upload section -->
+<div class="container">
+    <h1>Upload Canadian Housing CSV</h1>
+    <p class="info">Upload a CSV file with columns: Date, GEO, Category, VALUE</p>
+
+    <!-- Show success message after upload -->
+    {% if success %}
+        <p class="success">Data uploaded successfully.</p>
+    {% endif %}
+
+    <!-- Show error message if upload fails -->
+    {% if error_message %}
+        <p class="error">{{ error_message }}</p>
+    {% endif %}
+
+    <!-- CSV upload form -->
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="upload-btn">Upload and Process</button>
+    </form>
+
+    <!-- Link back to dashboard -->
+    <div class="link-box">
+        <a href="{% url 'home' %}">Go to Dashboard</a>
+    </div>
+</div>
+
+<script>
+    // function to open and close dropdown when initials button is clicked
+    function toggleDropdown() {
+        const dropdown = document.getElementById("profileDropdown");
+        if (dropdown.style.display === "block") {
+            dropdown.style.display = "none";
+        } else {
+            dropdown.style.display = "block";
+        }
+    }
+
+    // this closes the dropdown if user clicks anywhere outside the initials button
+    window.onclick = function(event) {
+        if (!event.target.matches('.initials-btn')) {
+            const dropdown = document.getElementById("profileDropdown");
+            if (dropdown && dropdown.style.display === "block") {
+                dropdown.style.display = "none";
+            }
+        }
+    }
+</script>
 </body>
 </html>
