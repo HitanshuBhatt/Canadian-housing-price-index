@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Housing Data Portal</title>
+    <style>
+        /* Main page styling */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background-color: #f4f7f6; color: #333; }
+
+        /* Navigation Header */
+        nav { background: #2c3e50; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; color: white; }
+        nav a { color: white; text-decoration: none; margin-left: 20px; font-weight: 500; }
+        nav a:hover { color: #3498db; }
+        
+        /* Hero section styling */
+        .hero { background: white; padding: 60px 20px; text-align: center; border-bottom: 1px solid #ddd; }
+
+        /* Main content container */
+        .container { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
+        
+        /* Grid layout for info cards */
+        .info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+
+        /* Individual card styling */
+        .card { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); }
+        .card h3 { color: #2c3e50; margin-top: 0; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        
+        /* Button styling */
+        .btn { display: inline-block; background: #3498db; color: white; padding: 12px 25px; border-radius: 5px; text-decoration: none; margin-top: 20px; transition: 0.3s; }
+        .btn:hover { background: #2980b9; }
+    </style>
+</head>
+<body>
+
+<!-- Navigation bar -->
+<nav>
+    <div style="font-size: 1.5rem; font-weight: bold;">HousingAnalytics</div>
+    <div>
+        <a href="{% url 'home' %}">Home</a>
+        <a href="{% url 'upload_csv' %}">Upload Data</a>
+        <a href="{% url 'charts' %}">View Charts</a>
+    </div>
+</nav>
+
+<!-- Hero section -->
+<div class="hero">
+    <h1>Canadian Housing Price Index Dashboard</h1>
+    <p>Comprehensive analysis of market trends across Canada from 2020 to 2025.</p>
+    <a href="{% url 'charts' %}" class="btn">Explore Visualizations</a>
+</div>
+
+<!-- Main content section -->
+<div class="container">
+    <div class="info-grid">
+        <!-- Dataset information card -->
+        <div class="card">
+            <h3>📊 Dataset Scope</h3>
+            <p><strong>Country:</strong> Canada</p>
+            <p><strong>Coverage:</strong> {{ stats.city_count }} Major Cities & {{ stats.provinces|length }} Provinces</p>
+            <p><strong>Date Range:</strong> {{ stats.date_start }} to {{ stats.date_end }}</p>
+            <p><strong>Total Data Points:</strong> {{ stats.total_records }}</p>
+        </div>
+
+        <!-- Available charts card -->
+        <div class="card">
+            <h3>📈 Available Charts</h3>
+            <ul>
+                <li><strong>National Trend:</strong> Monthly price index line chart for all of Canada.</li>
+                <li><strong>Regional Comparison:</strong> Bar charts comparing latest provincial costs.</li>
+                <li><strong>City Head-to-Head:</strong> Direct trend comparison (Toronto vs. Vancouver).</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
