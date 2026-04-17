@@ -2,18 +2,145 @@
 <html>
 <head>
     <title>Upload Housing Data</title>
+    <style>
+        /* Main page styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+
+        /* Navigation Header */
+        nav {
+            background: #2c3e50;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+
+        /* Navigation links */
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 500;
+        }
+
+        /* Navigation hover effect */
+        nav a:hover {
+            color: #3498db;
+        }
+
+        /* Main upload box */
+        .container {
+            max-width: 700px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+        }
+
+        /* Main heading */
+        h1 {
+            text-align: center;
+            color: #1f3c88;
+            margin-bottom: 10px;
+        }
+
+        /* Information text below heading */
+        p.info {
+            text-align: center;
+            color: #555;
+            margin-bottom: 25px;
+        }
+
+        /* Success message styling */
+        .success {
+            color: green;
+            font-weight: bold;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        /* Error message styling */
+        .error {
+            color: #b00020;
+            font-weight: bold;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        /* Upload button styling */
+        button {
+            background: #1f3c88;
+            color: white;
+            border: none;
+            padding: 12px 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        /* Upload button hover effect */
+        button:hover {
+            background: #162d66;
+        }
+
+        /* Bottom link container */
+        .link-box {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Bottom link styling */
+        .link-box a {
+            text-decoration: none;
+            color: #1f3c88;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <h1>Upload Canadian Housing CSV</h1>
-    
-    {% if success %}
-        <p style="color: green;">Data uploaded successfully!</p>
-    {% endif %}
+    <!-- Navigation bar -->
+    <nav>
+        <div style="font-size: 1.5rem; font-weight: bold;">HousingAnalytics</div>
+        <div>
+            <a href="{% url 'home' %}">Home</a>
+            <a href="{% url 'upload_csv' %}">Upload Data</a>
+            <a href="{% url 'charts' %}">View Charts</a>
+        </div>
+    </nav>
 
-    <form method="post" enctype="multipart/form-data">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit">Upload and Process</button>
-    </form>
+    <!-- Main upload section -->
+    <div class="container">
+        <h1>Upload Canadian Housing CSV</h1>
+        <p class="info">Upload a CSV file with columns: Date, GEO, Category, VALUE</p>
+
+        <!-- Show success message after upload -->
+        {% if success %}
+            <p class="success">Data uploaded successfully.</p>
+        {% endif %}
+
+        <!-- Show error message if upload fails -->
+        {% if error_message %}
+            <p class="error">{{ error_message }}</p>
+        {% endif %}
+
+        <!-- CSV upload form -->
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Upload and Process</button>
+        </form>
+
+        <!-- Link back to dashboard -->
+        <div class="link-box">
+            <a href="{% url 'home' %}">Go to Dashboard</a>
+        </div>
+    </div>
 </body>
 </html>
