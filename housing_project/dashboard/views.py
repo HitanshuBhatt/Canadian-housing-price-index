@@ -15,7 +15,7 @@ from .forms import CSVUploadForm
 from .models import HousingData
 
 
-# Second upload_csv function
+# upload_csv function
 def upload_csv(request):
     # Track whether upload succeeded
     success = False
@@ -115,85 +115,60 @@ def upload_csv(request):
 
 # Charts page view
 def charts(request):
-    # Selected category used for all charts
-    selected_category = "house"
+    # --- 1. National Trend Data (Line) ---
+    national_data = HousingData.objects.filter(geo="Canada", category="house").order_by('date')
+    line_labels = [str(d.date) for d in national_data]
+    line_values = [float(d.value) for d in national_data]
 
-    # List of provinces used in province comparison chart
-    province_names = [
-        "Alberta",
-        "British Columbia",
-        "Manitoba",
-        "New Brunswick",
-        "Newfoundland and Labrador",
-        "Nova Scotia",
-        "Ontario",
-        "Prince Edward Island",
-        "Quebec",
-        "Saskatchewan",
-    ]
+    # --- 2. Province Comparison Data (Bar) ---
+    latest_date = HousingData.objects.aggregate(Max('date'))['date__max']
+    provinces = ["Alberta", "British Columbia", "Manitoba", "New Brunswick", 
+                 "Newfoundland and Labrador", "Nova Scotia", "Ontario", 
+                 "Prince Edward Island", "Quebec", "Saskatchewan"]
+    prov_data = HousingData.objects.filter(date=latest_date, geo__in=provinces, category="house")
+    bar_labels = [d.geo for d in prov_data]
+    bar_values = [float(d.value) for d in prov_data]
 
-    # Query national Canada trend data
-    national_qs = HousingData.objects.filter(
-        geo="Canada",
-        category=selected_category
-    ).order_by("date")
+    # --- 3. Toronto vs Vancouver Data (Comparison Line) ---
+    toronto = HousingData.objects.filter(geo="Toronto, Ontario", category="house").order_by('date')
+    vancouver = HousingData.objects.filter(geo="Vancouver, British Columbia", category="house").order_by('date')
+    comp_labels = [str(d.date) for d in toronto]
+    toronto_vals = [float(d.value) for d in toronto]
+    vancouver_vals = [float(d.value) for d in vancouver]
 
-    # Find latest available date in selected category
-    latest_date = HousingData.objects.filter(
-        category=selected_category
-    ).aggregate(latest=Max("date"))["latest"]
+    # --- 4. Interactive Explorer Data ---
+    all_housing_data = HousingData.objects.filter(category="house").order_by('date')
+    structured_data = {}
+    for entry in all_housing_data:
+        if entry.geo not in structured_data:
+            structured_data[entry.geo] = []
+        structured_data[entry.geo].append({'x': str(entry.date), 'y': float(entry.value)})
 
-    # Start with empty queryset for province comparison
-    province_qs = HousingData.objects.none()
+    all_geos = HousingData.objects.values_list('geo', flat=True).distinct()
+    cities = [g for g in all_geos if g not in provinces and g != "Canada"]
 
-    # Get province data only if latest date exists
-    if latest_date:
-        province_qs = HousingData.objects.filter(
-            date=latest_date,
-            geo__in=province_names,
-            category=selected_category
-        ).order_by("geo")
+#  Date time frame for interective chart to allow user to select start and end date 
+    date_range = HousingData.objects.aggregate(
+        earliest=Min('date'),
+        latest=Max('date')
+    )
+    earliest_date = date_range['earliest']
+    latest_date = date_range['latest']
 
-    # Query Toronto trend data
-    toronto_qs = HousingData.objects.filter(
-        geo="Toronto, Ontario",
-        category=selected_category
-    ).order_by("date")
-
-    # Query Vancouver trend data
-    vancouver_qs = HousingData.objects.filter(
-        geo="Vancouver, British Columbia",
-        category=selected_category
-    ).order_by("date")
-
-    # Labels and values for Canada line chart
-    line_labels = [item.date.strftime("%Y-%m") for item in national_qs]
-    line_values = [float(item.value) for item in national_qs]
-
-    # Labels and values for province bar chart
-    bar_labels = [str(item.geo) for item in province_qs]
-    bar_values = [float(item.value) for item in province_qs]
-
-    # Labels and values for Toronto vs Vancouver chart
-    comp_labels = [item.date.strftime("%Y-%m") for item in toronto_qs]
-    toronto_vals = [float(item.value) for item in toronto_qs]
-    vancouver_vals = [float(item.value) for item in vancouver_qs]
-
-    # Send chart data to template
     context = {
-        "latest_date": latest_date.strftime("%Y-%m-%d") if latest_date else "No data",
-        "selected_category": selected_category.title(),
-        "line_labels": json.dumps(line_labels),
-        "line_values": json.dumps(line_values),
-        "bar_labels": json.dumps(bar_labels),
-        "bar_values": json.dumps(bar_values),
-        "comp_labels": json.dumps(comp_labels),
-        "toronto_vals": json.dumps(toronto_vals),
-        "vancouver_vals": json.dumps(vancouver_vals),
+        'line_labels': json.dumps(line_labels),
+        'line_values': json.dumps(line_values),
+        'bar_labels': json.dumps(bar_labels),
+        'bar_values': json.dumps(bar_values),
+        'comp_labels': json.dumps(comp_labels),
+        'toronto_vals': json.dumps(toronto_vals),
+        'vancouver_vals': json.dumps(vancouver_vals),
+        'full_dataset': json.dumps(structured_data),
+        'province_list': provinces,
+        'city_list': sorted(cities),
+        'latest_date': latest_date,
     }
-
-    # Render charts page
-    return render(request, "dashboard/charts.html", context)
+    return render(request, 'dashboard/charts.html', context)
 
 #  homepage 
 
