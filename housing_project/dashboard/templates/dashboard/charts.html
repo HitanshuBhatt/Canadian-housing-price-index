@@ -1,8 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Housing Dashboard</title>
+{% extends 'dashboard/base.html' %}
+
+{% block title %}Housing Data Portal{% endblock %}
+
+{% block content %}
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         /* Navigation bar */
@@ -171,6 +171,19 @@
             background: white;
             border-radius: 8px;
         }
+        .geo-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 6px 4px;
+            cursor: pointer;
+        }
+
+        .geo-item input {
+            width: 16px;
+            height: 16px;
+            margin: 0;
+        }
 
         .interactive-layout {
             display: flex;
@@ -205,35 +218,7 @@
 </head>
 <body>
     <!-- navigation bar -->
-    <nav>
-    <!-- Website on left side -->
-    <div style="font-size: 1.5rem; font-weight: bold;">HousingAnalytics</div>
-
-    <!-- Right side navigation links -->
-    <div class="nav-right">
-        <a href="{% url 'home' %}">Home</a>
-        <a href="{% url 'upload_csv' %}">Upload Data</a>
-        <a href="{% url 'charts' %}">View Charts</a>
-
-        <!-- If user is logged in then show initials button and logout dropdown -->
-        {% if request.user.is_authenticated %}
-        <div class="profile-menu">
-            <button type="button" class="initials-btn" onclick="toggleDropdown()">
-                {{ request.user.first_name|default:request.user.username|slice:":1"|upper }}{{ request.user.last_name|slice:":1"|upper }}
-            </button>
-
-            <!-- Dropdown menu with logout option -->
-            <div id="profileDropdown" class="dropdown-content">
-                <a href="{% url 'logout' %}">Logout</a>
-            </div>
-        </div>
-        {% else %}
-            <!-- If user is not logged in then show login and signup links -->
-            <a href="{% url 'login' %}">Login</a>
-            <a href="{% url 'signup' %}">Sign Up</a>
-        {% endif %}
-    </div>
-</nav>
+    <!-- coming from base.html -->
 
     <div class="container">
         <div class="header-card">
@@ -314,13 +299,19 @@
                 <div class="selection-panel">
                     <div id="province_checks">
                         {% for p in province_list %}
-                            <label><input type="checkbox" class="geo-check" value="{{ p }}" onchange="handleCheck(this)"> {{ p }}</label><br>
+                           <label class="geo-item">
+                                <input type="checkbox" class="geo-check" value="{{ p }}" onchange="handleCheck(this)">
+                                     <span>{{ p }}</span>
+                            </label>
                         {% endfor %}
                     </div>
 
                     <div id="city_checks" style="display:none;">
                         {% for c in city_list %}
-                            <label><input type="checkbox" class="geo-check" value="{{ c }}" onchange="handleCheck(this)"> {{ c }}</label><br>
+                            <label class="geo-item">
+                                <input type="checkbox" class="geo-check" value="{{ c }}" onchange="handleCheck(this)">
+                                    <span>{{ c }}</span>
+                            </label>
                         {% endfor %}
                     </div>
                 </div>
@@ -571,30 +562,5 @@
 
         updateInteractiveChart();
 
-
-
-
-        //  navigation bar initials 
-    // function to open and close dropdown when initials button is clicked
-    function toggleDropdown() {
-        const dropdown = document.getElementById("profileDropdown");
-        if (dropdown.style.display === "block") {
-            dropdown.style.display = "none";
-        } else {
-            dropdown.style.display = "block";
-        }
-    }
-
-    // this closes the dropdown if user clicks anywhere outside the initials button
-    window.onclick = function(event) {
-        if (!event.target.matches('.initials-btn')) {
-            const dropdown = document.getElementById("profileDropdown");
-            if (dropdown && dropdown.style.display === "block") {
-                dropdown.style.display = "none";
-            }
-        }
-    }
-
     </script>
-</body>
-</html>
+{%endblock%}
