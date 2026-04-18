@@ -103,8 +103,8 @@ SQLite Database
 
 ```bash
 # Clone repo
-git clone https://github.com/HitanshuBhatt/housing-analytics.git
-cd housing-analytics/housing_project
+git clone https://github.com/HitanshuBhatt/Canadian-housing-price-index.git
+cd Canadian-housing-price-index/housing_project
 
 # Create virtual environment
 python -m venv venv
