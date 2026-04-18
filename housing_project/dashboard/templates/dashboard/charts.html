@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Housing Dashboard</title>
+
+    <!-- Chart.js library used for all charts on this page -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
     <style>
-        /* Navigation bar */
+        /* Main page background and default text styling */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
@@ -13,7 +16,7 @@
             color: #333;
         }
 
-               /* Navigation Header */
+        /* Navigation Header */
         nav {
             background: #2c3e50;
             padding: 1rem 2rem;
@@ -95,12 +98,15 @@
             background: #f4f7f6;
             color: #1f3c88;
         }
+
+        /* Main page content container */
         .container {
             max-width: 1200px;
             margin: 30px auto;
             padding: 0 20px;
         }
 
+        /* Common card design used for top header and all charts */
         .header-card,
         .chart-card {
             background: white;
@@ -110,12 +116,14 @@
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
         }
 
+        /* Main heading and chart headings */
         h1, h2 {
             color: #1f3c88;
             text-align: center;
             margin-bottom: 12px;
         }
 
+        /* Subtitle or chart explanation text */
         .subtext {
             text-align: center;
             color: #555;
@@ -126,22 +134,26 @@
             margin-right: auto;
         }
 
+        /* Top link styling area */
         .top-link {
             text-align: center;
             margin-top: 10px;
         }
 
+        /* Link inside top section */
         .top-link a {
             color: #1f3c88;
             text-decoration: none;
             font-weight: bold;
         }
 
+        /* Fixed chart area height so charts look balanced */
         .chart-wrap {
             position: relative;
             height: 380px;
         }
 
+        /* Info box used to show selected category */
         .info-box {
             text-align: center;
             background: #eef3ff;
@@ -152,6 +164,7 @@
             font-weight: 600;
         }
 
+        /* Filter section above the interactive chart */
         .filter-box {
             margin-bottom: 20px;
             display: flex;
@@ -162,6 +175,7 @@
             border-radius: 8px;
         }
 
+        /* Left side checkbox panel for province/city selection */
         .selection-panel {
             width: 200px;
             max-height: 300px;
@@ -172,22 +186,26 @@
             border-radius: 8px;
         }
 
+        /* Layout for checkbox panel and interactive chart */
         .interactive-layout {
             display: flex;
             gap: 20px;
             flex-wrap: wrap;
         }
 
+        /* Area where the interactive chart is drawn */
         .interactive-chart-area {
             flex: 1;
             min-width: 300px;
             height: 420px;
         }
 
+        /* Date range section below interactive chart */
         .date-range-box {
             margin-top: 20px;
         }
 
+        /* Input and select styling for chart filters */
         .date-range-box input,
         .filter-box select {
             padding: 8px 10px;
@@ -196,6 +214,7 @@
             margin-top: 6px;
         }
 
+        /* Warning message when user selects more than 4 items */
         #selection_warning {
             color: red;
             font-weight: bold;
@@ -204,38 +223,40 @@
     </style>
 </head>
 <body>
-    <!-- navigation bar -->
+    <!-- Main navigation bar -->
     <nav>
-    <!-- Website on left side -->
-    <div style="font-size: 1.5rem; font-weight: bold;">HousingAnalytics</div>
+        <!-- Website name shown on the left -->
+        <div style="font-size: 1.5rem; font-weight: bold;">HousingAnalytics</div>
 
-    <!-- Right side navigation links -->
-    <div class="nav-right">
-        <a href="{% url 'home' %}">Home</a>
-        <a href="{% url 'upload_csv' %}">Upload Data</a>
-        <a href="{% url 'charts' %}">View Charts</a>
+        <!-- Right side navigation links -->
+        <div class="nav-right">
+            <a href="{% url 'home' %}">Home</a>
+            <a href="{% url 'upload_csv' %}">Upload Data</a>
+            <a href="{% url 'charts' %}">View Charts</a>
 
-        <!-- If user is logged in then show initials button and logout dropdown -->
-        {% if request.user.is_authenticated %}
-        <div class="profile-menu">
-            <button type="button" class="initials-btn" onclick="toggleDropdown()">
-                {{ request.user.first_name|default:request.user.username|slice:":1"|upper }}{{ request.user.last_name|slice:":1"|upper }}
-            </button>
+            <!-- If user is logged in then show initials button and logout dropdown -->
+            {% if request.user.is_authenticated %}
+            <div class="profile-menu">
+                <button type="button" class="initials-btn" onclick="toggleDropdown()">
+                    {{ request.user.first_name|default:request.user.username|slice:":1"|upper }}{{ request.user.last_name|slice:":1"|upper }}
+                </button>
 
-            <!-- Dropdown menu with logout option -->
-            <div id="profileDropdown" class="dropdown-content">
-                <a href="{% url 'logout' %}">Logout</a>
+                <!-- Dropdown menu with logout option -->
+                <div id="profileDropdown" class="dropdown-content">
+                    <a href="{% url 'logout' %}">Logout</a>
+                </div>
             </div>
+            {% else %}
+                <!-- If user is not logged in then show login and signup links -->
+                <a href="{% url 'login' %}">Login</a>
+                <a href="{% url 'signup' %}">Sign Up</a>
+            {% endif %}
         </div>
-        {% else %}
-            <!-- If user is not logged in then show login and signup links -->
-            <a href="{% url 'login' %}">Login</a>
-            <a href="{% url 'signup' %}">Sign Up</a>
-        {% endif %}
-    </div>
-</nav>
+    </nav>
 
+    <!-- Main container for page content -->
     <div class="container">
+        <!-- Top dashboard header card -->
         <div class="header-card">
             <h1>Canadian Housing Data Dashboard</h1>
             <p class="subtext">Simple view of Canadian housing trends using uploaded CSV data.</p>
@@ -245,6 +266,7 @@
             </div>
         </div>
 
+        <!-- Canada trend chart card -->
         <div class="chart-card">
             <h2>Canada Housing Trend</h2>
             <p class="subtext">Monthly index values for Canada from 2020 to 2025.</p>
@@ -257,6 +279,7 @@
             </div>
         </div>
 
+        <!-- Province comparison chart card -->
         <div class="chart-card">
             <h2>Province Comparison</h2>
             <p class="subtext">Latest available date: {{ latest_date }}</p>
@@ -269,6 +292,7 @@
             </div>
         </div>
 
+        <!-- Toronto vs Vancouver comparison chart card -->
         <div class="chart-card">
             <h2>Toronto vs Vancouver</h2>
             <p class="subtext">Trend comparison for two major cities.</p>
@@ -283,6 +307,7 @@
             </div>
         </div>
 
+        <!-- Interactive explorer section -->
         <div class="chart-card">
             <h2>Interactive Market Explorer</h2>
             <p class="subtext">
@@ -290,6 +315,7 @@
                 over a custom date range.
             </p>
 
+            <!-- Top controls for the interactive chart -->
             <div class="filter-box">
                 <div>
                     <strong>1. Select Type:</strong><br>
@@ -305,12 +331,15 @@
                     </select>
                 </div>
 
+                <!-- Warning shown if more than 4 items are selected -->
                 <div id="selection_warning">
                     Max 4 selections allowed!
                 </div>
             </div>
 
+            <!-- Layout with selection panel and chart area -->
             <div class="interactive-layout">
+                <!-- Selection panel for provinces and cities -->
                 <div class="selection-panel">
                     <div id="province_checks">
                         {% for p in province_list %}
@@ -325,11 +354,13 @@
                     </div>
                 </div>
 
+                <!-- Interactive chart canvas -->
                 <div class="interactive-chart-area">
                     <canvas id="interactiveChart"></canvas>
                 </div>
             </div>
 
+            <!-- Date range inputs for filtering chart data -->
             <div class="date-range-box">
                 <strong>3. Date Range:</strong><br><br>
                 <input type="date"
@@ -352,16 +383,20 @@
     </div>
 
     <script>
+        // data for the Canada trend chart
         const lineLabels = JSON.parse('{{ line_labels|safe }}');
         const lineValues = JSON.parse('{{ line_values|safe }}');
 
+        // data for province comparison chart
         const barLabels = JSON.parse('{{ bar_labels|safe }}');
         const barValues = JSON.parse('{{ bar_values|safe }}');
 
+        // data for Toronto vs Vancouver chart
         const compLabels = JSON.parse('{{ comp_labels|safe }}');
         const torontoVals = JSON.parse('{{ toronto_vals|safe }}');
         const vancouverVals = JSON.parse('{{ vancouver_vals|safe }}');
 
+        // first chart: Canada housing trend line chart
         new Chart(document.getElementById('lineChart'), {
             type: 'line',
             data: {
@@ -399,6 +434,7 @@
             }
         });
 
+        // second chart: province bar chart
         new Chart(document.getElementById('barChart'), {
             type: 'bar',
             data: {
@@ -434,6 +470,7 @@
             }
         });
 
+        // third chart: Toronto vs Vancouver comparison line chart
         new Chart(document.getElementById('compChart'), {
             type: 'line',
             data: {
@@ -484,6 +521,7 @@
         const fullData = JSON.parse('{{ full_dataset|escapejs }}');
         let interactiveChart = null;
 
+        // this function switches between province list and city list
         function toggleGeoList(type) {
             document.querySelectorAll('.geo-check').forEach(c => c.checked = false);
 
@@ -498,6 +536,7 @@
             updateInteractiveChart();
         }
 
+        // this function checks that user selects maximum 4 locations only
         function handleCheck(checkbox) {
             const checked = document.querySelectorAll('.geo-check:checked');
 
@@ -513,6 +552,7 @@
             }
         }
 
+        // this function redraws the interactive chart based on user choices
         function updateInteractiveChart() {
             const selectedGeos = Array.from(document.querySelectorAll('.geo-check:checked')).map(cb => cb.value);
             const type = document.getElementById('chartType').value;
@@ -569,32 +609,30 @@
             });
         }
 
+        // start with an empty interactive chart until user chooses options
         updateInteractiveChart();
 
+        // navigation bar initials
 
-
-
-        //  navigation bar initials 
-    // function to open and close dropdown when initials button is clicked
-    function toggleDropdown() {
-        const dropdown = document.getElementById("profileDropdown");
-        if (dropdown.style.display === "block") {
-            dropdown.style.display = "none";
-        } else {
-            dropdown.style.display = "block";
-        }
-    }
-
-    // this closes the dropdown if user clicks anywhere outside the initials button
-    window.onclick = function(event) {
-        if (!event.target.matches('.initials-btn')) {
+        // function to open and close dropdown when initials button is clicked
+        function toggleDropdown() {
             const dropdown = document.getElementById("profileDropdown");
-            if (dropdown && dropdown.style.display === "block") {
+            if (dropdown.style.display === "block") {
                 dropdown.style.display = "none";
+            } else {
+                dropdown.style.display = "block";
             }
         }
-    }
 
+        // this closes the dropdown if user clicks anywhere outside the initials button
+        window.onclick = function(event) {
+            if (!event.target.matches('.initials-btn')) {
+                const dropdown = document.getElementById("profileDropdown");
+                if (dropdown && dropdown.style.display === "block") {
+                    dropdown.style.display = "none";
+                }
+            }
+        }
     </script>
 </body>
 </html>
