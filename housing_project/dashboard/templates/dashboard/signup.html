@@ -1,0 +1,20 @@
+{% extends 'dashboard/base.html' %}
+
+{% block title %}Sign Up{% endblock %}
+
+{% block content %}
+<div class="card" style="max-width: 500px; margin: auto;">
+    <h1 style="text-align:center; color:#1f3c88;">Sign Up</h1>
+    <p style="text-align:center;">Create your account</p>
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Create Account</button>
+    </form>
+
+    <p style="margin-top:20px; text-align:center;">
+        Already have an account? <a href="{% url 'login' %}">Login</a>
+    </p>
+</div>
+{% endblock %}

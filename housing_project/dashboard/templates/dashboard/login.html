@@ -1,0 +1,24 @@
+{% extends 'dashboard/base.html' %}
+
+{% block title %}Login{% endblock %}
+
+{% block content %}
+<div class="card" style="max-width: 450px; margin: auto;">
+    <h1 style="text-align:center; color:#1f3c88;">Login</h1>
+    <p style="text-align:center;">Enter your email and password</p>
+
+    {% if error_message %}
+        <div class="error">{{ error_message }}</div>
+    {% endif %}
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Login</button>
+    </form>
+
+    <p style="margin-top:20px; text-align:center;">
+        Don't have an account? <a href="{% url 'signup' %}">Sign up</a>
+    </p>
+</div>
+{% endblock %}
