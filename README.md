@@ -2,7 +2,7 @@
 
 **A full-stack Django dashboard for exploring Canadian housing price index data.**
 
-Upload raw Statistics Canada CSV datasets and instantly explore national trends, provincial comparisons, and city-level breakdowns through interactive Chart.js visualizations — no data wrangling required.
+Upload raw Statistics Canada CSV datasets and instantly explore national trends, provincial comparisons, and city-level breakdowns through interactive Chart.js visualizations no data wrangling required.
 
 ---
 
@@ -22,7 +22,7 @@ Upload raw Statistics Canada CSV datasets and instantly explore national trends,
 
 ## Project Overview
 
-Housing affordability is one of Canada's most pressing economic challenges. Statistics Canada publishes detailed Housing Price Index (HPI) datasets — but exploring them requires manual data cleaning and custom scripts that most users can't easily perform.
+Housing affordability is one of Canada's most pressing economic challenges. Statistics Canada publishes detailed Housing Price Index (HPI) datasets  but exploring them requires manual data cleaning and custom scripts that most users can't easily perform.
 
 **HousingAnalytics** solves this by providing a secure, authenticated web dashboard that ingests raw Statistics Canada CSV files and turns them into interactive visualizations in seconds.
 
@@ -32,7 +32,7 @@ Housing affordability is one of Canada's most pressing economic challenges. Stat
 
 - **Secure Authentication** — Email-based registration and login built on Django's built-in auth system, extended with a custom `UserProfile` model to store date of birth. All forms are CSRF-protected.
 - **Protected Routes** — The upload page and charts page both require authentication via `@login_required`. Unauthenticated users are automatically redirected to the login page.
-- **CSV Ingestion Pipeline** — Upload raw Statistics Canada HPI files. The pipeline validates that all required columns are present (`Date`, `GEO`, `Category`, `VALUE`), handles `UTF-8-sig` encoding (common in Statistics Canada exports), skips incomplete or malformed rows gracefully, and uses Django's `update_or_create` for idempotent imports — re-uploading the same file never creates duplicate records.
+- **CSV Ingestion Pipeline** — Upload raw Statistics Canada HPI files. The pipeline validates that all required columns are present (`Date`, `GEO`, `Category`, `VALUE`), handles `UTF-8-sig` encoding (common in Statistics Canada exports), skips incomplete or malformed rows gracefully, and uses Django's `update_or_create` for idempotent imports  re-uploading the same file never creates duplicate records.
 - **Four Chart Views** powered by Chart.js:
   - National HPI time-series line chart (Canada overall, 2020–2025)
   - Provincial index bar chart showing the most recently available date across all 10 provinces
