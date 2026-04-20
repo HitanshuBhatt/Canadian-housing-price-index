@@ -1,0 +1,2881 @@
+DATE,GEO,CATEGORY,VALUE
+2020-01-01,Alberta,house,97.2
+2020-01-01,Atlantic Region,house,101
+2020-01-01,British Columbia,house,105.5
+2020-01-01,"Calgary, Alberta",house,96.9
+2020-01-01,Canada,house,103.4
+2020-01-01,"Charlottetown, Prince Edward Island",house,102
+2020-01-01,"Edmonton, Alberta",house,97.6
+2020-01-01,"Greater Sudbury, Ontario",house,102.7
+2020-01-01,"Guelph, Ontario",house,107
+2020-01-01,"Halifax, Nova Scotia",house,102.9
+2020-01-01,"Hamilton, Ontario",house,104.4
+2020-01-01,"Kelowna, British Columbia",house,104
+2020-01-01,"Kitchener-Cambridge-Waterloo, Ontario",house,107.8
+2020-01-01,"London, Ontario",house,114.7
+2020-01-01,Manitoba,house,105.3
+2020-01-01,"Montréal, Quebec",house,111.9
+2020-01-01,New Brunswick,house,102.7
+2020-01-01,Newfoundland and Labrador,house,97.4
+2020-01-01,Nova Scotia,house,102.9
+2020-01-01,Ontario,house,105.4
+2020-01-01,"Oshawa, Ontario",house,103.6
+2020-01-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,119.6
+2020-01-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,106.2
+2020-01-01,Prairie Region,house,97.9
+2020-01-01,Prince Edward Island,house,102
+2020-01-01,Quebec,house,108.8
+2020-01-01,"Québec, Quebec",house,100.9
+2020-01-01,"Regina, Saskatchewan",house,93.8
+2020-01-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,102.7
+2020-01-01,Saskatchewan,house,95.5
+2020-01-01,"Saskatoon, Saskatchewan",house,96.4
+2020-01-01,"Sherbrooke, Quebec",house,103.9
+2020-01-01,"St. Catharines-Niagara, Ontario",house,107.4
+2020-01-01,"St. John's, Newfoundland and Labrador",house,97.4
+2020-01-01,"Toronto, Ontario",house,102.1
+2020-01-01,"Trois-Rivières, Quebec",house,103.1
+2020-01-01,"Vancouver, British Columbia",house,106
+2020-01-01,"Victoria, British Columbia",house,101.8
+2020-01-01,"Windsor, Ontario",house,107.8
+2020-01-01,"Winnipeg, Manitoba",house,105.3
+2020-02-01,Alberta,house,97.4
+2020-02-01,Atlantic Region,house,101.3
+2020-02-01,British Columbia,house,105.9
+2020-02-01,"Calgary, Alberta",house,97.3
+2020-02-01,Canada,house,103.8
+2020-02-01,"Charlottetown, Prince Edward Island",house,102
+2020-02-01,"Edmonton, Alberta",house,97.5
+2020-02-01,"Greater Sudbury, Ontario",house,102.7
+2020-02-01,"Guelph, Ontario",house,107.2
+2020-02-01,"Halifax, Nova Scotia",house,103.6
+2020-02-01,"Hamilton, Ontario",house,104.6
+2020-02-01,"Kelowna, British Columbia",house,103.8
+2020-02-01,"Kitchener-Cambridge-Waterloo, Ontario",house,108.8
+2020-02-01,"London, Ontario",house,114.8
+2020-02-01,Manitoba,house,105.5
+2020-02-01,"Montréal, Quebec",house,112.8
+2020-02-01,New Brunswick,house,102.7
+2020-02-01,Newfoundland and Labrador,house,97.4
+2020-02-01,Nova Scotia,house,103.6
+2020-02-01,Ontario,house,105.9
+2020-02-01,"Oshawa, Ontario",house,104.1
+2020-02-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,120.9
+2020-02-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,106.5
+2020-02-01,Prairie Region,house,98
+2020-02-01,Prince Edward Island,house,102
+2020-02-01,Quebec,house,109.5
+2020-02-01,"Québec, Quebec",house,100.9
+2020-02-01,"Regina, Saskatchewan",house,93.3
+2020-02-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,102.7
+2020-02-01,Saskatchewan,house,95.3
+2020-02-01,"Saskatoon, Saskatchewan",house,96.5
+2020-02-01,"Sherbrooke, Quebec",house,103.9
+2020-02-01,"St. Catharines-Niagara, Ontario",house,108.6
+2020-02-01,"St. John's, Newfoundland and Labrador",house,97.4
+2020-02-01,"Toronto, Ontario",house,102.5
+2020-02-01,"Trois-Rivières, Quebec",house,103.1
+2020-02-01,"Vancouver, British Columbia",house,106.4
+2020-02-01,"Victoria, British Columbia",house,102.8
+2020-02-01,"Windsor, Ontario",house,108.6
+2020-02-01,"Winnipeg, Manitoba",house,105.5
+2020-03-01,Alberta,house,97.4
+2020-03-01,Atlantic Region,house,101.4
+2020-03-01,British Columbia,house,106.3
+2020-03-01,"Calgary, Alberta",house,97.1
+2020-03-01,Canada,house,104.1
+2020-03-01,"Charlottetown, Prince Edward Island",house,102
+2020-03-01,"Edmonton, Alberta",house,97.8
+2020-03-01,"Greater Sudbury, Ontario",house,102.7
+2020-03-01,"Guelph, Ontario",house,107.9
+2020-03-01,"Halifax, Nova Scotia",house,103.8
+2020-03-01,"Hamilton, Ontario",house,105
+2020-03-01,"Kelowna, British Columbia",house,103.8
+2020-03-01,"Kitchener-Cambridge-Waterloo, Ontario",house,109.4
+2020-03-01,"London, Ontario",house,115.5
+2020-03-01,Manitoba,house,105.5
+2020-03-01,"Montréal, Quebec",house,113.6
+2020-03-01,New Brunswick,house,103
+2020-03-01,Newfoundland and Labrador,house,97.2
+2020-03-01,Nova Scotia,house,103.8
+2020-03-01,Ontario,house,106.3
+2020-03-01,"Oshawa, Ontario",house,103.5
+2020-03-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,122.3
+2020-03-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,107.1
+2020-03-01,Prairie Region,house,98
+2020-03-01,Prince Edward Island,house,102
+2020-03-01,Quebec,house,110.1
+2020-03-01,"Québec, Quebec",house,100.9
+2020-03-01,"Regina, Saskatchewan",house,93
+2020-03-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,103
+2020-03-01,Saskatchewan,house,95.1
+2020-03-01,"Saskatoon, Saskatchewan",house,96.3
+2020-03-01,"Sherbrooke, Quebec",house,103.9
+2020-03-01,"St. Catharines-Niagara, Ontario",house,108.7
+2020-03-01,"St. John's, Newfoundland and Labrador",house,97.2
+2020-03-01,"Toronto, Ontario",house,102.8
+2020-03-01,"Trois-Rivières, Quebec",house,103.1
+2020-03-01,"Vancouver, British Columbia",house,106.9
+2020-03-01,"Victoria, British Columbia",house,102.6
+2020-03-01,"Windsor, Ontario",house,108.6
+2020-03-01,"Winnipeg, Manitoba",house,105.5
+2020-04-01,Alberta,house,97.2
+2020-04-01,Atlantic Region,house,101.5
+2020-04-01,British Columbia,house,106.3
+2020-04-01,"Calgary, Alberta",house,96.9
+2020-04-01,Canada,house,104.1
+2020-04-01,"Charlottetown, Prince Edward Island",house,102
+2020-04-01,"Edmonton, Alberta",house,97.5
+2020-04-01,"Greater Sudbury, Ontario",house,102.8
+2020-04-01,"Guelph, Ontario",house,108.5
+2020-04-01,"Halifax, Nova Scotia",house,103.9
+2020-04-01,"Hamilton, Ontario",house,105.1
+2020-04-01,"Kelowna, British Columbia",house,103.8
+2020-04-01,"Kitchener-Cambridge-Waterloo, Ontario",house,109.9
+2020-04-01,"London, Ontario",house,115.8
+2020-04-01,Manitoba,house,105.6
+2020-04-01,"Montréal, Quebec",house,113.8
+2020-04-01,New Brunswick,house,103.2
+2020-04-01,Newfoundland and Labrador,house,97.2
+2020-04-01,Nova Scotia,house,103.9
+2020-04-01,Ontario,house,106.4
+2020-04-01,"Oshawa, Ontario",house,103.5
+2020-04-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,122.8
+2020-04-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,107.4
+2020-04-01,Prairie Region,house,97.8
+2020-04-01,Prince Edward Island,house,102
+2020-04-01,Quebec,house,110.3
+2020-04-01,"Québec, Quebec",house,100.9
+2020-04-01,"Regina, Saskatchewan",house,92.8
+2020-04-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,103.2
+2020-04-01,Saskatchewan,house,95
+2020-04-01,"Saskatoon, Saskatchewan",house,96.4
+2020-04-01,"Sherbrooke, Quebec",house,103.9
+2020-04-01,"St. Catharines-Niagara, Ontario",house,108.9
+2020-04-01,"St. John's, Newfoundland and Labrador",house,97.2
+2020-04-01,"Toronto, Ontario",house,102.8
+2020-04-01,"Trois-Rivières, Quebec",house,103.1
+2020-04-01,"Vancouver, British Columbia",house,106.9
+2020-04-01,"Victoria, British Columbia",house,102.6
+2020-04-01,"Windsor, Ontario",house,108.6
+2020-04-01,"Winnipeg, Manitoba",house,105.6
+2020-05-01,Alberta,house,97.2
+2020-05-01,Atlantic Region,house,101.8
+2020-05-01,British Columbia,house,106.3
+2020-05-01,"Calgary, Alberta",house,96.9
+2020-05-01,Canada,house,104.2
+2020-05-01,"Charlottetown, Prince Edward Island",house,102.6
+2020-05-01,"Edmonton, Alberta",house,97.6
+2020-05-01,"Greater Sudbury, Ontario",house,102.8
+2020-05-01,"Guelph, Ontario",house,108.8
+2020-05-01,"Halifax, Nova Scotia",house,104.4
+2020-05-01,"Hamilton, Ontario",house,105.2
+2020-05-01,"Kelowna, British Columbia",house,103.8
+2020-05-01,"Kitchener-Cambridge-Waterloo, Ontario",house,110
+2020-05-01,"London, Ontario",house,116.2
+2020-05-01,Manitoba,house,105.5
+2020-05-01,"Montréal, Quebec",house,113.8
+2020-05-01,New Brunswick,house,103.2
+2020-05-01,Newfoundland and Labrador,house,97.2
+2020-05-01,Nova Scotia,house,104.4
+2020-05-01,Ontario,house,106.5
+2020-05-01,"Oshawa, Ontario",house,103.5
+2020-05-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,124
+2020-05-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,107.9
+2020-05-01,Prairie Region,house,97.9
+2020-05-01,Prince Edward Island,house,102.6
+2020-05-01,Quebec,house,110.3
+2020-05-01,"Québec, Quebec",house,100.8
+2020-05-01,"Regina, Saskatchewan",house,92.9
+2020-05-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,103.2
+2020-05-01,Saskatchewan,house,95.1
+2020-05-01,"Saskatoon, Saskatchewan",house,96.5
+2020-05-01,"Sherbrooke, Quebec",house,103.9
+2020-05-01,"St. Catharines-Niagara, Ontario",house,109
+2020-05-01,"St. John's, Newfoundland and Labrador",house,97.2
+2020-05-01,"Toronto, Ontario",house,102.8
+2020-05-01,"Trois-Rivières, Quebec",house,103.1
+2020-05-01,"Vancouver, British Columbia",house,106.9
+2020-05-01,"Victoria, British Columbia",house,102.6
+2020-05-01,"Windsor, Ontario",house,108.6
+2020-05-01,"Winnipeg, Manitoba",house,105.5
+2020-06-01,Alberta,house,97.1
+2020-06-01,Atlantic Region,house,102
+2020-06-01,British Columbia,house,106.4
+2020-06-01,"Calgary, Alberta",house,96.8
+2020-06-01,Canada,house,104.3
+2020-06-01,"Charlottetown, Prince Edward Island",house,102.6
+2020-06-01,"Edmonton, Alberta",house,97.4
+2020-06-01,"Greater Sudbury, Ontario",house,102.8
+2020-06-01,"Guelph, Ontario",house,109.3
+2020-06-01,"Halifax, Nova Scotia",house,104.9
+2020-06-01,"Hamilton, Ontario",house,105.1
+2020-06-01,"Kelowna, British Columbia",house,104.2
+2020-06-01,"Kitchener-Cambridge-Waterloo, Ontario",house,110.8
+2020-06-01,"London, Ontario",house,116.3
+2020-06-01,Manitoba,house,105.8
+2020-06-01,"Montréal, Quebec",house,114.2
+2020-06-01,New Brunswick,house,103.2
+2020-06-01,Newfoundland and Labrador,house,97.2
+2020-06-01,Nova Scotia,house,104.9
+2020-06-01,Ontario,house,106.7
+2020-06-01,"Oshawa, Ontario",house,103.5
+2020-06-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,124.2
+2020-06-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,107.9
+2020-06-01,Prairie Region,house,97.8
+2020-06-01,Prince Edward Island,house,102.6
+2020-06-01,Quebec,house,110.7
+2020-06-01,"Québec, Quebec",house,100.9
+2020-06-01,"Regina, Saskatchewan",house,92.4
+2020-06-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,103.2
+2020-06-01,Saskatchewan,house,95
+2020-06-01,"Saskatoon, Saskatchewan",house,96.6
+2020-06-01,"Sherbrooke, Quebec",house,103.9
+2020-06-01,"St. Catharines-Niagara, Ontario",house,110.1
+2020-06-01,"St. John's, Newfoundland and Labrador",house,97.2
+2020-06-01,"Toronto, Ontario",house,102.8
+2020-06-01,"Trois-Rivières, Quebec",house,103.1
+2020-06-01,"Vancouver, British Columbia",house,107
+2020-06-01,"Victoria, British Columbia",house,102.6
+2020-06-01,"Windsor, Ontario",house,108.6
+2020-06-01,"Winnipeg, Manitoba",house,105.8
+2020-07-01,Alberta,house,96.7
+2020-07-01,Atlantic Region,house,102.1
+2020-07-01,British Columbia,house,107.2
+2020-07-01,"Calgary, Alberta",house,96.3
+2020-07-01,Canada,house,104.7
+2020-07-01,"Charlottetown, Prince Edward Island",house,102.6
+2020-07-01,"Edmonton, Alberta",house,97.2
+2020-07-01,"Greater Sudbury, Ontario",house,102.8
+2020-07-01,"Guelph, Ontario",house,110
+2020-07-01,"Halifax, Nova Scotia",house,105.4
+2020-07-01,"Hamilton, Ontario",house,106.7
+2020-07-01,"Kelowna, British Columbia",house,104.3
+2020-07-01,"Kitchener-Cambridge-Waterloo, Ontario",house,111.6
+2020-07-01,"London, Ontario",house,116.7
+2020-07-01,Manitoba,house,106
+2020-07-01,"Montréal, Quebec",house,114.8
+2020-07-01,New Brunswick,house,103.2
+2020-07-01,Newfoundland and Labrador,house,96.9
+2020-07-01,Nova Scotia,house,105.4
+2020-07-01,Ontario,house,107.2
+2020-07-01,"Oshawa, Ontario",house,103.8
+2020-07-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,125.9
+2020-07-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,107.9
+2020-07-01,Prairie Region,house,97.5
+2020-07-01,Prince Edward Island,house,102.6
+2020-07-01,Quebec,house,111.1
+2020-07-01,"Québec, Quebec",house,101
+2020-07-01,"Regina, Saskatchewan",house,91.9
+2020-07-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,103.2
+2020-07-01,Saskatchewan,house,94.8
+2020-07-01,"Saskatoon, Saskatchewan",house,96.6
+2020-07-01,"Sherbrooke, Quebec",house,104
+2020-07-01,"St. Catharines-Niagara, Ontario",house,110.5
+2020-07-01,"St. John's, Newfoundland and Labrador",house,96.9
+2020-07-01,"Toronto, Ontario",house,103.1
+2020-07-01,"Trois-Rivières, Quebec",house,103.5
+2020-07-01,"Vancouver, British Columbia",house,107.8
+2020-07-01,"Victoria, British Columbia",house,102.6
+2020-07-01,"Windsor, Ontario",house,109.4
+2020-07-01,"Winnipeg, Manitoba",house,106
+2020-08-01,Alberta,house,96.7
+2020-08-01,Atlantic Region,house,102.9
+2020-08-01,British Columbia,house,108.1
+2020-08-01,"Calgary, Alberta",house,96.2
+2020-08-01,Canada,house,105.2
+2020-08-01,"Charlottetown, Prince Edward Island",house,102.6
+2020-08-01,"Edmonton, Alberta",house,97.2
+2020-08-01,"Greater Sudbury, Ontario",house,103.5
+2020-08-01,"Guelph, Ontario",house,110.3
+2020-08-01,"Halifax, Nova Scotia",house,107.1
+2020-08-01,"Hamilton, Ontario",house,108
+2020-08-01,"Kelowna, British Columbia",house,105.1
+2020-08-01,"Kitchener-Cambridge-Waterloo, Ontario",house,112.3
+2020-08-01,"London, Ontario",house,117.3
+2020-08-01,Manitoba,house,106.9
+2020-08-01,"Montréal, Quebec",house,115.5
+2020-08-01,New Brunswick,house,103.2
+2020-08-01,Newfoundland and Labrador,house,96.9
+2020-08-01,Nova Scotia,house,107.1
+2020-08-01,Ontario,house,107.7
+2020-08-01,"Oshawa, Ontario",house,105.7
+2020-08-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,127.3
+2020-08-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,107.9
+2020-08-01,Prairie Region,house,97.6
+2020-08-01,Prince Edward Island,house,102.6
+2020-08-01,Quebec,house,111.8
+2020-08-01,"Québec, Quebec",house,102.7
+2020-08-01,"Regina, Saskatchewan",house,92.4
+2020-08-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,103.2
+2020-08-01,Saskatchewan,house,95
+2020-08-01,"Saskatoon, Saskatchewan",house,96.6
+2020-08-01,"Sherbrooke, Quebec",house,104
+2020-08-01,"St. Catharines-Niagara, Ontario",house,110.5
+2020-08-01,"St. John's, Newfoundland and Labrador",house,96.9
+2020-08-01,"Toronto, Ontario",house,103.4
+2020-08-01,"Trois-Rivières, Quebec",house,103.7
+2020-08-01,"Vancouver, British Columbia",house,108.9
+2020-08-01,"Victoria, British Columbia",house,103
+2020-08-01,"Windsor, Ontario",house,109.9
+2020-08-01,"Winnipeg, Manitoba",house,106.9
+2020-09-01,Alberta,house,97.1
+2020-09-01,Atlantic Region,house,104
+2020-09-01,British Columbia,house,110.2
+2020-09-01,"Calgary, Alberta",house,96.6
+2020-09-01,Canada,house,106.5
+2020-09-01,"Charlottetown, Prince Edward Island",house,104.7
+2020-09-01,"Edmonton, Alberta",house,97.5
+2020-09-01,"Greater Sudbury, Ontario",house,103.7
+2020-09-01,"Guelph, Ontario",house,112.2
+2020-09-01,"Halifax, Nova Scotia",house,108
+2020-09-01,"Hamilton, Ontario",house,110.5
+2020-09-01,"Kelowna, British Columbia",house,105.4
+2020-09-01,"Kitchener-Cambridge-Waterloo, Ontario",house,113.1
+2020-09-01,"London, Ontario",house,117.8
+2020-09-01,Manitoba,house,108.7
+2020-09-01,"Montréal, Quebec",house,116.5
+2020-09-01,New Brunswick,house,104.2
+2020-09-01,Newfoundland and Labrador,house,98
+2020-09-01,Nova Scotia,house,108
+2020-09-01,Ontario,house,108.8
+2020-09-01,"Oshawa, Ontario",house,106.3
+2020-09-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,130.1
+2020-09-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,108.9
+2020-09-01,Prairie Region,house,98
+2020-09-01,Prince Edward Island,house,104.7
+2020-09-01,Quebec,house,112.7
+2020-09-01,"Québec, Quebec",house,103.2
+2020-09-01,"Regina, Saskatchewan",house,92.1
+2020-09-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,104.2
+2020-09-01,Saskatchewan,house,94.8
+2020-09-01,"Saskatoon, Saskatchewan",house,96.4
+2020-09-01,"Sherbrooke, Quebec",house,104
+2020-09-01,"St. Catharines-Niagara, Ontario",house,111.1
+2020-09-01,"St. John's, Newfoundland and Labrador",house,98
+2020-09-01,"Toronto, Ontario",house,104.2
+2020-09-01,"Trois-Rivières, Quebec",house,105.3
+2020-09-01,"Vancouver, British Columbia",house,111.1
+2020-09-01,"Victoria, British Columbia",house,105.6
+2020-09-01,"Windsor, Ontario",house,111.9
+2020-09-01,"Winnipeg, Manitoba",house,108.7
+2020-10-01,Alberta,house,97.4
+2020-10-01,Atlantic Region,house,105
+2020-10-01,British Columbia,house,111.5
+2020-10-01,"Calgary, Alberta",house,97
+2020-10-01,Canada,house,107.3
+2020-10-01,"Charlottetown, Prince Edward Island",house,104.7
+2020-10-01,"Edmonton, Alberta",house,97.8
+2020-10-01,"Greater Sudbury, Ontario",house,104.2
+2020-10-01,"Guelph, Ontario",house,113.2
+2020-10-01,"Halifax, Nova Scotia",house,109.3
+2020-10-01,"Hamilton, Ontario",house,110.5
+2020-10-01,"Kelowna, British Columbia",house,105.4
+2020-10-01,"Kitchener-Cambridge-Waterloo, Ontario",house,114.9
+2020-10-01,"London, Ontario",house,117.9
+2020-10-01,Manitoba,house,108.8
+2020-10-01,"Montréal, Quebec",house,119.7
+2020-10-01,New Brunswick,house,104.2
+2020-10-01,Newfoundland and Labrador,house,100
+2020-10-01,Nova Scotia,house,109.3
+2020-10-01,Ontario,house,109.5
+2020-10-01,"Oshawa, Ontario",house,106.3
+2020-10-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,131.3
+2020-10-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,109.8
+2020-10-01,Prairie Region,house,98.3
+2020-10-01,Prince Edward Island,house,104.7
+2020-10-01,Quebec,house,115.2
+2020-10-01,"Québec, Quebec",house,103.6
+2020-10-01,"Regina, Saskatchewan",house,92.5
+2020-10-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,104.2
+2020-10-01,Saskatchewan,house,95.3
+2020-10-01,"Saskatoon, Saskatchewan",house,96.9
+2020-10-01,"Sherbrooke, Quebec",house,104
+2020-10-01,"St. Catharines-Niagara, Ontario",house,113.5
+2020-10-01,"St. John's, Newfoundland and Labrador",house,100
+2020-10-01,"Toronto, Ontario",house,104.8
+2020-10-01,"Trois-Rivières, Quebec",house,107.6
+2020-10-01,"Vancouver, British Columbia",house,112.5
+2020-10-01,"Victoria, British Columbia",house,105.8
+2020-10-01,"Windsor, Ontario",house,112.9
+2020-10-01,"Winnipeg, Manitoba",house,108.8
+2020-11-01,Alberta,house,97.8
+2020-11-01,Atlantic Region,house,105.6
+2020-11-01,British Columbia,house,111.8
+2020-11-01,"Calgary, Alberta",house,97.3
+2020-11-01,Canada,house,107.9
+2020-11-01,"Charlottetown, Prince Edward Island",house,106.5
+2020-11-01,"Edmonton, Alberta",house,98.4
+2020-11-01,"Greater Sudbury, Ontario",house,104.2
+2020-11-01,"Guelph, Ontario",house,114.4
+2020-11-01,"Halifax, Nova Scotia",house,110.1
+2020-11-01,"Hamilton, Ontario",house,110.7
+2020-11-01,"Kelowna, British Columbia",house,106.8
+2020-11-01,"Kitchener-Cambridge-Waterloo, Ontario",house,117.3
+2020-11-01,"London, Ontario",house,118.1
+2020-11-01,Manitoba,house,109.1
+2020-11-01,"Montréal, Quebec",house,121.3
+2020-11-01,New Brunswick,house,104.2
+2020-11-01,Newfoundland and Labrador,house,100.5
+2020-11-01,Nova Scotia,house,110.1
+2020-11-01,Ontario,house,110.2
+2020-11-01,"Oshawa, Ontario",house,107.4
+2020-11-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,134.1
+2020-11-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,112
+2020-11-01,Prairie Region,house,98.8
+2020-11-01,Prince Edward Island,house,106.5
+2020-11-01,Quebec,house,116.7
+2020-11-01,"Québec, Quebec",house,104.8
+2020-11-01,"Regina, Saskatchewan",house,92.4
+2020-11-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,104.2
+2020-11-01,Saskatchewan,house,95.2
+2020-11-01,"Saskatoon, Saskatchewan",house,96.9
+2020-11-01,"Sherbrooke, Quebec",house,104
+2020-11-01,"St. Catharines-Niagara, Ontario",house,114.7
+2020-11-01,"St. John's, Newfoundland and Labrador",house,100.5
+2020-11-01,"Toronto, Ontario",house,105.1
+2020-11-01,"Trois-Rivières, Quebec",house,107.6
+2020-11-01,"Vancouver, British Columbia",house,112.8
+2020-11-01,"Victoria, British Columbia",house,106.5
+2020-11-01,"Windsor, Ontario",house,113.1
+2020-11-01,"Winnipeg, Manitoba",house,109.1
+2020-12-01,Alberta,house,97.7
+2020-12-01,Atlantic Region,house,105.6
+2020-12-01,British Columbia,house,111.9
+2020-12-01,"Calgary, Alberta",house,97.3
+2020-12-01,Canada,house,108.2
+2020-12-01,"Charlottetown, Prince Edward Island",house,106.5
+2020-12-01,"Edmonton, Alberta",house,98.2
+2020-12-01,"Greater Sudbury, Ontario",house,104.7
+2020-12-01,"Guelph, Ontario",house,114.5
+2020-12-01,"Halifax, Nova Scotia",house,110.1
+2020-12-01,"Hamilton, Ontario",house,111.7
+2020-12-01,"Kelowna, British Columbia",house,106.8
+2020-12-01,"Kitchener-Cambridge-Waterloo, Ontario",house,118.4
+2020-12-01,"London, Ontario",house,119
+2020-12-01,Manitoba,house,109.1
+2020-12-01,"Montréal, Quebec",house,122
+2020-12-01,New Brunswick,house,104.2
+2020-12-01,Newfoundland and Labrador,house,100.7
+2020-12-01,Nova Scotia,house,110.1
+2020-12-01,Ontario,house,110.8
+2020-12-01,"Oshawa, Ontario",house,110.7
+2020-12-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,135.6
+2020-12-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,112.8
+2020-12-01,Prairie Region,house,98.7
+2020-12-01,Prince Edward Island,house,106.5
+2020-12-01,Quebec,house,117.5
+2020-12-01,"Québec, Quebec",house,106
+2020-12-01,"Regina, Saskatchewan",house,92.7
+2020-12-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,104.2
+2020-12-01,Saskatchewan,house,95.5
+2020-12-01,"Saskatoon, Saskatchewan",house,97.1
+2020-12-01,"Sherbrooke, Quebec",house,104
+2020-12-01,"St. Catharines-Niagara, Ontario",house,115.2
+2020-12-01,"St. John's, Newfoundland and Labrador",house,100.7
+2020-12-01,"Toronto, Ontario",house,105.5
+2020-12-01,"Trois-Rivières, Quebec",house,107.6
+2020-12-01,"Vancouver, British Columbia",house,112.8
+2020-12-01,"Victoria, British Columbia",house,107.7
+2020-12-01,"Windsor, Ontario",house,113.4
+2020-12-01,"Winnipeg, Manitoba",house,109.1
+2021-01-01,Alberta,house,98
+2021-01-01,Atlantic Region,house,105.9
+2021-01-01,British Columbia,house,112.3
+2021-01-01,"Calgary, Alberta",house,97.6
+2021-01-01,Canada,house,109
+2021-01-01,"Charlottetown, Prince Edward Island",house,110
+2021-01-01,"Edmonton, Alberta",house,98.3
+2021-01-01,"Greater Sudbury, Ontario",house,106.1
+2021-01-01,"Guelph, Ontario",house,114.6
+2021-01-01,"Halifax, Nova Scotia",house,110.1
+2021-01-01,"Hamilton, Ontario",house,116.1
+2021-01-01,"Kelowna, British Columbia",house,107.6
+2021-01-01,"Kitchener-Cambridge-Waterloo, Ontario",house,121.8
+2021-01-01,"London, Ontario",house,121.2
+2021-01-01,Manitoba,house,110.4
+2021-01-01,"Montréal, Quebec",house,122.1
+2021-01-01,New Brunswick,house,104.2
+2021-01-01,Newfoundland and Labrador,house,100.7
+2021-01-01,Nova Scotia,house,110.1
+2021-01-01,Ontario,house,112.2
+2021-01-01,"Oshawa, Ontario",house,112.4
+2021-01-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,137.9
+2021-01-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,112.8
+2021-01-01,Prairie Region,house,99
+2021-01-01,Prince Edward Island,house,110
+2021-01-01,Quebec,house,117.8
+2021-01-01,"Québec, Quebec",house,108.7
+2021-01-01,"Regina, Saskatchewan",house,92.9
+2021-01-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,104.2
+2021-01-01,Saskatchewan,house,95.9
+2021-01-01,"Saskatoon, Saskatchewan",house,97.7
+2021-01-01,"Sherbrooke, Quebec",house,104
+2021-01-01,"St. Catharines-Niagara, Ontario",house,115.7
+2021-01-01,"St. John's, Newfoundland and Labrador",house,100.7
+2021-01-01,"Toronto, Ontario",house,106.2
+2021-01-01,"Trois-Rivières, Quebec",house,108
+2021-01-01,"Vancouver, British Columbia",house,113.1
+2021-01-01,"Victoria, British Columbia",house,107.8
+2021-01-01,"Windsor, Ontario",house,115.3
+2021-01-01,"Winnipeg, Manitoba",house,110.4
+2021-02-01,Alberta,house,98.8
+2021-02-01,Atlantic Region,house,107.5
+2021-02-01,British Columbia,house,116.3
+2021-02-01,"Calgary, Alberta",house,98.4
+2021-02-01,Canada,house,111.1
+2021-02-01,"Charlottetown, Prince Edward Island",house,110.2
+2021-02-01,"Edmonton, Alberta",house,99.1
+2021-02-01,"Greater Sudbury, Ontario",house,108.2
+2021-02-01,"Guelph, Ontario",house,119
+2021-02-01,"Halifax, Nova Scotia",house,112.7
+2021-02-01,"Hamilton, Ontario",house,116.1
+2021-02-01,"Kelowna, British Columbia",house,109.6
+2021-02-01,"Kitchener-Cambridge-Waterloo, Ontario",house,126.2
+2021-02-01,"London, Ontario",house,121.8
+2021-02-01,Manitoba,house,112.3
+2021-02-01,"Montréal, Quebec",house,123
+2021-02-01,New Brunswick,house,105.5
+2021-02-01,Newfoundland and Labrador,house,100.7
+2021-02-01,Nova Scotia,house,112.7
+2021-02-01,Ontario,house,113.7
+2021-02-01,"Oshawa, Ontario",house,113.7
+2021-02-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,139
+2021-02-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,112.5
+2021-02-01,Prairie Region,house,99.9
+2021-02-01,Prince Edward Island,house,110.2
+2021-02-01,Quebec,house,118.8
+2021-02-01,"Québec, Quebec",house,111.7
+2021-02-01,"Regina, Saskatchewan",house,92.7
+2021-02-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,105.5
+2021-02-01,Saskatchewan,house,96.2
+2021-02-01,"Saskatoon, Saskatchewan",house,98.3
+2021-02-01,"Sherbrooke, Quebec",house,104
+2021-02-01,"St. Catharines-Niagara, Ontario",house,117.1
+2021-02-01,"St. John's, Newfoundland and Labrador",house,100.7
+2021-02-01,"Toronto, Ontario",house,107.7
+2021-02-01,"Trois-Rivières, Quebec",house,108.3
+2021-02-01,"Vancouver, British Columbia",house,117.6
+2021-02-01,"Victoria, British Columbia",house,108.5
+2021-02-01,"Windsor, Ontario",house,116.3
+2021-02-01,"Winnipeg, Manitoba",house,112.3
+2021-03-01,Alberta,house,99.5
+2021-03-01,Atlantic Region,house,109.2
+2021-03-01,British Columbia,house,117.2
+2021-03-01,"Calgary, Alberta",house,98.9
+2021-03-01,Canada,house,112.3
+2021-03-01,"Charlottetown, Prince Edward Island",house,113.9
+2021-03-01,"Edmonton, Alberta",house,100.1
+2021-03-01,"Greater Sudbury, Ontario",house,109.6
+2021-03-01,"Guelph, Ontario",house,119.4
+2021-03-01,"Halifax, Nova Scotia",house,113.8
+2021-03-01,"Hamilton, Ontario",house,116.1
+2021-03-01,"Kelowna, British Columbia",house,111.8
+2021-03-01,"Kitchener-Cambridge-Waterloo, Ontario",house,128.2
+2021-03-01,"London, Ontario",house,124.4
+2021-03-01,Manitoba,house,113.5
+2021-03-01,"Montréal, Quebec",house,124.7
+2021-03-01,New Brunswick,house,108.5
+2021-03-01,Newfoundland and Labrador,house,101.5
+2021-03-01,Nova Scotia,house,113.8
+2021-03-01,Ontario,house,115.2
+2021-03-01,"Oshawa, Ontario",house,113.7
+2021-03-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,143.5
+2021-03-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,113.8
+2021-03-01,Prairie Region,house,100.8
+2021-03-01,Prince Edward Island,house,113.9
+2021-03-01,Quebec,house,120.5
+2021-03-01,"Québec, Quebec",house,114.7
+2021-03-01,"Regina, Saskatchewan",house,94.4
+2021-03-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,108.5
+2021-03-01,Saskatchewan,house,97.5
+2021-03-01,"Saskatoon, Saskatchewan",house,99.4
+2021-03-01,"Sherbrooke, Quebec",house,104
+2021-03-01,"St. Catharines-Niagara, Ontario",house,120.8
+2021-03-01,"St. John's, Newfoundland and Labrador",house,101.5
+2021-03-01,"Toronto, Ontario",house,108.6
+2021-03-01,"Trois-Rivières, Quebec",house,108.3
+2021-03-01,"Vancouver, British Columbia",house,118.2
+2021-03-01,"Victoria, British Columbia",house,111
+2021-03-01,"Windsor, Ontario",house,118
+2021-03-01,"Winnipeg, Manitoba",house,113.5
+2021-04-01,Alberta,house,101
+2021-04-01,Atlantic Region,house,111
+2021-04-01,British Columbia,house,118.9
+2021-04-01,"Calgary, Alberta",house,101.5
+2021-04-01,Canada,house,114.4
+2021-04-01,"Charlottetown, Prince Edward Island",house,115.2
+2021-04-01,"Edmonton, Alberta",house,100.5
+2021-04-01,"Greater Sudbury, Ontario",house,118
+2021-04-01,"Guelph, Ontario",house,120.4
+2021-04-01,"Halifax, Nova Scotia",house,116
+2021-04-01,"Hamilton, Ontario",house,116.1
+2021-04-01,"Kelowna, British Columbia",house,113.5
+2021-04-01,"Kitchener-Cambridge-Waterloo, Ontario",house,134
+2021-04-01,"London, Ontario",house,125
+2021-04-01,Manitoba,house,116.8
+2021-04-01,"Montréal, Quebec",house,133.9
+2021-04-01,New Brunswick,house,110.2
+2021-04-01,Newfoundland and Labrador,house,102.1
+2021-04-01,Nova Scotia,house,116
+2021-04-01,Ontario,house,117.4
+2021-04-01,"Oshawa, Ontario",house,113.7
+2021-04-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,151.9
+2021-04-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,114.1
+2021-04-01,Prairie Region,house,102.4
+2021-04-01,Prince Edward Island,house,115.2
+2021-04-01,Quebec,house,127.2
+2021-04-01,"Québec, Quebec",house,115.3
+2021-04-01,"Regina, Saskatchewan",house,93.9
+2021-04-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,110.2
+2021-04-01,Saskatchewan,house,97.9
+2021-04-01,"Saskatoon, Saskatchewan",house,100.3
+2021-04-01,"Sherbrooke, Quebec",house,104
+2021-04-01,"St. Catharines-Niagara, Ontario",house,123.8
+2021-04-01,"St. John's, Newfoundland and Labrador",house,102.1
+2021-04-01,"Toronto, Ontario",house,109.5
+2021-04-01,"Trois-Rivières, Quebec",house,108.3
+2021-04-01,"Vancouver, British Columbia",house,120
+2021-04-01,"Victoria, British Columbia",house,112.4
+2021-04-01,"Windsor, Ontario",house,128
+2021-04-01,"Winnipeg, Manitoba",house,116.8
+2021-05-01,Alberta,house,104.1
+2021-05-01,Atlantic Region,house,111.9
+2021-05-01,British Columbia,house,120
+2021-05-01,"Calgary, Alberta",house,105.3
+2021-05-01,Canada,house,116
+2021-05-01,"Charlottetown, Prince Edward Island",house,118.9
+2021-05-01,"Edmonton, Alberta",house,102.7
+2021-05-01,"Greater Sudbury, Ontario",house,118.7
+2021-05-01,"Guelph, Ontario",house,120.4
+2021-05-01,"Halifax, Nova Scotia",house,117.8
+2021-05-01,"Hamilton, Ontario",house,116.1
+2021-05-01,"Kelowna, British Columbia",house,117.3
+2021-05-01,"Kitchener-Cambridge-Waterloo, Ontario",house,139.7
+2021-05-01,"London, Ontario",house,130.1
+2021-05-01,Manitoba,house,122.7
+2021-05-01,"Montréal, Quebec",house,135.8
+2021-05-01,New Brunswick,house,109.4
+2021-05-01,Newfoundland and Labrador,house,101.7
+2021-05-01,Nova Scotia,house,117.8
+2021-05-01,Ontario,house,118.6
+2021-05-01,"Oshawa, Ontario",house,113.7
+2021-05-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,154.8
+2021-05-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,114.6
+2021-05-01,Prairie Region,house,105.7
+2021-05-01,Prince Edward Island,house,118.9
+2021-05-01,Quebec,house,128.6
+2021-05-01,"Québec, Quebec",house,115.2
+2021-05-01,"Regina, Saskatchewan",house,95.8
+2021-05-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,109.4
+2021-05-01,Saskatchewan,house,100.4
+2021-05-01,"Saskatoon, Saskatchewan",house,103.1
+2021-05-01,"Sherbrooke, Quebec",house,104
+2021-05-01,"St. Catharines-Niagara, Ontario",house,124
+2021-05-01,"St. John's, Newfoundland and Labrador",house,101.7
+2021-05-01,"Toronto, Ontario",house,109.9
+2021-05-01,"Trois-Rivières, Quebec",house,108.3
+2021-05-01,"Vancouver, British Columbia",house,120.9
+2021-05-01,"Victoria, British Columbia",house,112.7
+2021-05-01,"Windsor, Ontario",house,131
+2021-05-01,"Winnipeg, Manitoba",house,122.7
+2021-06-01,Alberta,house,106.2
+2021-06-01,Atlantic Region,house,112.3
+2021-06-01,British Columbia,house,119.7
+2021-06-01,"Calgary, Alberta",house,109
+2021-06-01,Canada,house,116.7
+2021-06-01,"Charlottetown, Prince Edward Island",house,118.9
+2021-06-01,"Edmonton, Alberta",house,103.3
+2021-06-01,"Greater Sudbury, Ontario",house,118.7
+2021-06-01,"Guelph, Ontario",house,123
+2021-06-01,"Halifax, Nova Scotia",house,117.8
+2021-06-01,"Hamilton, Ontario",house,116.1
+2021-06-01,"Kelowna, British Columbia",house,118.5
+2021-06-01,"Kitchener-Cambridge-Waterloo, Ontario",house,141.5
+2021-06-01,"London, Ontario",house,131.1
+2021-06-01,Manitoba,house,125
+2021-06-01,"Montréal, Quebec",house,136.9
+2021-06-01,New Brunswick,house,111.1
+2021-06-01,Newfoundland and Labrador,house,102.2
+2021-06-01,Nova Scotia,house,117.8
+2021-06-01,Ontario,house,119.3
+2021-06-01,"Oshawa, Ontario",house,113.7
+2021-06-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,156.8
+2021-06-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,114.8
+2021-06-01,Prairie Region,house,107.8
+2021-06-01,Prince Edward Island,house,118.9
+2021-06-01,Quebec,house,129.5
+2021-06-01,"Québec, Quebec",house,115.2
+2021-06-01,"Regina, Saskatchewan",house,96.9
+2021-06-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,111.1
+2021-06-01,Saskatchewan,house,102.2
+2021-06-01,"Saskatoon, Saskatchewan",house,105.4
+2021-06-01,"Sherbrooke, Quebec",house,105.2
+2021-06-01,"St. Catharines-Niagara, Ontario",house,125.5
+2021-06-01,"St. John's, Newfoundland and Labrador",house,102.2
+2021-06-01,"Toronto, Ontario",house,110
+2021-06-01,"Trois-Rivières, Quebec",house,109.5
+2021-06-01,"Vancouver, British Columbia",house,120.5
+2021-06-01,"Victoria, British Columbia",house,113
+2021-06-01,"Windsor, Ontario",house,133.4
+2021-06-01,"Winnipeg, Manitoba",house,125
+2021-07-01,Alberta,house,106.6
+2021-07-01,Atlantic Region,house,112.7
+2021-07-01,British Columbia,house,120.3
+2021-07-01,"Calgary, Alberta",house,108.8
+2021-07-01,Canada,house,117.2
+2021-07-01,"Charlottetown, Prince Edward Island",house,119.7
+2021-07-01,"Edmonton, Alberta",house,104.3
+2021-07-01,"Greater Sudbury, Ontario",house,120.9
+2021-07-01,"Guelph, Ontario",house,123
+2021-07-01,"Halifax, Nova Scotia",house,117.8
+2021-07-01,"Hamilton, Ontario",house,116.1
+2021-07-01,"Kelowna, British Columbia",house,119.4
+2021-07-01,"Kitchener-Cambridge-Waterloo, Ontario",house,142.5
+2021-07-01,"London, Ontario",house,131.2
+2021-07-01,Manitoba,house,125.4
+2021-07-01,"Montréal, Quebec",house,137.8
+2021-07-01,New Brunswick,house,112.2
+2021-07-01,Newfoundland and Labrador,house,102.3
+2021-07-01,Nova Scotia,house,117.8
+2021-07-01,Ontario,house,119.8
+2021-07-01,"Oshawa, Ontario",house,118.6
+2021-07-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,157.7
+2021-07-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115
+2021-07-01,Prairie Region,house,108.3
+2021-07-01,Prince Edward Island,house,119.7
+2021-07-01,Quebec,house,130.1
+2021-07-01,"Québec, Quebec",house,115.2
+2021-07-01,"Regina, Saskatchewan",house,97.3
+2021-07-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,112.2
+2021-07-01,Saskatchewan,house,103
+2021-07-01,"Saskatoon, Saskatchewan",house,106.4
+2021-07-01,"Sherbrooke, Quebec",house,105.2
+2021-07-01,"St. Catharines-Niagara, Ontario",house,125.5
+2021-07-01,"St. John's, Newfoundland and Labrador",house,102.3
+2021-07-01,"Toronto, Ontario",house,110.2
+2021-07-01,"Trois-Rivières, Quebec",house,109.5
+2021-07-01,"Vancouver, British Columbia",house,120.9
+2021-07-01,"Victoria, British Columbia",house,114.3
+2021-07-01,"Windsor, Ontario",house,134.6
+2021-07-01,"Winnipeg, Manitoba",house,125.4
+2021-08-01,Alberta,house,106.5
+2021-08-01,Atlantic Region,house,113.2
+2021-08-01,British Columbia,house,120.8
+2021-08-01,"Calgary, Alberta",house,109
+2021-08-01,Canada,house,118
+2021-08-01,"Charlottetown, Prince Edward Island",house,119.8
+2021-08-01,"Edmonton, Alberta",house,103.8
+2021-08-01,"Greater Sudbury, Ontario",house,120.9
+2021-08-01,"Guelph, Ontario",house,123
+2021-08-01,"Halifax, Nova Scotia",house,117.8
+2021-08-01,"Hamilton, Ontario",house,116.1
+2021-08-01,"Kelowna, British Columbia",house,119.4
+2021-08-01,"Kitchener-Cambridge-Waterloo, Ontario",house,142.5
+2021-08-01,"London, Ontario",house,136.3
+2021-08-01,Manitoba,house,126.6
+2021-08-01,"Montréal, Quebec",house,139.6
+2021-08-01,New Brunswick,house,114.1
+2021-08-01,Newfoundland and Labrador,house,102.8
+2021-08-01,Nova Scotia,house,117.8
+2021-08-01,Ontario,house,121.1
+2021-08-01,"Oshawa, Ontario",house,118.8
+2021-08-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,162.3
+2021-08-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115
+2021-08-01,Prairie Region,house,108.3
+2021-08-01,Prince Edward Island,house,119.8
+2021-08-01,Quebec,house,131.4
+2021-08-01,"Québec, Quebec",house,115.2
+2021-08-01,"Regina, Saskatchewan",house,97.4
+2021-08-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,114.1
+2021-08-01,Saskatchewan,house,103
+2021-08-01,"Saskatoon, Saskatchewan",house,106.3
+2021-08-01,"Sherbrooke, Quebec",house,105.2
+2021-08-01,"St. Catharines-Niagara, Ontario",house,125.5
+2021-08-01,"St. John's, Newfoundland and Labrador",house,102.8
+2021-08-01,"Toronto, Ontario",house,111.1
+2021-08-01,"Trois-Rivières, Quebec",house,109.5
+2021-08-01,"Vancouver, British Columbia",house,121.5
+2021-08-01,"Victoria, British Columbia",house,114.3
+2021-08-01,"Windsor, Ontario",house,134.9
+2021-08-01,"Winnipeg, Manitoba",house,126.6
+2021-09-01,Alberta,house,106.4
+2021-09-01,Atlantic Region,house,113.1
+2021-09-01,British Columbia,house,121.9
+2021-09-01,"Calgary, Alberta",house,109.1
+2021-09-01,Canada,house,118.5
+2021-09-01,"Charlottetown, Prince Edward Island",house,119.7
+2021-09-01,"Edmonton, Alberta",house,103.5
+2021-09-01,"Greater Sudbury, Ontario",house,120.2
+2021-09-01,"Guelph, Ontario",house,123.3
+2021-09-01,"Halifax, Nova Scotia",house,117.8
+2021-09-01,"Hamilton, Ontario",house,116.1
+2021-09-01,"Kelowna, British Columbia",house,119.4
+2021-09-01,"Kitchener-Cambridge-Waterloo, Ontario",house,143.1
+2021-09-01,"London, Ontario",house,136.3
+2021-09-01,Manitoba,house,126.8
+2021-09-01,"Montréal, Quebec",house,142
+2021-09-01,New Brunswick,house,114.1
+2021-09-01,Newfoundland and Labrador,house,102.3
+2021-09-01,Nova Scotia,house,117.8
+2021-09-01,Ontario,house,121.3
+2021-09-01,"Oshawa, Ontario",house,120.9
+2021-09-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,163
+2021-09-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115
+2021-09-01,Prairie Region,house,108.2
+2021-09-01,Prince Edward Island,house,119.7
+2021-09-01,Quebec,house,133.3
+2021-09-01,"Québec, Quebec",house,116.7
+2021-09-01,"Regina, Saskatchewan",house,97.6
+2021-09-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,114.1
+2021-09-01,Saskatchewan,house,102.4
+2021-09-01,"Saskatoon, Saskatchewan",house,105.3
+2021-09-01,"Sherbrooke, Quebec",house,105.2
+2021-09-01,"St. Catharines-Niagara, Ontario",house,126
+2021-09-01,"St. John's, Newfoundland and Labrador",house,102.3
+2021-09-01,"Toronto, Ontario",house,111.1
+2021-09-01,"Trois-Rivières, Quebec",house,109.5
+2021-09-01,"Vancouver, British Columbia",house,122.6
+2021-09-01,"Victoria, British Columbia",house,116.3
+2021-09-01,"Windsor, Ontario",house,137.5
+2021-09-01,"Winnipeg, Manitoba",house,126.8
+2021-10-01,Alberta,house,106.4
+2021-10-01,Atlantic Region,house,113.2
+2021-10-01,British Columbia,house,123.3
+2021-10-01,"Calgary, Alberta",house,109.2
+2021-10-01,Canada,house,119.6
+2021-10-01,"Charlottetown, Prince Edward Island",house,119.7
+2021-10-01,"Edmonton, Alberta",house,103.3
+2021-10-01,"Greater Sudbury, Ontario",house,120.1
+2021-10-01,"Guelph, Ontario",house,123.3
+2021-10-01,"Halifax, Nova Scotia",house,117.8
+2021-10-01,"Hamilton, Ontario",house,116.1
+2021-10-01,"Kelowna, British Columbia",house,119.9
+2021-10-01,"Kitchener-Cambridge-Waterloo, Ontario",house,148.5
+2021-10-01,"London, Ontario",house,139.6
+2021-10-01,Manitoba,house,128.9
+2021-10-01,"Montréal, Quebec",house,142.3
+2021-10-01,New Brunswick,house,114.2
+2021-10-01,Newfoundland and Labrador,house,102.3
+2021-10-01,Nova Scotia,house,117.8
+2021-10-01,Ontario,house,122.8
+2021-10-01,"Oshawa, Ontario",house,120.6
+2021-10-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,163.8
+2021-10-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,114.9
+2021-10-01,Prairie Region,house,108.4
+2021-10-01,Prince Edward Island,house,119.7
+2021-10-01,Quebec,house,133.6
+2021-10-01,"Québec, Quebec",house,117
+2021-10-01,"Regina, Saskatchewan",house,99
+2021-10-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,114.2
+2021-10-01,Saskatchewan,house,102.8
+2021-10-01,"Saskatoon, Saskatchewan",house,105.1
+2021-10-01,"Sherbrooke, Quebec",house,106
+2021-10-01,"St. Catharines-Niagara, Ontario",house,127.7
+2021-10-01,"St. John's, Newfoundland and Labrador",house,102.3
+2021-10-01,"Toronto, Ontario",house,112.5
+2021-10-01,"Trois-Rivières, Quebec",house,109.5
+2021-10-01,"Vancouver, British Columbia",house,123.8
+2021-10-01,"Victoria, British Columbia",house,120.1
+2021-10-01,"Windsor, Ontario",house,137.6
+2021-10-01,"Winnipeg, Manitoba",house,128.9
+2021-11-01,Alberta,house,106.4
+2021-11-01,Atlantic Region,house,113.4
+2021-11-01,British Columbia,house,124
+2021-11-01,"Calgary, Alberta",house,109.7
+2021-11-01,Canada,house,120.5
+2021-11-01,"Charlottetown, Prince Edward Island",house,119.7
+2021-11-01,"Edmonton, Alberta",house,103
+2021-11-01,"Greater Sudbury, Ontario",house,121.4
+2021-11-01,"Guelph, Ontario",house,123.9
+2021-11-01,"Halifax, Nova Scotia",house,117.8
+2021-11-01,"Hamilton, Ontario",house,116.1
+2021-11-01,"Kelowna, British Columbia",house,119.9
+2021-11-01,"Kitchener-Cambridge-Waterloo, Ontario",house,151.3
+2021-11-01,"London, Ontario",house,143.5
+2021-11-01,Manitoba,house,129.7
+2021-11-01,"Montréal, Quebec",house,143.8
+2021-11-01,New Brunswick,house,114.2
+2021-11-01,Newfoundland and Labrador,house,103.5
+2021-11-01,Nova Scotia,house,117.8
+2021-11-01,Ontario,house,124.2
+2021-11-01,"Oshawa, Ontario",house,121.1
+2021-11-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,164.1
+2021-11-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.7
+2021-11-01,Prairie Region,house,108.6
+2021-11-01,Prince Edward Island,house,119.7
+2021-11-01,Quebec,house,134.8
+2021-11-01,"Québec, Quebec",house,117.5
+2021-11-01,"Regina, Saskatchewan",house,99.3
+2021-11-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,114.2
+2021-11-01,Saskatchewan,house,102.9
+2021-11-01,"Saskatoon, Saskatchewan",house,105
+2021-11-01,"Sherbrooke, Quebec",house,106
+2021-11-01,"St. Catharines-Niagara, Ontario",house,127.7
+2021-11-01,"St. John's, Newfoundland and Labrador",house,103.5
+2021-11-01,"Toronto, Ontario",house,114.1
+2021-11-01,"Trois-Rivières, Quebec",house,109.5
+2021-11-01,"Vancouver, British Columbia",house,124.7
+2021-11-01,"Victoria, British Columbia",house,120.1
+2021-11-01,"Windsor, Ontario",house,138.9
+2021-11-01,"Winnipeg, Manitoba",house,129.7
+2021-12-01,Alberta,house,106.8
+2021-12-01,Atlantic Region,house,113.7
+2021-12-01,British Columbia,house,124.1
+2021-12-01,"Calgary, Alberta",house,110.2
+2021-12-01,Canada,house,120.8
+2021-12-01,"Charlottetown, Prince Edward Island",house,119.5
+2021-12-01,"Edmonton, Alberta",house,103.3
+2021-12-01,"Greater Sudbury, Ontario",house,121.4
+2021-12-01,"Guelph, Ontario",house,124
+2021-12-01,"Halifax, Nova Scotia",house,117.8
+2021-12-01,"Hamilton, Ontario",house,116.1
+2021-12-01,"Kelowna, British Columbia",house,120.6
+2021-12-01,"Kitchener-Cambridge-Waterloo, Ontario",house,154.7
+2021-12-01,"London, Ontario",house,143.5
+2021-12-01,Manitoba,house,133.3
+2021-12-01,"Montréal, Quebec",house,144.4
+2021-12-01,New Brunswick,house,115.5
+2021-12-01,Newfoundland and Labrador,house,103.5
+2021-12-01,Nova Scotia,house,117.8
+2021-12-01,Ontario,house,124.4
+2021-12-01,"Oshawa, Ontario",house,121.1
+2021-12-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,164.3
+2021-12-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.7
+2021-12-01,Prairie Region,house,109.3
+2021-12-01,Prince Edward Island,house,119.5
+2021-12-01,Quebec,house,135.3
+2021-12-01,"Québec, Quebec",house,118.1
+2021-12-01,"Regina, Saskatchewan",house,99.3
+2021-12-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,115.5
+2021-12-01,Saskatchewan,house,103.3
+2021-12-01,"Saskatoon, Saskatchewan",house,105.8
+2021-12-01,"Sherbrooke, Quebec",house,106.6
+2021-12-01,"St. Catharines-Niagara, Ontario",house,128.3
+2021-12-01,"St. John's, Newfoundland and Labrador",house,103.5
+2021-12-01,"Toronto, Ontario",house,114.1
+2021-12-01,"Trois-Rivières, Quebec",house,109.5
+2021-12-01,"Vancouver, British Columbia",house,124.8
+2021-12-01,"Victoria, British Columbia",house,120.5
+2021-12-01,"Windsor, Ontario",house,139
+2021-12-01,"Winnipeg, Manitoba",house,133.3
+2022-01-01,Alberta,house,108.6
+2022-01-01,Atlantic Region,house,113.8
+2022-01-01,British Columbia,house,126.2
+2022-01-01,"Calgary, Alberta",house,112.5
+2022-01-01,Canada,house,121.9
+2022-01-01,"Charlottetown, Prince Edward Island",house,119.5
+2022-01-01,"Edmonton, Alberta",house,104.5
+2022-01-01,"Greater Sudbury, Ontario",house,121.4
+2022-01-01,"Guelph, Ontario",house,124
+2022-01-01,"Halifax, Nova Scotia",house,117.8
+2022-01-01,"Hamilton, Ontario",house,116.1
+2022-01-01,"Kelowna, British Columbia",house,120.6
+2022-01-01,"Kitchener-Cambridge-Waterloo, Ontario",house,154.7
+2022-01-01,"London, Ontario",house,144.7
+2022-01-01,Manitoba,house,135.2
+2022-01-01,"Montréal, Quebec",house,144.4
+2022-01-01,New Brunswick,house,115.5
+2022-01-01,Newfoundland and Labrador,house,104.7
+2022-01-01,Nova Scotia,house,117.8
+2022-01-01,Ontario,house,124.8
+2022-01-01,"Oshawa, Ontario",house,122
+2022-01-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,166.4
+2022-01-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.7
+2022-01-01,Prairie Region,house,111
+2022-01-01,Prince Edward Island,house,119.5
+2022-01-01,Quebec,house,135.6
+2022-01-01,"Québec, Quebec",house,119.8
+2022-01-01,"Regina, Saskatchewan",house,100
+2022-01-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,115.5
+2022-01-01,Saskatchewan,house,103.8
+2022-01-01,"Saskatoon, Saskatchewan",house,106.1
+2022-01-01,"Sherbrooke, Quebec",house,107.5
+2022-01-01,"St. Catharines-Niagara, Ontario",house,128.3
+2022-01-01,"St. John's, Newfoundland and Labrador",house,104.7
+2022-01-01,"Toronto, Ontario",house,114.1
+2022-01-01,"Trois-Rivières, Quebec",house,111
+2022-01-01,"Vancouver, British Columbia",house,127.1
+2022-01-01,"Victoria, British Columbia",house,121.7
+2022-01-01,"Windsor, Ontario",house,139.5
+2022-01-01,"Winnipeg, Manitoba",house,135.2
+2022-02-01,Alberta,house,112.2
+2022-02-01,Atlantic Region,house,114.4
+2022-02-01,British Columbia,house,127
+2022-02-01,"Calgary, Alberta",house,116.8
+2022-02-01,Canada,house,123.2
+2022-02-01,"Charlottetown, Prince Edward Island",house,119.5
+2022-02-01,"Edmonton, Alberta",house,107.3
+2022-02-01,"Greater Sudbury, Ontario",house,121.4
+2022-02-01,"Guelph, Ontario",house,124
+2022-02-01,"Halifax, Nova Scotia",house,117.8
+2022-02-01,"Hamilton, Ontario",house,116.8
+2022-02-01,"Kelowna, British Columbia",house,120.9
+2022-02-01,"Kitchener-Cambridge-Waterloo, Ontario",house,157.9
+2022-02-01,"London, Ontario",house,145.2
+2022-02-01,Manitoba,house,136.5
+2022-02-01,"Montréal, Quebec",house,146.3
+2022-02-01,New Brunswick,house,117.9
+2022-02-01,Newfoundland and Labrador,house,104.7
+2022-02-01,Nova Scotia,house,117.8
+2022-02-01,Ontario,house,125.6
+2022-02-01,"Oshawa, Ontario",house,122
+2022-02-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,167.1
+2022-02-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.7
+2022-02-01,Prairie Region,house,114.1
+2022-02-01,Prince Edward Island,house,119.5
+2022-02-01,Quebec,house,137.4
+2022-02-01,"Québec, Quebec",house,123.3
+2022-02-01,"Regina, Saskatchewan",house,100.1
+2022-02-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,117.9
+2022-02-01,Saskatchewan,house,104.1
+2022-02-01,"Saskatoon, Saskatchewan",house,106.5
+2022-02-01,"Sherbrooke, Quebec",house,107.6
+2022-02-01,"St. Catharines-Niagara, Ontario",house,128.3
+2022-02-01,"St. John's, Newfoundland and Labrador",house,104.7
+2022-02-01,"Toronto, Ontario",house,114.8
+2022-02-01,"Trois-Rivières, Quebec",house,111
+2022-02-01,"Vancouver, British Columbia",house,128
+2022-02-01,"Victoria, British Columbia",house,122.2
+2022-02-01,"Windsor, Ontario",house,140.4
+2022-02-01,"Winnipeg, Manitoba",house,136.5
+2022-03-01,Alberta,house,115.5
+2022-03-01,Atlantic Region,house,115.2
+2022-03-01,British Columbia,house,127.7
+2022-03-01,"Calgary, Alberta",house,121.6
+2022-03-01,Canada,house,124.7
+2022-03-01,"Charlottetown, Prince Edward Island",house,121.3
+2022-03-01,"Edmonton, Alberta",house,108.9
+2022-03-01,"Greater Sudbury, Ontario",house,121.4
+2022-03-01,"Guelph, Ontario",house,124
+2022-03-01,"Halifax, Nova Scotia",house,119.1
+2022-03-01,"Hamilton, Ontario",house,116.8
+2022-03-01,"Kelowna, British Columbia",house,123.2
+2022-03-01,"Kitchener-Cambridge-Waterloo, Ontario",house,159.5
+2022-03-01,"London, Ontario",house,147.2
+2022-03-01,Manitoba,house,141.1
+2022-03-01,"Montréal, Quebec",house,151
+2022-03-01,New Brunswick,house,117.9
+2022-03-01,Newfoundland and Labrador,house,104.7
+2022-03-01,Nova Scotia,house,119.1
+2022-03-01,Ontario,house,126.5
+2022-03-01,"Oshawa, Ontario",house,122
+2022-03-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,169.2
+2022-03-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.7
+2022-03-01,Prairie Region,house,117.3
+2022-03-01,Prince Edward Island,house,121.3
+2022-03-01,Quebec,house,140.9
+2022-03-01,"Québec, Quebec",house,124
+2022-03-01,"Regina, Saskatchewan",house,101.3
+2022-03-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,117.9
+2022-03-01,Saskatchewan,house,104.9
+2022-03-01,"Saskatoon, Saskatchewan",house,107.1
+2022-03-01,"Sherbrooke, Quebec",house,110.9
+2022-03-01,"St. Catharines-Niagara, Ontario",house,128.3
+2022-03-01,"St. John's, Newfoundland and Labrador",house,104.7
+2022-03-01,"Toronto, Ontario",house,115.6
+2022-03-01,"Trois-Rivières, Quebec",house,111
+2022-03-01,"Vancouver, British Columbia",house,128.3
+2022-03-01,"Victoria, British Columbia",house,125.3
+2022-03-01,"Windsor, Ontario",house,143.5
+2022-03-01,"Winnipeg, Manitoba",house,141.1
+2022-04-01,Alberta,house,116.7
+2022-04-01,Atlantic Region,house,115.6
+2022-04-01,British Columbia,house,127.9
+2022-04-01,"Calgary, Alberta",house,123.5
+2022-04-01,Canada,house,125.1
+2022-04-01,"Charlottetown, Prince Edward Island",house,121.3
+2022-04-01,"Edmonton, Alberta",house,109.4
+2022-04-01,"Greater Sudbury, Ontario",house,121.4
+2022-04-01,"Guelph, Ontario",house,124
+2022-04-01,"Halifax, Nova Scotia",house,119.1
+2022-04-01,"Hamilton, Ontario",house,116.8
+2022-04-01,"Kelowna, British Columbia",house,123.2
+2022-04-01,"Kitchener-Cambridge-Waterloo, Ontario",house,159.5
+2022-04-01,"London, Ontario",house,147.2
+2022-04-01,Manitoba,house,142.4
+2022-04-01,"Montréal, Quebec",house,150.4
+2022-04-01,New Brunswick,house,119.5
+2022-04-01,Newfoundland and Labrador,house,104.7
+2022-04-01,Nova Scotia,house,119.1
+2022-04-01,Ontario,house,126.8
+2022-04-01,"Oshawa, Ontario",house,122
+2022-04-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,171.8
+2022-04-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.7
+2022-04-01,Prairie Region,house,118.5
+2022-04-01,Prince Edward Island,house,121.3
+2022-04-01,Quebec,house,140.5
+2022-04-01,"Québec, Quebec",house,124
+2022-04-01,"Regina, Saskatchewan",house,103
+2022-04-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,119.5
+2022-04-01,Saskatchewan,house,105.7
+2022-04-01,"Saskatoon, Saskatchewan",house,107.3
+2022-04-01,"Sherbrooke, Quebec",house,111.5
+2022-04-01,"St. Catharines-Niagara, Ontario",house,128.3
+2022-04-01,"St. John's, Newfoundland and Labrador",house,104.7
+2022-04-01,"Toronto, Ontario",house,115.6
+2022-04-01,"Trois-Rivières, Quebec",house,111
+2022-04-01,"Vancouver, British Columbia",house,128.6
+2022-04-01,"Victoria, British Columbia",house,125.3
+2022-04-01,"Windsor, Ontario",house,144.3
+2022-04-01,"Winnipeg, Manitoba",house,142.4
+2022-05-01,Alberta,house,118.3
+2022-05-01,Atlantic Region,house,117.2
+2022-05-01,British Columbia,house,128
+2022-05-01,"Calgary, Alberta",house,125.2
+2022-05-01,Canada,house,125.7
+2022-05-01,"Charlottetown, Prince Edward Island",house,121.3
+2022-05-01,"Edmonton, Alberta",house,110.7
+2022-05-01,"Greater Sudbury, Ontario",house,121.8
+2022-05-01,"Guelph, Ontario",house,124
+2022-05-01,"Halifax, Nova Scotia",house,122
+2022-05-01,"Hamilton, Ontario",house,116.8
+2022-05-01,"Kelowna, British Columbia",house,124.4
+2022-05-01,"Kitchener-Cambridge-Waterloo, Ontario",house,159.5
+2022-05-01,"London, Ontario",house,147.8
+2022-05-01,Manitoba,house,143.6
+2022-05-01,"Montréal, Quebec",house,151.9
+2022-05-01,New Brunswick,house,119.5
+2022-05-01,Newfoundland and Labrador,house,104.7
+2022-05-01,Nova Scotia,house,122
+2022-05-01,Ontario,house,127.2
+2022-05-01,"Oshawa, Ontario",house,122
+2022-05-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,173.6
+2022-05-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,116
+2022-05-01,Prairie Region,house,119.9
+2022-05-01,Prince Edward Island,house,121.3
+2022-05-01,Quebec,house,141.6
+2022-05-01,"Québec, Quebec",house,124.8
+2022-05-01,"Regina, Saskatchewan",house,103
+2022-05-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,119.5
+2022-05-01,Saskatchewan,house,105.8
+2022-05-01,"Saskatoon, Saskatchewan",house,107.6
+2022-05-01,"Sherbrooke, Quebec",house,111.5
+2022-05-01,"St. Catharines-Niagara, Ontario",house,130.5
+2022-05-01,"St. John's, Newfoundland and Labrador",house,104.7
+2022-05-01,"Toronto, Ontario",house,115.6
+2022-05-01,"Trois-Rivières, Quebec",house,111
+2022-05-01,"Vancouver, British Columbia",house,128.6
+2022-05-01,"Victoria, British Columbia",house,125.3
+2022-05-01,"Windsor, Ontario",house,146.7
+2022-05-01,"Winnipeg, Manitoba",house,143.6
+2022-06-01,Alberta,house,118.4
+2022-06-01,Atlantic Region,house,117.4
+2022-06-01,British Columbia,house,128.1
+2022-06-01,"Calgary, Alberta",house,125.3
+2022-06-01,Canada,house,125.9
+2022-06-01,"Charlottetown, Prince Edward Island",house,122.5
+2022-06-01,"Edmonton, Alberta",house,110.8
+2022-06-01,"Greater Sudbury, Ontario",house,122
+2022-06-01,"Guelph, Ontario",house,124
+2022-06-01,"Halifax, Nova Scotia",house,122
+2022-06-01,"Hamilton, Ontario",house,116.8
+2022-06-01,"Kelowna, British Columbia",house,124.4
+2022-06-01,"Kitchener-Cambridge-Waterloo, Ontario",house,160.2
+2022-06-01,"London, Ontario",house,147.8
+2022-06-01,Manitoba,house,143.6
+2022-06-01,"Montréal, Quebec",house,151.7
+2022-06-01,New Brunswick,house,119.5
+2022-06-01,Newfoundland and Labrador,house,105.2
+2022-06-01,Nova Scotia,house,122
+2022-06-01,Ontario,house,127.5
+2022-06-01,"Oshawa, Ontario",house,122
+2022-06-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,174.8
+2022-06-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,116
+2022-06-01,Prairie Region,house,120
+2022-06-01,Prince Edward Island,house,122.5
+2022-06-01,Quebec,house,141.5
+2022-06-01,"Québec, Quebec",house,125.3
+2022-06-01,"Regina, Saskatchewan",house,103.1
+2022-06-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,119.5
+2022-06-01,Saskatchewan,house,106.2
+2022-06-01,"Saskatoon, Saskatchewan",house,108.1
+2022-06-01,"Sherbrooke, Quebec",house,111.5
+2022-06-01,"St. Catharines-Niagara, Ontario",house,130.5
+2022-06-01,"St. John's, Newfoundland and Labrador",house,105.2
+2022-06-01,"Toronto, Ontario",house,115.6
+2022-06-01,"Trois-Rivières, Quebec",house,111
+2022-06-01,"Vancouver, British Columbia",house,128.7
+2022-06-01,"Victoria, British Columbia",house,125.3
+2022-06-01,"Windsor, Ontario",house,148.7
+2022-06-01,"Winnipeg, Manitoba",house,143.6
+2022-07-01,Alberta,house,118
+2022-07-01,Atlantic Region,house,117.4
+2022-07-01,British Columbia,house,128.7
+2022-07-01,"Calgary, Alberta",house,124.9
+2022-07-01,Canada,house,126
+2022-07-01,"Charlottetown, Prince Edward Island",house,122.8
+2022-07-01,"Edmonton, Alberta",house,110.5
+2022-07-01,"Greater Sudbury, Ontario",house,122
+2022-07-01,"Guelph, Ontario",house,124
+2022-07-01,"Halifax, Nova Scotia",house,122
+2022-07-01,"Hamilton, Ontario",house,116.8
+2022-07-01,"Kelowna, British Columbia",house,124.6
+2022-07-01,"Kitchener-Cambridge-Waterloo, Ontario",house,159
+2022-07-01,"London, Ontario",house,148.1
+2022-07-01,Manitoba,house,143.6
+2022-07-01,"Montréal, Quebec",house,151.5
+2022-07-01,New Brunswick,house,119.5
+2022-07-01,Newfoundland and Labrador,house,105.2
+2022-07-01,Nova Scotia,house,122
+2022-07-01,Ontario,house,127.5
+2022-07-01,"Oshawa, Ontario",house,122
+2022-07-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,175.8
+2022-07-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,116
+2022-07-01,Prairie Region,house,119.7
+2022-07-01,Prince Edward Island,house,122.8
+2022-07-01,Quebec,house,141.4
+2022-07-01,"Québec, Quebec",house,125.3
+2022-07-01,"Regina, Saskatchewan",house,103.1
+2022-07-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,119.5
+2022-07-01,Saskatchewan,house,106.1
+2022-07-01,"Saskatoon, Saskatchewan",house,108
+2022-07-01,"Sherbrooke, Quebec",house,111.5
+2022-07-01,"St. Catharines-Niagara, Ontario",house,130.5
+2022-07-01,"St. John's, Newfoundland and Labrador",house,105.2
+2022-07-01,"Toronto, Ontario",house,115.6
+2022-07-01,"Trois-Rivières, Quebec",house,111
+2022-07-01,"Vancouver, British Columbia",house,129.4
+2022-07-01,"Victoria, British Columbia",house,125.3
+2022-07-01,"Windsor, Ontario",house,148.7
+2022-07-01,"Winnipeg, Manitoba",house,143.6
+2022-08-01,Alberta,house,118.2
+2022-08-01,Atlantic Region,house,117.4
+2022-08-01,British Columbia,house,128.7
+2022-08-01,"Calgary, Alberta",house,125.2
+2022-08-01,Canada,house,126.1
+2022-08-01,"Charlottetown, Prince Edward Island",house,122.8
+2022-08-01,"Edmonton, Alberta",house,110.6
+2022-08-01,"Greater Sudbury, Ontario",house,122
+2022-08-01,"Guelph, Ontario",house,124
+2022-08-01,"Halifax, Nova Scotia",house,122
+2022-08-01,"Hamilton, Ontario",house,116.8
+2022-08-01,"Kelowna, British Columbia",house,124.6
+2022-08-01,"Kitchener-Cambridge-Waterloo, Ontario",house,159.4
+2022-08-01,"London, Ontario",house,148.1
+2022-08-01,Manitoba,house,143.6
+2022-08-01,"Montréal, Quebec",house,151.5
+2022-08-01,New Brunswick,house,119.5
+2022-08-01,Newfoundland and Labrador,house,105.2
+2022-08-01,Nova Scotia,house,122
+2022-08-01,Ontario,house,127.6
+2022-08-01,"Oshawa, Ontario",house,122
+2022-08-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,175.7
+2022-08-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,116
+2022-08-01,Prairie Region,house,120
+2022-08-01,Prince Edward Island,house,122.8
+2022-08-01,Quebec,house,141.5
+2022-08-01,"Québec, Quebec",house,125.3
+2022-08-01,"Regina, Saskatchewan",house,103.1
+2022-08-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,119.5
+2022-08-01,Saskatchewan,house,106.7
+2022-08-01,"Saskatoon, Saskatchewan",house,109
+2022-08-01,"Sherbrooke, Quebec",house,111.5
+2022-08-01,"St. Catharines-Niagara, Ontario",house,130.5
+2022-08-01,"St. John's, Newfoundland and Labrador",house,105.2
+2022-08-01,"Toronto, Ontario",house,115.6
+2022-08-01,"Trois-Rivières, Quebec",house,111
+2022-08-01,"Vancouver, British Columbia",house,129.4
+2022-08-01,"Victoria, British Columbia",house,125.3
+2022-08-01,"Windsor, Ontario",house,148.7
+2022-08-01,"Winnipeg, Manitoba",house,143.6
+2022-09-01,Alberta,house,118
+2022-09-01,Atlantic Region,house,117.4
+2022-09-01,British Columbia,house,128.7
+2022-09-01,"Calgary, Alberta",house,124.6
+2022-09-01,Canada,house,126
+2022-09-01,"Charlottetown, Prince Edward Island",house,122.6
+2022-09-01,"Edmonton, Alberta",house,110.8
+2022-09-01,"Greater Sudbury, Ontario",house,122
+2022-09-01,"Guelph, Ontario",house,124
+2022-09-01,"Halifax, Nova Scotia",house,122
+2022-09-01,"Hamilton, Ontario",house,116.1
+2022-09-01,"Kelowna, British Columbia",house,124.6
+2022-09-01,"Kitchener-Cambridge-Waterloo, Ontario",house,158.4
+2022-09-01,"London, Ontario",house,148.1
+2022-09-01,Manitoba,house,143.6
+2022-09-01,"Montréal, Quebec",house,151.4
+2022-09-01,New Brunswick,house,119.5
+2022-09-01,Newfoundland and Labrador,house,105.6
+2022-09-01,Nova Scotia,house,122
+2022-09-01,Ontario,house,127.4
+2022-09-01,"Oshawa, Ontario",house,122
+2022-09-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,175.7
+2022-09-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,116
+2022-09-01,Prairie Region,house,119.8
+2022-09-01,Prince Edward Island,house,122.6
+2022-09-01,Quebec,house,141.3
+2022-09-01,"Québec, Quebec",house,125.3
+2022-09-01,"Regina, Saskatchewan",house,102.9
+2022-09-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,119.5
+2022-09-01,Saskatchewan,house,106.9
+2022-09-01,"Saskatoon, Saskatchewan",house,109.3
+2022-09-01,"Sherbrooke, Quebec",house,111.5
+2022-09-01,"St. Catharines-Niagara, Ontario",house,130.1
+2022-09-01,"St. John's, Newfoundland and Labrador",house,105.6
+2022-09-01,"Toronto, Ontario",house,115.6
+2022-09-01,"Trois-Rivières, Quebec",house,111
+2022-09-01,"Vancouver, British Columbia",house,129.4
+2022-09-01,"Victoria, British Columbia",house,125.3
+2022-09-01,"Windsor, Ontario",house,147.8
+2022-09-01,"Winnipeg, Manitoba",house,143.6
+2022-10-01,Alberta,house,117.7
+2022-10-01,Atlantic Region,house,117.4
+2022-10-01,British Columbia,house,127.8
+2022-10-01,"Calgary, Alberta",house,124.6
+2022-10-01,Canada,house,125.7
+2022-10-01,"Charlottetown, Prince Edward Island",house,122.6
+2022-10-01,"Edmonton, Alberta",house,110.1
+2022-10-01,"Greater Sudbury, Ontario",house,122
+2022-10-01,"Guelph, Ontario",house,124
+2022-10-01,"Halifax, Nova Scotia",house,122
+2022-10-01,"Hamilton, Ontario",house,116.1
+2022-10-01,"Kelowna, British Columbia",house,124.2
+2022-10-01,"Kitchener-Cambridge-Waterloo, Ontario",house,158.8
+2022-10-01,"London, Ontario",house,147.5
+2022-10-01,Manitoba,house,142.6
+2022-10-01,"Montréal, Quebec",house,152
+2022-10-01,New Brunswick,house,119.5
+2022-10-01,Newfoundland and Labrador,house,105.6
+2022-10-01,Nova Scotia,house,122
+2022-10-01,Ontario,house,127.4
+2022-10-01,"Oshawa, Ontario",house,122
+2022-10-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,175.9
+2022-10-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,116
+2022-10-01,Prairie Region,house,119.4
+2022-10-01,Prince Edward Island,house,122.6
+2022-10-01,Quebec,house,141.9
+2022-10-01,"Québec, Quebec",house,125.8
+2022-10-01,"Regina, Saskatchewan",house,102.5
+2022-10-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,119.5
+2022-10-01,Saskatchewan,house,106.9
+2022-10-01,"Saskatoon, Saskatchewan",house,109.5
+2022-10-01,"Sherbrooke, Quebec",house,111.5
+2022-10-01,"St. Catharines-Niagara, Ontario",house,130.1
+2022-10-01,"St. John's, Newfoundland and Labrador",house,105.6
+2022-10-01,"Toronto, Ontario",house,115.6
+2022-10-01,"Trois-Rivières, Quebec",house,111
+2022-10-01,"Vancouver, British Columbia",house,128.4
+2022-10-01,"Victoria, British Columbia",house,125
+2022-10-01,"Windsor, Ontario",house,147.8
+2022-10-01,"Winnipeg, Manitoba",house,142.6
+2022-11-01,Alberta,house,117.5
+2022-11-01,Atlantic Region,house,117.4
+2022-11-01,British Columbia,house,127.7
+2022-11-01,"Calgary, Alberta",house,124.6
+2022-11-01,Canada,house,125.5
+2022-11-01,"Charlottetown, Prince Edward Island",house,122.6
+2022-11-01,"Edmonton, Alberta",house,109.7
+2022-11-01,"Greater Sudbury, Ontario",house,121.4
+2022-11-01,"Guelph, Ontario",house,124
+2022-11-01,"Halifax, Nova Scotia",house,122
+2022-11-01,"Hamilton, Ontario",house,116.1
+2022-11-01,"Kelowna, British Columbia",house,123.8
+2022-11-01,"Kitchener-Cambridge-Waterloo, Ontario",house,158.8
+2022-11-01,"London, Ontario",house,147.5
+2022-11-01,Manitoba,house,142.6
+2022-11-01,"Montréal, Quebec",house,151.3
+2022-11-01,New Brunswick,house,119.5
+2022-11-01,Newfoundland and Labrador,house,105.6
+2022-11-01,Nova Scotia,house,122
+2022-11-01,Ontario,house,127.3
+2022-11-01,"Oshawa, Ontario",house,122
+2022-11-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,175.1
+2022-11-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,116
+2022-11-01,Prairie Region,house,119.2
+2022-11-01,Prince Edward Island,house,122.6
+2022-11-01,Quebec,house,141.4
+2022-11-01,"Québec, Quebec",house,126.1
+2022-11-01,"Regina, Saskatchewan",house,102.5
+2022-11-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,119.5
+2022-11-01,Saskatchewan,house,106.5
+2022-11-01,"Saskatoon, Saskatchewan",house,108.9
+2022-11-01,"Sherbrooke, Quebec",house,111.5
+2022-11-01,"St. Catharines-Niagara, Ontario",house,130.1
+2022-11-01,"St. John's, Newfoundland and Labrador",house,105.6
+2022-11-01,"Toronto, Ontario",house,115.6
+2022-11-01,"Trois-Rivières, Quebec",house,111
+2022-11-01,"Vancouver, British Columbia",house,128.2
+2022-11-01,"Victoria, British Columbia",house,125
+2022-11-01,"Windsor, Ontario",house,147.8
+2022-11-01,"Winnipeg, Manitoba",house,142.6
+2022-12-01,Alberta,house,117.4
+2022-12-01,Atlantic Region,house,117.4
+2022-12-01,British Columbia,house,127.6
+2022-12-01,"Calgary, Alberta",house,124.7
+2022-12-01,Canada,house,125.5
+2022-12-01,"Charlottetown, Prince Edward Island",house,122.6
+2022-12-01,"Edmonton, Alberta",house,109.5
+2022-12-01,"Greater Sudbury, Ontario",house,121.4
+2022-12-01,"Guelph, Ontario",house,124
+2022-12-01,"Halifax, Nova Scotia",house,122
+2022-12-01,"Hamilton, Ontario",house,116.1
+2022-12-01,"Kelowna, British Columbia",house,123.4
+2022-12-01,"Kitchener-Cambridge-Waterloo, Ontario",house,158.8
+2022-12-01,"London, Ontario",house,147.1
+2022-12-01,Manitoba,house,142.2
+2022-12-01,"Montréal, Quebec",house,151.7
+2022-12-01,New Brunswick,house,119.5
+2022-12-01,Newfoundland and Labrador,house,105.6
+2022-12-01,Nova Scotia,house,122
+2022-12-01,Ontario,house,127.3
+2022-12-01,"Oshawa, Ontario",house,122
+2022-12-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,175.1
+2022-12-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,116
+2022-12-01,Prairie Region,house,119.1
+2022-12-01,Prince Edward Island,house,122.6
+2022-12-01,Quebec,house,141.7
+2022-12-01,"Québec, Quebec",house,126.1
+2022-12-01,"Regina, Saskatchewan",house,102.1
+2022-12-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,119.5
+2022-12-01,Saskatchewan,house,106.2
+2022-12-01,"Saskatoon, Saskatchewan",house,108.6
+2022-12-01,"Sherbrooke, Quebec",house,111.5
+2022-12-01,"St. Catharines-Niagara, Ontario",house,130.1
+2022-12-01,"St. John's, Newfoundland and Labrador",house,105.6
+2022-12-01,"Toronto, Ontario",house,115.6
+2022-12-01,"Trois-Rivières, Quebec",house,111
+2022-12-01,"Vancouver, British Columbia",house,128.2
+2022-12-01,"Victoria, British Columbia",house,125
+2022-12-01,"Windsor, Ontario",house,147.8
+2022-12-01,"Winnipeg, Manitoba",house,142.2
+2023-01-01,Alberta,house,117.3
+2023-01-01,Atlantic Region,house,117.3
+2023-01-01,British Columbia,house,127.1
+2023-01-01,"Calgary, Alberta",house,124.8
+2023-01-01,Canada,house,125.2
+2023-01-01,"Charlottetown, Prince Edward Island",house,122.6
+2023-01-01,"Edmonton, Alberta",house,109
+2023-01-01,"Greater Sudbury, Ontario",house,121.4
+2023-01-01,"Guelph, Ontario",house,124
+2023-01-01,"Halifax, Nova Scotia",house,121.6
+2023-01-01,"Hamilton, Ontario",house,116.1
+2023-01-01,"Kelowna, British Columbia",house,123.1
+2023-01-01,"Kitchener-Cambridge-Waterloo, Ontario",house,157.3
+2023-01-01,"London, Ontario",house,147.1
+2023-01-01,Manitoba,house,140.4
+2023-01-01,"Montréal, Quebec",house,151.7
+2023-01-01,New Brunswick,house,119.5
+2023-01-01,Newfoundland and Labrador,house,106.2
+2023-01-01,Nova Scotia,house,121.6
+2023-01-01,Ontario,house,127.2
+2023-01-01,"Oshawa, Ontario",house,122
+2023-01-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,174.8
+2023-01-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,116
+2023-01-01,Prairie Region,house,118.8
+2023-01-01,Prince Edward Island,house,122.6
+2023-01-01,Quebec,house,141.7
+2023-01-01,"Québec, Quebec",house,126.1
+2023-01-01,"Regina, Saskatchewan",house,102.1
+2023-01-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,119.5
+2023-01-01,Saskatchewan,house,106.2
+2023-01-01,"Saskatoon, Saskatchewan",house,108.6
+2023-01-01,"Sherbrooke, Quebec",house,111.3
+2023-01-01,"St. Catharines-Niagara, Ontario",house,130
+2023-01-01,"St. John's, Newfoundland and Labrador",house,106.2
+2023-01-01,"Toronto, Ontario",house,115.6
+2023-01-01,"Trois-Rivières, Quebec",house,111
+2023-01-01,"Vancouver, British Columbia",house,127.7
+2023-01-01,"Victoria, British Columbia",house,123.6
+2023-01-01,"Windsor, Ontario",house,147.8
+2023-01-01,"Winnipeg, Manitoba",house,140.4
+2023-02-01,Alberta,house,116.9
+2023-02-01,Atlantic Region,house,117.3
+2023-02-01,British Columbia,house,126.8
+2023-02-01,"Calgary, Alberta",house,124.8
+2023-02-01,Canada,house,124.9
+2023-02-01,"Charlottetown, Prince Edward Island",house,122.6
+2023-02-01,"Edmonton, Alberta",house,108.3
+2023-02-01,"Greater Sudbury, Ontario",house,121.4
+2023-02-01,"Guelph, Ontario",house,124
+2023-02-01,"Halifax, Nova Scotia",house,121.6
+2023-02-01,"Hamilton, Ontario",house,116.1
+2023-02-01,"Kelowna, British Columbia",house,123.1
+2023-02-01,"Kitchener-Cambridge-Waterloo, Ontario",house,156.2
+2023-02-01,"London, Ontario",house,146.4
+2023-02-01,Manitoba,house,140.6
+2023-02-01,"Montréal, Quebec",house,151.7
+2023-02-01,New Brunswick,house,119.5
+2023-02-01,Newfoundland and Labrador,house,106.2
+2023-02-01,Nova Scotia,house,121.6
+2023-02-01,Ontario,house,126.8
+2023-02-01,"Oshawa, Ontario",house,122
+2023-02-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,174.7
+2023-02-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115
+2023-02-01,Prairie Region,house,118.5
+2023-02-01,Prince Edward Island,house,122.6
+2023-02-01,Quebec,house,141.5
+2023-02-01,"Québec, Quebec",house,126.1
+2023-02-01,"Regina, Saskatchewan",house,101.9
+2023-02-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,119.5
+2023-02-01,Saskatchewan,house,105.5
+2023-02-01,"Saskatoon, Saskatchewan",house,107.7
+2023-02-01,"Sherbrooke, Quebec",house,110.9
+2023-02-01,"St. Catharines-Niagara, Ontario",house,128.3
+2023-02-01,"St. John's, Newfoundland and Labrador",house,106.2
+2023-02-01,"Toronto, Ontario",house,115.2
+2023-02-01,"Trois-Rivières, Quebec",house,111.2
+2023-02-01,"Vancouver, British Columbia",house,127.6
+2023-02-01,"Victoria, British Columbia",house,122.5
+2023-02-01,"Windsor, Ontario",house,147.3
+2023-02-01,"Winnipeg, Manitoba",house,140.6
+2023-03-01,Alberta,house,117.1
+2023-03-01,Atlantic Region,house,117.5
+2023-03-01,British Columbia,house,126.8
+2023-03-01,"Calgary, Alberta",house,124.9
+2023-03-01,Canada,house,124.9
+2023-03-01,"Charlottetown, Prince Edward Island",house,122.6
+2023-03-01,"Edmonton, Alberta",house,108.6
+2023-03-01,"Greater Sudbury, Ontario",house,121.4
+2023-03-01,"Guelph, Ontario",house,124
+2023-03-01,"Halifax, Nova Scotia",house,122
+2023-03-01,"Hamilton, Ontario",house,116.1
+2023-03-01,"Kelowna, British Columbia",house,123.1
+2023-03-01,"Kitchener-Cambridge-Waterloo, Ontario",house,156.3
+2023-03-01,"London, Ontario",house,147.2
+2023-03-01,Manitoba,house,140
+2023-03-01,"Montréal, Quebec",house,151.7
+2023-03-01,New Brunswick,house,119.5
+2023-03-01,Newfoundland and Labrador,house,106.2
+2023-03-01,Nova Scotia,house,122
+2023-03-01,Ontario,house,126.7
+2023-03-01,"Oshawa, Ontario",house,122
+2023-03-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,173.4
+2023-03-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115
+2023-03-01,Prairie Region,house,118.6
+2023-03-01,Prince Edward Island,house,122.6
+2023-03-01,Quebec,house,141.6
+2023-03-01,"Québec, Quebec",house,126.3
+2023-03-01,"Regina, Saskatchewan",house,101.9
+2023-03-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,119.5
+2023-03-01,Saskatchewan,house,105.5
+2023-03-01,"Saskatoon, Saskatchewan",house,107.7
+2023-03-01,"Sherbrooke, Quebec",house,112.2
+2023-03-01,"St. Catharines-Niagara, Ontario",house,128.2
+2023-03-01,"St. John's, Newfoundland and Labrador",house,106.2
+2023-03-01,"Toronto, Ontario",house,115.2
+2023-03-01,"Trois-Rivières, Quebec",house,111.2
+2023-03-01,"Vancouver, British Columbia",house,127.6
+2023-03-01,"Victoria, British Columbia",house,121.9
+2023-03-01,"Windsor, Ontario",house,146.8
+2023-03-01,"Winnipeg, Manitoba",house,140
+2023-04-01,Alberta,house,117
+2023-04-01,Atlantic Region,house,117.1
+2023-04-01,British Columbia,house,126.8
+2023-04-01,"Calgary, Alberta",house,124.8
+2023-04-01,Canada,house,124.8
+2023-04-01,"Charlottetown, Prince Edward Island",house,122.6
+2023-04-01,"Edmonton, Alberta",house,108.5
+2023-04-01,"Greater Sudbury, Ontario",house,121.4
+2023-04-01,"Guelph, Ontario",house,123
+2023-04-01,"Halifax, Nova Scotia",house,121.3
+2023-04-01,"Hamilton, Ontario",house,116.2
+2023-04-01,"Kelowna, British Columbia",house,123.1
+2023-04-01,"Kitchener-Cambridge-Waterloo, Ontario",house,157.1
+2023-04-01,"London, Ontario",house,145.7
+2023-04-01,Manitoba,house,141.5
+2023-04-01,"Montréal, Quebec",house,152.5
+2023-04-01,New Brunswick,house,119.5
+2023-04-01,Newfoundland and Labrador,house,105.8
+2023-04-01,Nova Scotia,house,121.3
+2023-04-01,Ontario,house,126.4
+2023-04-01,"Oshawa, Ontario",house,121.6
+2023-04-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,172.3
+2023-04-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115
+2023-04-01,Prairie Region,house,118.7
+2023-04-01,Prince Edward Island,house,122.6
+2023-04-01,Quebec,house,142.5
+2023-04-01,"Québec, Quebec",house,128.8
+2023-04-01,"Regina, Saskatchewan",house,102.9
+2023-04-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,119.5
+2023-04-01,Saskatchewan,house,106
+2023-04-01,"Saskatoon, Saskatchewan",house,108
+2023-04-01,"Sherbrooke, Quebec",house,112.2
+2023-04-01,"St. Catharines-Niagara, Ontario",house,128.1
+2023-04-01,"St. John's, Newfoundland and Labrador",house,105.8
+2023-04-01,"Toronto, Ontario",house,115.2
+2023-04-01,"Trois-Rivières, Quebec",house,111.2
+2023-04-01,"Vancouver, British Columbia",house,127.6
+2023-04-01,"Victoria, British Columbia",house,121.9
+2023-04-01,"Windsor, Ontario",house,146
+2023-04-01,"Winnipeg, Manitoba",house,141.5
+2023-05-01,Alberta,house,117.4
+2023-05-01,Atlantic Region,house,117.1
+2023-05-01,British Columbia,house,127
+2023-05-01,"Calgary, Alberta",house,125.8
+2023-05-01,Canada,house,124.9
+2023-05-01,"Charlottetown, Prince Edward Island",house,122.6
+2023-05-01,"Edmonton, Alberta",house,108.2
+2023-05-01,"Greater Sudbury, Ontario",house,120
+2023-05-01,"Guelph, Ontario",house,123
+2023-05-01,"Halifax, Nova Scotia",house,121.3
+2023-05-01,"Hamilton, Ontario",house,115.5
+2023-05-01,"Kelowna, British Columbia",house,123.8
+2023-05-01,"Kitchener-Cambridge-Waterloo, Ontario",house,157.5
+2023-05-01,"London, Ontario",house,145.7
+2023-05-01,Manitoba,house,141.5
+2023-05-01,"Montréal, Quebec",house,152.5
+2023-05-01,New Brunswick,house,119.5
+2023-05-01,Newfoundland and Labrador,house,105.8
+2023-05-01,Nova Scotia,house,121.3
+2023-05-01,Ontario,house,126.3
+2023-05-01,"Oshawa, Ontario",house,121.6
+2023-05-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,172.2
+2023-05-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.3
+2023-05-01,Prairie Region,house,119
+2023-05-01,Prince Edward Island,house,122.6
+2023-05-01,Quebec,house,142.7
+2023-05-01,"Québec, Quebec",house,129.9
+2023-05-01,"Regina, Saskatchewan",house,102.9
+2023-05-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,119.5
+2023-05-01,Saskatchewan,house,105.8
+2023-05-01,"Saskatoon, Saskatchewan",house,107.7
+2023-05-01,"Sherbrooke, Quebec",house,111.4
+2023-05-01,"St. Catharines-Niagara, Ontario",house,127.4
+2023-05-01,"St. John's, Newfoundland and Labrador",house,105.8
+2023-05-01,"Toronto, Ontario",house,115.1
+2023-05-01,"Trois-Rivières, Quebec",house,111.2
+2023-05-01,"Vancouver, British Columbia",house,127.8
+2023-05-01,"Victoria, British Columbia",house,121.9
+2023-05-01,"Windsor, Ontario",house,146
+2023-05-01,"Winnipeg, Manitoba",house,141.5
+2023-06-01,Alberta,house,117.4
+2023-06-01,Atlantic Region,house,117.1
+2023-06-01,British Columbia,house,127.5
+2023-06-01,"Calgary, Alberta",house,126.6
+2023-06-01,Canada,house,125
+2023-06-01,"Charlottetown, Prince Edward Island",house,122.6
+2023-06-01,"Edmonton, Alberta",house,107.1
+2023-06-01,"Greater Sudbury, Ontario",house,120.7
+2023-06-01,"Guelph, Ontario",house,123
+2023-06-01,"Halifax, Nova Scotia",house,121.3
+2023-06-01,"Hamilton, Ontario",house,115.5
+2023-06-01,"Kelowna, British Columbia",house,123.6
+2023-06-01,"Kitchener-Cambridge-Waterloo, Ontario",house,158.8
+2023-06-01,"London, Ontario",house,145.2
+2023-06-01,Manitoba,house,141.4
+2023-06-01,"Montréal, Quebec",house,151.9
+2023-06-01,New Brunswick,house,119.5
+2023-06-01,Newfoundland and Labrador,house,105.8
+2023-06-01,Nova Scotia,house,121.3
+2023-06-01,Ontario,house,126.3
+2023-06-01,"Oshawa, Ontario",house,121.6
+2023-06-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,171.9
+2023-06-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.3
+2023-06-01,Prairie Region,house,118.9
+2023-06-01,Prince Edward Island,house,122.6
+2023-06-01,Quebec,house,142.3
+2023-06-01,"Québec, Quebec",house,129.9
+2023-06-01,"Regina, Saskatchewan",house,102.9
+2023-06-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,119.5
+2023-06-01,Saskatchewan,house,104.9
+2023-06-01,"Saskatoon, Saskatchewan",house,106.2
+2023-06-01,"Sherbrooke, Quebec",house,111.4
+2023-06-01,"St. Catharines-Niagara, Ontario",house,127.4
+2023-06-01,"St. John's, Newfoundland and Labrador",house,105.8
+2023-06-01,"Toronto, Ontario",house,115.1
+2023-06-01,"Trois-Rivières, Quebec",house,111.2
+2023-06-01,"Vancouver, British Columbia",house,128.5
+2023-06-01,"Victoria, British Columbia",house,121.7
+2023-06-01,"Windsor, Ontario",house,145.6
+2023-06-01,"Winnipeg, Manitoba",house,141.4
+2023-07-01,Alberta,house,117.6
+2023-07-01,Atlantic Region,house,117.2
+2023-07-01,British Columbia,house,127.3
+2023-07-01,"Calgary, Alberta",house,126.9
+2023-07-01,Canada,house,124.9
+2023-07-01,"Charlottetown, Prince Edward Island",house,122.6
+2023-07-01,"Edmonton, Alberta",house,107.3
+2023-07-01,"Greater Sudbury, Ontario",house,119.9
+2023-07-01,"Guelph, Ontario",house,123
+2023-07-01,"Halifax, Nova Scotia",house,121.3
+2023-07-01,"Hamilton, Ontario",house,115.6
+2023-07-01,"Kelowna, British Columbia",house,123.6
+2023-07-01,"Kitchener-Cambridge-Waterloo, Ontario",house,158.5
+2023-07-01,"London, Ontario",house,145.2
+2023-07-01,Manitoba,house,141.4
+2023-07-01,"Montréal, Quebec",house,151.9
+2023-07-01,New Brunswick,house,119.5
+2023-07-01,Newfoundland and Labrador,house,106.9
+2023-07-01,Nova Scotia,house,121.3
+2023-07-01,Ontario,house,126.2
+2023-07-01,"Oshawa, Ontario",house,122
+2023-07-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,171.1
+2023-07-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.3
+2023-07-01,Prairie Region,house,119.1
+2023-07-01,Prince Edward Island,house,122.6
+2023-07-01,Quebec,house,142.4
+2023-07-01,"Québec, Quebec",house,129.7
+2023-07-01,"Regina, Saskatchewan",house,102.4
+2023-07-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,119.5
+2023-07-01,Saskatchewan,house,104.9
+2023-07-01,"Saskatoon, Saskatchewan",house,106.5
+2023-07-01,"Sherbrooke, Quebec",house,112.7
+2023-07-01,"St. Catharines-Niagara, Ontario",house,127
+2023-07-01,"St. John's, Newfoundland and Labrador",house,106.9
+2023-07-01,"Toronto, Ontario",house,115.1
+2023-07-01,"Trois-Rivières, Quebec",house,111.2
+2023-07-01,"Vancouver, British Columbia",house,128.4
+2023-07-01,"Victoria, British Columbia",house,120.7
+2023-07-01,"Windsor, Ontario",house,145.6
+2023-07-01,"Winnipeg, Manitoba",house,141.4
+2023-08-01,Alberta,house,118.1
+2023-08-01,Atlantic Region,house,117.2
+2023-08-01,British Columbia,house,127.9
+2023-08-01,"Calgary, Alberta",house,127.7
+2023-08-01,Canada,house,125
+2023-08-01,"Charlottetown, Prince Edward Island",house,122.6
+2023-08-01,"Edmonton, Alberta",house,107.3
+2023-08-01,"Greater Sudbury, Ontario",house,119.9
+2023-08-01,"Guelph, Ontario",house,123
+2023-08-01,"Halifax, Nova Scotia",house,121.3
+2023-08-01,"Hamilton, Ontario",house,115.6
+2023-08-01,"Kelowna, British Columbia",house,123.6
+2023-08-01,"Kitchener-Cambridge-Waterloo, Ontario",house,158.5
+2023-08-01,"London, Ontario",house,145.2
+2023-08-01,Manitoba,house,141.5
+2023-08-01,"Montréal, Quebec",house,151.9
+2023-08-01,New Brunswick,house,119.5
+2023-08-01,Newfoundland and Labrador,house,106.9
+2023-08-01,Nova Scotia,house,121.3
+2023-08-01,Ontario,house,125.8
+2023-08-01,"Oshawa, Ontario",house,121.6
+2023-08-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,168.9
+2023-08-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.3
+2023-08-01,Prairie Region,house,119.5
+2023-08-01,Prince Edward Island,house,122.6
+2023-08-01,Quebec,house,142.4
+2023-08-01,"Québec, Quebec",house,129.7
+2023-08-01,"Regina, Saskatchewan",house,102.3
+2023-08-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,119.5
+2023-08-01,Saskatchewan,house,104.6
+2023-08-01,"Saskatoon, Saskatchewan",house,106.2
+2023-08-01,"Sherbrooke, Quebec",house,113.1
+2023-08-01,"St. Catharines-Niagara, Ontario",house,126.8
+2023-08-01,"St. John's, Newfoundland and Labrador",house,106.9
+2023-08-01,"Toronto, Ontario",house,115
+2023-08-01,"Trois-Rivières, Quebec",house,111.2
+2023-08-01,"Vancouver, British Columbia",house,129.1
+2023-08-01,"Victoria, British Columbia",house,120.7
+2023-08-01,"Windsor, Ontario",house,145.9
+2023-08-01,"Winnipeg, Manitoba",house,141.5
+2023-09-01,Alberta,house,117.9
+2023-09-01,Atlantic Region,house,117.2
+2023-09-01,British Columbia,house,127.4
+2023-09-01,"Calgary, Alberta",house,127.8
+2023-09-01,Canada,house,124.7
+2023-09-01,"Charlottetown, Prince Edward Island",house,122.6
+2023-09-01,"Edmonton, Alberta",house,106.6
+2023-09-01,"Greater Sudbury, Ontario",house,119.9
+2023-09-01,"Guelph, Ontario",house,123
+2023-09-01,"Halifax, Nova Scotia",house,121.3
+2023-09-01,"Hamilton, Ontario",house,115.7
+2023-09-01,"Kelowna, British Columbia",house,122.8
+2023-09-01,"Kitchener-Cambridge-Waterloo, Ontario",house,158.5
+2023-09-01,"London, Ontario",house,145.2
+2023-09-01,Manitoba,house,141.5
+2023-09-01,"Montréal, Quebec",house,150.9
+2023-09-01,New Brunswick,house,119.5
+2023-09-01,Newfoundland and Labrador,house,106.9
+2023-09-01,Nova Scotia,house,121.3
+2023-09-01,Ontario,house,125.7
+2023-09-01,"Oshawa, Ontario",house,121.2
+2023-09-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,168.2
+2023-09-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.9
+2023-09-01,Prairie Region,house,119.3
+2023-09-01,Prince Edward Island,house,122.6
+2023-09-01,Quebec,house,141.7
+2023-09-01,"Québec, Quebec",house,129.7
+2023-09-01,"Regina, Saskatchewan",house,102.3
+2023-09-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,119.5
+2023-09-01,Saskatchewan,house,104.6
+2023-09-01,"Saskatoon, Saskatchewan",house,106.1
+2023-09-01,"Sherbrooke, Quebec",house,112.8
+2023-09-01,"St. Catharines-Niagara, Ontario",house,126.4
+2023-09-01,"St. John's, Newfoundland and Labrador",house,106.9
+2023-09-01,"Toronto, Ontario",house,115
+2023-09-01,"Trois-Rivières, Quebec",house,111.2
+2023-09-01,"Vancouver, British Columbia",house,128.6
+2023-09-01,"Victoria, British Columbia",house,120.7
+2023-09-01,"Windsor, Ontario",house,145.9
+2023-09-01,"Winnipeg, Manitoba",house,141.5
+2023-10-01,Alberta,house,117.9
+2023-10-01,Atlantic Region,house,117.2
+2023-10-01,British Columbia,house,127.4
+2023-10-01,"Calgary, Alberta",house,127.8
+2023-10-01,Canada,house,124.7
+2023-10-01,"Charlottetown, Prince Edward Island",house,122.6
+2023-10-01,"Edmonton, Alberta",house,106.8
+2023-10-01,"Greater Sudbury, Ontario",house,119.9
+2023-10-01,"Guelph, Ontario",house,123
+2023-10-01,"Halifax, Nova Scotia",house,121.3
+2023-10-01,"Hamilton, Ontario",house,115.2
+2023-10-01,"Kelowna, British Columbia",house,122.3
+2023-10-01,"Kitchener-Cambridge-Waterloo, Ontario",house,158.8
+2023-10-01,"London, Ontario",house,144.9
+2023-10-01,Manitoba,house,141.5
+2023-10-01,"Montréal, Quebec",house,151
+2023-10-01,New Brunswick,house,119.5
+2023-10-01,Newfoundland and Labrador,house,106.9
+2023-10-01,Nova Scotia,house,121.3
+2023-10-01,Ontario,house,125.6
+2023-10-01,"Oshawa, Ontario",house,121.2
+2023-10-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,168.1
+2023-10-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.9
+2023-10-01,Prairie Region,house,119.3
+2023-10-01,Prince Edward Island,house,122.6
+2023-10-01,Quebec,house,141.9
+2023-10-01,"Québec, Quebec",house,130.1
+2023-10-01,"Regina, Saskatchewan",house,102.3
+2023-10-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,119.5
+2023-10-01,Saskatchewan,house,104.4
+2023-10-01,"Saskatoon, Saskatchewan",house,105.9
+2023-10-01,"Sherbrooke, Quebec",house,112.3
+2023-10-01,"St. Catharines-Niagara, Ontario",house,126.5
+2023-10-01,"St. John's, Newfoundland and Labrador",house,106.9
+2023-10-01,"Toronto, Ontario",house,114.9
+2023-10-01,"Trois-Rivières, Quebec",house,111.2
+2023-10-01,"Vancouver, British Columbia",house,128.6
+2023-10-01,"Victoria, British Columbia",house,120.7
+2023-10-01,"Windsor, Ontario",house,145.9
+2023-10-01,"Winnipeg, Manitoba",house,141.5
+2023-11-01,Alberta,house,117.6
+2023-11-01,Atlantic Region,house,117.1
+2023-11-01,British Columbia,house,127.3
+2023-11-01,"Calgary, Alberta",house,127.6
+2023-11-01,Canada,house,124.4
+2023-11-01,"Charlottetown, Prince Edward Island",house,122.6
+2023-11-01,"Edmonton, Alberta",house,106.3
+2023-11-01,"Greater Sudbury, Ontario",house,119.2
+2023-11-01,"Guelph, Ontario",house,123
+2023-11-01,"Halifax, Nova Scotia",house,121.3
+2023-11-01,"Hamilton, Ontario",house,114
+2023-11-01,"Kelowna, British Columbia",house,122.1
+2023-11-01,"Kitchener-Cambridge-Waterloo, Ontario",house,157.5
+2023-11-01,"London, Ontario",house,144.4
+2023-11-01,Manitoba,house,140.8
+2023-11-01,"Montréal, Quebec",house,151
+2023-11-01,New Brunswick,house,119.5
+2023-11-01,Newfoundland and Labrador,house,105.8
+2023-11-01,Nova Scotia,house,121.3
+2023-11-01,Ontario,house,125.2
+2023-11-01,"Oshawa, Ontario",house,121.2
+2023-11-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,166.9
+2023-11-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.9
+2023-11-01,Prairie Region,house,118.9
+2023-11-01,Prince Edward Island,house,122.6
+2023-11-01,Quebec,house,141.8
+2023-11-01,"Québec, Quebec",house,130.1
+2023-11-01,"Regina, Saskatchewan",house,102
+2023-11-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,119.5
+2023-11-01,Saskatchewan,house,103.9
+2023-11-01,"Saskatoon, Saskatchewan",house,105.2
+2023-11-01,"Sherbrooke, Quebec",house,111
+2023-11-01,"St. Catharines-Niagara, Ontario",house,126.9
+2023-11-01,"St. John's, Newfoundland and Labrador",house,105.8
+2023-11-01,"Toronto, Ontario",house,114.7
+2023-11-01,"Trois-Rivières, Quebec",house,111.8
+2023-11-01,"Vancouver, British Columbia",house,128.6
+2023-11-01,"Victoria, British Columbia",house,119.7
+2023-11-01,"Windsor, Ontario",house,145.9
+2023-11-01,"Winnipeg, Manitoba",house,140.8
+2023-12-01,Alberta,house,117.8
+2023-12-01,Atlantic Region,house,116.2
+2023-12-01,British Columbia,house,127.3
+2023-12-01,"Calgary, Alberta",house,128.1
+2023-12-01,Canada,house,124.4
+2023-12-01,"Charlottetown, Prince Edward Island",house,122.6
+2023-12-01,"Edmonton, Alberta",house,106.2
+2023-12-01,"Greater Sudbury, Ontario",house,119.2
+2023-12-01,"Guelph, Ontario",house,123
+2023-12-01,"Halifax, Nova Scotia",house,119.9
+2023-12-01,"Hamilton, Ontario",house,114
+2023-12-01,"Kelowna, British Columbia",house,122.1
+2023-12-01,"Kitchener-Cambridge-Waterloo, Ontario",house,156.8
+2023-12-01,"London, Ontario",house,144.4
+2023-12-01,Manitoba,house,140.9
+2023-12-01,"Montréal, Quebec",house,151
+2023-12-01,New Brunswick,house,119.2
+2023-12-01,Newfoundland and Labrador,house,105.8
+2023-12-01,Nova Scotia,house,119.9
+2023-12-01,Ontario,house,125.1
+2023-12-01,"Oshawa, Ontario",house,121.2
+2023-12-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,166.7
+2023-12-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.9
+2023-12-01,Prairie Region,house,119.1
+2023-12-01,Prince Edward Island,house,122.6
+2023-12-01,Quebec,house,141.8
+2023-12-01,"Québec, Quebec",house,130.2
+2023-12-01,"Regina, Saskatchewan",house,101.1
+2023-12-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,119.2
+2023-12-01,Saskatchewan,house,103.7
+2023-12-01,"Saskatoon, Saskatchewan",house,105.4
+2023-12-01,"Sherbrooke, Quebec",house,111.2
+2023-12-01,"St. Catharines-Niagara, Ontario",house,126.9
+2023-12-01,"St. John's, Newfoundland and Labrador",house,105.8
+2023-12-01,"Toronto, Ontario",house,114.6
+2023-12-01,"Trois-Rivières, Quebec",house,111.8
+2023-12-01,"Vancouver, British Columbia",house,128.7
+2023-12-01,"Victoria, British Columbia",house,119.7
+2023-12-01,"Windsor, Ontario",house,145.9
+2023-12-01,"Winnipeg, Manitoba",house,140.9
+2024-01-01,Alberta,house,118
+2024-01-01,Atlantic Region,house,116.2
+2024-01-01,British Columbia,house,127.1
+2024-01-01,"Calgary, Alberta",house,127.9
+2024-01-01,Canada,house,124.3
+2024-01-01,"Charlottetown, Prince Edward Island",house,122.6
+2024-01-01,"Edmonton, Alberta",house,107
+2024-01-01,"Greater Sudbury, Ontario",house,119.2
+2024-01-01,"Guelph, Ontario",house,123
+2024-01-01,"Halifax, Nova Scotia",house,119.9
+2024-01-01,"Hamilton, Ontario",house,114
+2024-01-01,"Kelowna, British Columbia",house,122.1
+2024-01-01,"Kitchener-Cambridge-Waterloo, Ontario",house,156.9
+2024-01-01,"London, Ontario",house,144.4
+2024-01-01,Manitoba,house,141
+2024-01-01,"Montréal, Quebec",house,150.6
+2024-01-01,New Brunswick,house,119.2
+2024-01-01,Newfoundland and Labrador,house,105.8
+2024-01-01,Nova Scotia,house,119.9
+2024-01-01,Ontario,house,125
+2024-01-01,"Oshawa, Ontario",house,121.5
+2024-01-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,166.1
+2024-01-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.9
+2024-01-01,Prairie Region,house,119.3
+2024-01-01,Prince Edward Island,house,122.6
+2024-01-01,Quebec,house,141.6
+2024-01-01,"Québec, Quebec",house,130.3
+2024-01-01,"Regina, Saskatchewan",house,101.1
+2024-01-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,119.2
+2024-01-01,Saskatchewan,house,103.7
+2024-01-01,"Saskatoon, Saskatchewan",house,105.4
+2024-01-01,"Sherbrooke, Quebec",house,111.1
+2024-01-01,"St. Catharines-Niagara, Ontario",house,126.9
+2024-01-01,"St. John's, Newfoundland and Labrador",house,105.8
+2024-01-01,"Toronto, Ontario",house,114.6
+2024-01-01,"Trois-Rivières, Quebec",house,112.3
+2024-01-01,"Vancouver, British Columbia",house,128.3
+2024-01-01,"Victoria, British Columbia",house,119.7
+2024-01-01,"Windsor, Ontario",house,145.9
+2024-01-01,"Winnipeg, Manitoba",house,141
+2024-02-01,Alberta,house,118.2
+2024-02-01,Atlantic Region,house,116.3
+2024-02-01,British Columbia,house,127.2
+2024-02-01,"Calgary, Alberta",house,128
+2024-02-01,Canada,house,124.4
+2024-02-01,"Charlottetown, Prince Edward Island",house,122.6
+2024-02-01,"Edmonton, Alberta",house,107.3
+2024-02-01,"Greater Sudbury, Ontario",house,119.2
+2024-02-01,"Guelph, Ontario",house,123
+2024-02-01,"Halifax, Nova Scotia",house,120.1
+2024-02-01,"Hamilton, Ontario",house,114
+2024-02-01,"Kelowna, British Columbia",house,122.1
+2024-02-01,"Kitchener-Cambridge-Waterloo, Ontario",house,156.9
+2024-02-01,"London, Ontario",house,144.4
+2024-02-01,Manitoba,house,139.8
+2024-02-01,"Montréal, Quebec",house,151.2
+2024-02-01,New Brunswick,house,119.2
+2024-02-01,Newfoundland and Labrador,house,105.8
+2024-02-01,Nova Scotia,house,120.1
+2024-02-01,Ontario,house,125
+2024-02-01,"Oshawa, Ontario",house,121.5
+2024-02-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,166.4
+2024-02-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.9
+2024-02-01,Prairie Region,house,119.4
+2024-02-01,Prince Edward Island,house,122.6
+2024-02-01,Quebec,house,142
+2024-02-01,"Québec, Quebec",house,130.3
+2024-02-01,"Regina, Saskatchewan",house,101.1
+2024-02-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,119.2
+2024-02-01,Saskatchewan,house,103.7
+2024-02-01,"Saskatoon, Saskatchewan",house,105.4
+2024-02-01,"Sherbrooke, Quebec",house,111.1
+2024-02-01,"St. Catharines-Niagara, Ontario",house,126.9
+2024-02-01,"St. John's, Newfoundland and Labrador",house,105.8
+2024-02-01,"Toronto, Ontario",house,114.5
+2024-02-01,"Trois-Rivières, Quebec",house,112.3
+2024-02-01,"Vancouver, British Columbia",house,128.5
+2024-02-01,"Victoria, British Columbia",house,119.7
+2024-02-01,"Windsor, Ontario",house,145.9
+2024-02-01,"Winnipeg, Manitoba",house,139.8
+2024-03-01,Alberta,house,118.6
+2024-03-01,Atlantic Region,house,116.5
+2024-03-01,British Columbia,house,127.2
+2024-03-01,"Calgary, Alberta",house,128.6
+2024-03-01,Canada,house,124.4
+2024-03-01,"Charlottetown, Prince Edward Island",house,122.6
+2024-03-01,"Edmonton, Alberta",house,107.4
+2024-03-01,"Greater Sudbury, Ontario",house,119.2
+2024-03-01,"Guelph, Ontario",house,123
+2024-03-01,"Halifax, Nova Scotia",house,120.1
+2024-03-01,"Hamilton, Ontario",house,114.2
+2024-03-01,"Kelowna, British Columbia",house,122
+2024-03-01,"Kitchener-Cambridge-Waterloo, Ontario",house,156.5
+2024-03-01,"London, Ontario",house,144
+2024-03-01,Manitoba,house,139.9
+2024-03-01,"Montréal, Quebec",house,151.8
+2024-03-01,New Brunswick,house,120
+2024-03-01,Newfoundland and Labrador,house,105.7
+2024-03-01,Nova Scotia,house,120.1
+2024-03-01,Ontario,house,124.8
+2024-03-01,"Oshawa, Ontario",house,121.5
+2024-03-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,164.9
+2024-03-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.9
+2024-03-01,Prairie Region,house,119.7
+2024-03-01,Prince Edward Island,house,122.6
+2024-03-01,Quebec,house,142.4
+2024-03-01,"Québec, Quebec",house,130.3
+2024-03-01,"Regina, Saskatchewan",house,101.5
+2024-03-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,120
+2024-03-01,Saskatchewan,house,104
+2024-03-01,"Saskatoon, Saskatchewan",house,105.6
+2024-03-01,"Sherbrooke, Quebec",house,111
+2024-03-01,"St. Catharines-Niagara, Ontario",house,126.9
+2024-03-01,"St. John's, Newfoundland and Labrador",house,105.7
+2024-03-01,"Toronto, Ontario",house,114.5
+2024-03-01,"Trois-Rivières, Quebec",house,112.3
+2024-03-01,"Vancouver, British Columbia",house,128.5
+2024-03-01,"Victoria, British Columbia",house,120.3
+2024-03-01,"Windsor, Ontario",house,145.9
+2024-03-01,"Winnipeg, Manitoba",house,139.9
+2024-04-01,Alberta,house,119.7
+2024-04-01,Atlantic Region,house,116.5
+2024-04-01,British Columbia,house,127.8
+2024-04-01,"Calgary, Alberta",house,129.7
+2024-04-01,Canada,house,124.7
+2024-04-01,"Charlottetown, Prince Edward Island",house,122.6
+2024-04-01,"Edmonton, Alberta",house,108.6
+2024-04-01,"Greater Sudbury, Ontario",house,119.2
+2024-04-01,"Guelph, Ontario",house,123
+2024-04-01,"Halifax, Nova Scotia",house,120.2
+2024-04-01,"Hamilton, Ontario",house,114.2
+2024-04-01,"Kelowna, British Columbia",house,121.9
+2024-04-01,"Kitchener-Cambridge-Waterloo, Ontario",house,155.9
+2024-04-01,"London, Ontario",house,144.6
+2024-04-01,Manitoba,house,139.3
+2024-04-01,"Montréal, Quebec",house,151.7
+2024-04-01,New Brunswick,house,120
+2024-04-01,Newfoundland and Labrador,house,105.7
+2024-04-01,Nova Scotia,house,120.2
+2024-04-01,Ontario,house,124.8
+2024-04-01,"Oshawa, Ontario",house,121.5
+2024-04-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,164.8
+2024-04-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.9
+2024-04-01,Prairie Region,house,120.6
+2024-04-01,Prince Edward Island,house,122.6
+2024-04-01,Quebec,house,142.3
+2024-04-01,"Québec, Quebec",house,130.3
+2024-04-01,"Regina, Saskatchewan",house,101.2
+2024-04-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,120
+2024-04-01,Saskatchewan,house,103.7
+2024-04-01,"Saskatoon, Saskatchewan",house,105.3
+2024-04-01,"Sherbrooke, Quebec",house,111
+2024-04-01,"St. Catharines-Niagara, Ontario",house,126.9
+2024-04-01,"St. John's, Newfoundland and Labrador",house,105.7
+2024-04-01,"Toronto, Ontario",house,114.5
+2024-04-01,"Trois-Rivières, Quebec",house,112.3
+2024-04-01,"Vancouver, British Columbia",house,129.2
+2024-04-01,"Victoria, British Columbia",house,120.3
+2024-04-01,"Windsor, Ontario",house,145.9
+2024-04-01,"Winnipeg, Manitoba",house,139.3
+2024-05-01,Alberta,house,120.6
+2024-05-01,Atlantic Region,house,117.2
+2024-05-01,British Columbia,house,127.9
+2024-05-01,"Calgary, Alberta",house,131.4
+2024-05-01,Canada,house,124.9
+2024-05-01,"Charlottetown, Prince Edward Island",house,122.6
+2024-05-01,"Edmonton, Alberta",house,108.5
+2024-05-01,"Greater Sudbury, Ontario",house,118.8
+2024-05-01,"Guelph, Ontario",house,123
+2024-05-01,"Halifax, Nova Scotia",house,121.5
+2024-05-01,"Hamilton, Ontario",house,114.2
+2024-05-01,"Kelowna, British Columbia",house,121.6
+2024-05-01,"Kitchener-Cambridge-Waterloo, Ontario",house,155.3
+2024-05-01,"London, Ontario",house,143.4
+2024-05-01,Manitoba,house,139.4
+2024-05-01,"Montréal, Quebec",house,152.2
+2024-05-01,New Brunswick,house,120
+2024-05-01,Newfoundland and Labrador,house,106.1
+2024-05-01,Nova Scotia,house,121.5
+2024-05-01,Ontario,house,124.7
+2024-05-01,"Oshawa, Ontario",house,121.5
+2024-05-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,164.9
+2024-05-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.6
+2024-05-01,Prairie Region,house,121.4
+2024-05-01,Prince Edward Island,house,122.6
+2024-05-01,Quebec,house,142.8
+2024-05-01,"Québec, Quebec",house,131.2
+2024-05-01,"Regina, Saskatchewan",house,101.1
+2024-05-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,120
+2024-05-01,Saskatchewan,house,104.4
+2024-05-01,"Saskatoon, Saskatchewan",house,106.3
+2024-05-01,"Sherbrooke, Quebec",house,111
+2024-05-01,"St. Catharines-Niagara, Ontario",house,126.9
+2024-05-01,"St. John's, Newfoundland and Labrador",house,106.1
+2024-05-01,"Toronto, Ontario",house,114.5
+2024-05-01,"Trois-Rivières, Quebec",house,114.6
+2024-05-01,"Vancouver, British Columbia",house,129.2
+2024-05-01,"Victoria, British Columbia",house,121
+2024-05-01,"Windsor, Ontario",house,145.9
+2024-05-01,"Winnipeg, Manitoba",house,139.4
+2024-06-01,Alberta,house,121.2
+2024-06-01,Atlantic Region,house,117.4
+2024-06-01,British Columbia,house,127
+2024-06-01,"Calgary, Alberta",house,132.4
+2024-06-01,Canada,house,124.7
+2024-06-01,"Charlottetown, Prince Edward Island",house,122.6
+2024-06-01,"Edmonton, Alberta",house,108.5
+2024-06-01,"Greater Sudbury, Ontario",house,118.8
+2024-06-01,"Guelph, Ontario",house,122.8
+2024-06-01,"Halifax, Nova Scotia",house,121.5
+2024-06-01,"Hamilton, Ontario",house,114.1
+2024-06-01,"Kelowna, British Columbia",house,121.2
+2024-06-01,"Kitchener-Cambridge-Waterloo, Ontario",house,154.9
+2024-06-01,"London, Ontario",house,143.4
+2024-06-01,Manitoba,house,139.5
+2024-06-01,"Montréal, Quebec",house,151.6
+2024-06-01,New Brunswick,house,120
+2024-06-01,Newfoundland and Labrador,house,107.1
+2024-06-01,Nova Scotia,house,121.5
+2024-06-01,Ontario,house,124.5
+2024-06-01,"Oshawa, Ontario",house,121.5
+2024-06-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,164.4
+2024-06-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.8
+2024-06-01,Prairie Region,house,122
+2024-06-01,Prince Edward Island,house,122.6
+2024-06-01,Quebec,house,142.4
+2024-06-01,"Québec, Quebec",house,131.2
+2024-06-01,"Regina, Saskatchewan",house,101.1
+2024-06-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,120
+2024-06-01,Saskatchewan,house,104.9
+2024-06-01,"Saskatoon, Saskatchewan",house,107.1
+2024-06-01,"Sherbrooke, Quebec",house,111
+2024-06-01,"St. Catharines-Niagara, Ontario",house,126.2
+2024-06-01,"St. John's, Newfoundland and Labrador",house,107.1
+2024-06-01,"Toronto, Ontario",house,114.3
+2024-06-01,"Trois-Rivières, Quebec",house,114.6
+2024-06-01,"Vancouver, British Columbia",house,128.4
+2024-06-01,"Victoria, British Columbia",house,119.4
+2024-06-01,"Windsor, Ontario",house,145.9
+2024-06-01,"Winnipeg, Manitoba",house,139.5
+2024-07-01,Alberta,house,122.2
+2024-07-01,Atlantic Region,house,117.4
+2024-07-01,British Columbia,house,127.4
+2024-07-01,"Calgary, Alberta",house,133.5
+2024-07-01,Canada,house,125
+2024-07-01,"Charlottetown, Prince Edward Island",house,122.6
+2024-07-01,"Edmonton, Alberta",house,109.4
+2024-07-01,"Greater Sudbury, Ontario",house,118.8
+2024-07-01,"Guelph, Ontario",house,122.8
+2024-07-01,"Halifax, Nova Scotia",house,121.5
+2024-07-01,"Hamilton, Ontario",house,114.1
+2024-07-01,"Kelowna, British Columbia",house,122.2
+2024-07-01,"Kitchener-Cambridge-Waterloo, Ontario",house,154.2
+2024-07-01,"London, Ontario",house,143.5
+2024-07-01,Manitoba,house,139.4
+2024-07-01,"Montréal, Quebec",house,152
+2024-07-01,New Brunswick,house,120
+2024-07-01,Newfoundland and Labrador,house,107.1
+2024-07-01,Nova Scotia,house,121.5
+2024-07-01,Ontario,house,124.5
+2024-07-01,"Oshawa, Ontario",house,121.5
+2024-07-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,164
+2024-07-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.8
+2024-07-01,Prairie Region,house,122.8
+2024-07-01,Prince Edward Island,house,122.6
+2024-07-01,Quebec,house,142.7
+2024-07-01,"Québec, Quebec",house,131.2
+2024-07-01,"Regina, Saskatchewan",house,101.9
+2024-07-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,120
+2024-07-01,Saskatchewan,house,105.3
+2024-07-01,"Saskatoon, Saskatchewan",house,107.3
+2024-07-01,"Sherbrooke, Quebec",house,111.3
+2024-07-01,"St. Catharines-Niagara, Ontario",house,126.1
+2024-07-01,"St. John's, Newfoundland and Labrador",house,107.1
+2024-07-01,"Toronto, Ontario",house,114.5
+2024-07-01,"Trois-Rivières, Quebec",house,114.6
+2024-07-01,"Vancouver, British Columbia",house,128.8
+2024-07-01,"Victoria, British Columbia",house,119.4
+2024-07-01,"Windsor, Ontario",house,145.9
+2024-07-01,"Winnipeg, Manitoba",house,139.4
+2024-08-01,Alberta,house,121.9
+2024-08-01,Atlantic Region,house,117.4
+2024-08-01,British Columbia,house,127.5
+2024-08-01,"Calgary, Alberta",house,132.9
+2024-08-01,Canada,house,125
+2024-08-01,"Charlottetown, Prince Edward Island",house,122.6
+2024-08-01,"Edmonton, Alberta",house,109.5
+2024-08-01,"Greater Sudbury, Ontario",house,118.8
+2024-08-01,"Guelph, Ontario",house,122.8
+2024-08-01,"Halifax, Nova Scotia",house,121.5
+2024-08-01,"Hamilton, Ontario",house,114.2
+2024-08-01,"Kelowna, British Columbia",house,122.1
+2024-08-01,"Kitchener-Cambridge-Waterloo, Ontario",house,154
+2024-08-01,"London, Ontario",house,143.5
+2024-08-01,Manitoba,house,139.4
+2024-08-01,"Montréal, Quebec",house,151.9
+2024-08-01,New Brunswick,house,120
+2024-08-01,Newfoundland and Labrador,house,107.1
+2024-08-01,Nova Scotia,house,121.5
+2024-08-01,Ontario,house,124.5
+2024-08-01,"Oshawa, Ontario",house,121.7
+2024-08-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,164.2
+2024-08-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.8
+2024-08-01,Prairie Region,house,122.6
+2024-08-01,Prince Edward Island,house,122.6
+2024-08-01,Quebec,house,142.6
+2024-08-01,"Québec, Quebec",house,131.2
+2024-08-01,"Regina, Saskatchewan",house,102.2
+2024-08-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,120
+2024-08-01,Saskatchewan,house,105.4
+2024-08-01,"Saskatoon, Saskatchewan",house,107.4
+2024-08-01,"Sherbrooke, Quebec",house,111.2
+2024-08-01,"St. Catharines-Niagara, Ontario",house,125.7
+2024-08-01,"St. John's, Newfoundland and Labrador",house,107.1
+2024-08-01,"Toronto, Ontario",house,114.6
+2024-08-01,"Trois-Rivières, Quebec",house,114.6
+2024-08-01,"Vancouver, British Columbia",house,128.9
+2024-08-01,"Victoria, British Columbia",house,119.4
+2024-08-01,"Windsor, Ontario",house,145.9
+2024-08-01,"Winnipeg, Manitoba",house,139.4
+2024-09-01,Alberta,house,122.1
+2024-09-01,Atlantic Region,house,117.5
+2024-09-01,British Columbia,house,127.3
+2024-09-01,"Calgary, Alberta",house,133.3
+2024-09-01,Canada,house,125
+2024-09-01,"Charlottetown, Prince Edward Island",house,122.6
+2024-09-01,"Edmonton, Alberta",house,109.3
+2024-09-01,"Greater Sudbury, Ontario",house,118.6
+2024-09-01,"Guelph, Ontario",house,122.2
+2024-09-01,"Halifax, Nova Scotia",house,121.7
+2024-09-01,"Hamilton, Ontario",house,114.1
+2024-09-01,"Kelowna, British Columbia",house,122.8
+2024-09-01,"Kitchener-Cambridge-Waterloo, Ontario",house,154.1
+2024-09-01,"London, Ontario",house,143.5
+2024-09-01,Manitoba,house,139.7
+2024-09-01,"Montréal, Quebec",house,152.5
+2024-09-01,New Brunswick,house,120
+2024-09-01,Newfoundland and Labrador,house,107.1
+2024-09-01,Nova Scotia,house,121.7
+2024-09-01,Ontario,house,124.5
+2024-09-01,"Oshawa, Ontario",house,121.7
+2024-09-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,163.8
+2024-09-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.8
+2024-09-01,Prairie Region,house,122.7
+2024-09-01,Prince Edward Island,house,122.6
+2024-09-01,Quebec,house,143.3
+2024-09-01,"Québec, Quebec",house,132.7
+2024-09-01,"Regina, Saskatchewan",house,102.2
+2024-09-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,120
+2024-09-01,Saskatchewan,house,105.7
+2024-09-01,"Saskatoon, Saskatchewan",house,107.8
+2024-09-01,"Sherbrooke, Quebec",house,111.2
+2024-09-01,"St. Catharines-Niagara, Ontario",house,125.3
+2024-09-01,"St. John's, Newfoundland and Labrador",house,107.1
+2024-09-01,"Toronto, Ontario",house,114.6
+2024-09-01,"Trois-Rivières, Quebec",house,114.6
+2024-09-01,"Vancouver, British Columbia",house,128.6
+2024-09-01,"Victoria, British Columbia",house,119.4
+2024-09-01,"Windsor, Ontario",house,145.9
+2024-09-01,"Winnipeg, Manitoba",house,139.7
+2024-10-01,Alberta,house,122.2
+2024-10-01,Atlantic Region,house,117.5
+2024-10-01,British Columbia,house,126.6
+2024-10-01,"Calgary, Alberta",house,133.5
+2024-10-01,Canada,house,124.5
+2024-10-01,"Charlottetown, Prince Edward Island",house,122.6
+2024-10-01,"Edmonton, Alberta",house,109.4
+2024-10-01,"Greater Sudbury, Ontario",house,118.6
+2024-10-01,"Guelph, Ontario",house,122.2
+2024-10-01,"Halifax, Nova Scotia",house,121.7
+2024-10-01,"Hamilton, Ontario",house,114.2
+2024-10-01,"Kelowna, British Columbia",house,122.2
+2024-10-01,"Kitchener-Cambridge-Waterloo, Ontario",house,154.3
+2024-10-01,"London, Ontario",house,142.9
+2024-10-01,Manitoba,house,140.2
+2024-10-01,"Montréal, Quebec",house,152.6
+2024-10-01,New Brunswick,house,120
+2024-10-01,Newfoundland and Labrador,house,107.1
+2024-10-01,Nova Scotia,house,121.7
+2024-10-01,Ontario,house,123.6
+2024-10-01,"Oshawa, Ontario",house,121.2
+2024-10-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,163.4
+2024-10-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.8
+2024-10-01,Prairie Region,house,122.9
+2024-10-01,Prince Edward Island,house,122.6
+2024-10-01,Quebec,house,143.3
+2024-10-01,"Québec, Quebec",house,132.7
+2024-10-01,"Regina, Saskatchewan",house,102.2
+2024-10-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,120
+2024-10-01,Saskatchewan,house,105.7
+2024-10-01,"Saskatoon, Saskatchewan",house,107.8
+2024-10-01,"Sherbrooke, Quebec",house,110.9
+2024-10-01,"St. Catharines-Niagara, Ontario",house,125.4
+2024-10-01,"St. John's, Newfoundland and Labrador",house,107.1
+2024-10-01,"Toronto, Ontario",house,113.2
+2024-10-01,"Trois-Rivières, Quebec",house,114.6
+2024-10-01,"Vancouver, British Columbia",house,127.8
+2024-10-01,"Victoria, British Columbia",house,119.3
+2024-10-01,"Windsor, Ontario",house,145
+2024-10-01,"Winnipeg, Manitoba",house,140.2
+2024-11-01,Alberta,house,122.3
+2024-11-01,Atlantic Region,house,117.5
+2024-11-01,British Columbia,house,126.6
+2024-11-01,"Calgary, Alberta",house,133.7
+2024-11-01,Canada,house,124.6
+2024-11-01,"Charlottetown, Prince Edward Island",house,122.6
+2024-11-01,"Edmonton, Alberta",house,109.4
+2024-11-01,"Greater Sudbury, Ontario",house,118.6
+2024-11-01,"Guelph, Ontario",house,122.2
+2024-11-01,"Halifax, Nova Scotia",house,121.7
+2024-11-01,"Hamilton, Ontario",house,114.2
+2024-11-01,"Kelowna, British Columbia",house,122.3
+2024-11-01,"Kitchener-Cambridge-Waterloo, Ontario",house,154.7
+2024-11-01,"London, Ontario",house,142.5
+2024-11-01,Manitoba,house,140.2
+2024-11-01,"Montréal, Quebec",house,153
+2024-11-01,New Brunswick,house,120
+2024-11-01,Newfoundland and Labrador,house,107.1
+2024-11-01,Nova Scotia,house,121.7
+2024-11-01,Ontario,house,123.8
+2024-11-01,"Oshawa, Ontario",house,120.8
+2024-11-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,164
+2024-11-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.8
+2024-11-01,Prairie Region,house,123
+2024-11-01,Prince Edward Island,house,122.6
+2024-11-01,Quebec,house,144
+2024-11-01,"Québec, Quebec",house,135.1
+2024-11-01,"Regina, Saskatchewan",house,102.2
+2024-11-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,120
+2024-11-01,Saskatchewan,house,105.9
+2024-11-01,"Saskatoon, Saskatchewan",house,108
+2024-11-01,"Sherbrooke, Quebec",house,110.9
+2024-11-01,"St. Catharines-Niagara, Ontario",house,125.3
+2024-11-01,"St. John's, Newfoundland and Labrador",house,107.1
+2024-11-01,"Toronto, Ontario",house,113.5
+2024-11-01,"Trois-Rivières, Quebec",house,114.6
+2024-11-01,"Vancouver, British Columbia",house,127.8
+2024-11-01,"Victoria, British Columbia",house,119.2
+2024-11-01,"Windsor, Ontario",house,145
+2024-11-01,"Winnipeg, Manitoba",house,140.2
+2024-12-01,Alberta,house,122
+2024-12-01,Atlantic Region,house,117.7
+2024-12-01,British Columbia,house,126.6
+2024-12-01,"Calgary, Alberta",house,133.1
+2024-12-01,Canada,house,124.5
+2024-12-01,"Charlottetown, Prince Edward Island",house,122.6
+2024-12-01,"Edmonton, Alberta",house,109.6
+2024-12-01,"Greater Sudbury, Ontario",house,117.8
+2024-12-01,"Guelph, Ontario",house,122.2
+2024-12-01,"Halifax, Nova Scotia",house,121.7
+2024-12-01,"Hamilton, Ontario",house,113.9
+2024-12-01,"Kelowna, British Columbia",house,122.5
+2024-12-01,"Kitchener-Cambridge-Waterloo, Ontario",house,154.6
+2024-12-01,"London, Ontario",house,142.5
+2024-12-01,Manitoba,house,140.5
+2024-12-01,"Montréal, Quebec",house,153.2
+2024-12-01,New Brunswick,house,120.7
+2024-12-01,Newfoundland and Labrador,house,107.1
+2024-12-01,Nova Scotia,house,121.7
+2024-12-01,Ontario,house,123.6
+2024-12-01,"Oshawa, Ontario",house,120.8
+2024-12-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,164.4
+2024-12-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.8
+2024-12-01,Prairie Region,house,122.8
+2024-12-01,Prince Edward Island,house,122.6
+2024-12-01,Quebec,house,144.1
+2024-12-01,"Québec, Quebec",house,135.1
+2024-12-01,"Regina, Saskatchewan",house,102.2
+2024-12-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,120.7
+2024-12-01,Saskatchewan,house,105.9
+2024-12-01,"Saskatoon, Saskatchewan",house,108.1
+2024-12-01,"Sherbrooke, Quebec",house,110.8
+2024-12-01,"St. Catharines-Niagara, Ontario",house,125.3
+2024-12-01,"St. John's, Newfoundland and Labrador",house,107.1
+2024-12-01,"Toronto, Ontario",house,113.1
+2024-12-01,"Trois-Rivières, Quebec",house,114.6
+2024-12-01,"Vancouver, British Columbia",house,127.8
+2024-12-01,"Victoria, British Columbia",house,119.1
+2024-12-01,"Windsor, Ontario",house,145
+2024-12-01,"Winnipeg, Manitoba",house,140.5
+2025-01-01,Alberta,house,122.2
+2025-01-01,Atlantic Region,house,117.7
+2025-01-01,British Columbia,house,126.7
+2025-01-01,"Calgary, Alberta",house,133.4
+2025-01-01,Canada,house,124.4
+2025-01-01,"Charlottetown, Prince Edward Island",house,122.6
+2025-01-01,"Edmonton, Alberta",house,109.4
+2025-01-01,"Greater Sudbury, Ontario",house,117.8
+2025-01-01,"Guelph, Ontario",house,122.2
+2025-01-01,"Halifax, Nova Scotia",house,121.7
+2025-01-01,"Hamilton, Ontario",house,114
+2025-01-01,"Kelowna, British Columbia",house,122.5
+2025-01-01,"Kitchener-Cambridge-Waterloo, Ontario",house,154.6
+2025-01-01,"London, Ontario",house,142.5
+2025-01-01,Manitoba,house,141
+2025-01-01,"Montréal, Quebec",house,153.3
+2025-01-01,New Brunswick,house,120.7
+2025-01-01,Newfoundland and Labrador,house,107.1
+2025-01-01,Nova Scotia,house,121.7
+2025-01-01,Ontario,house,123.3
+2025-01-01,"Oshawa, Ontario",house,120.8
+2025-01-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,163.6
+2025-01-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.8
+2025-01-01,Prairie Region,house,123
+2025-01-01,Prince Edward Island,house,122.6
+2025-01-01,Quebec,house,144.3
+2025-01-01,"Québec, Quebec",house,135.8
+2025-01-01,"Regina, Saskatchewan",house,102.2
+2025-01-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,120.7
+2025-01-01,Saskatchewan,house,106.4
+2025-01-01,"Saskatoon, Saskatchewan",house,108.8
+2025-01-01,"Sherbrooke, Quebec",house,111.1
+2025-01-01,"St. Catharines-Niagara, Ontario",house,126
+2025-01-01,"St. John's, Newfoundland and Labrador",house,107.1
+2025-01-01,"Toronto, Ontario",house,112.6
+2025-01-01,"Trois-Rivières, Quebec",house,114.6
+2025-01-01,"Vancouver, British Columbia",house,128
+2025-01-01,"Victoria, British Columbia",house,119.1
+2025-01-01,"Windsor, Ontario",house,145
+2025-01-01,"Winnipeg, Manitoba",house,141
+2025-02-01,Alberta,house,122
+2025-02-01,Atlantic Region,house,120.3
+2025-02-01,British Columbia,house,126.8
+2025-02-01,"Calgary, Alberta",house,133.8
+2025-02-01,Canada,house,124.5
+2025-02-01,"Charlottetown, Prince Edward Island",house,122.6
+2025-02-01,"Edmonton, Alberta",house,108.6
+2025-02-01,"Greater Sudbury, Ontario",house,117.8
+2025-02-01,"Guelph, Ontario",house,122.4
+2025-02-01,"Halifax, Nova Scotia",house,126.3
+2025-02-01,"Hamilton, Ontario",house,114.1
+2025-02-01,"Kelowna, British Columbia",house,122.8
+2025-02-01,"Kitchener-Cambridge-Waterloo, Ontario",house,156.1
+2025-02-01,"London, Ontario",house,141
+2025-02-01,Manitoba,house,141
+2025-02-01,"Montréal, Quebec",house,153.3
+2025-02-01,New Brunswick,house,120.7
+2025-02-01,Newfoundland and Labrador,house,109.1
+2025-02-01,Nova Scotia,house,126.3
+2025-02-01,Ontario,house,123.4
+2025-02-01,"Oshawa, Ontario",house,120.5
+2025-02-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,163.9
+2025-02-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.8
+2025-02-01,Prairie Region,house,122.9
+2025-02-01,Prince Edward Island,house,122.6
+2025-02-01,Quebec,house,144.6
+2025-02-01,"Québec, Quebec",house,137.6
+2025-02-01,"Regina, Saskatchewan",house,102.2
+2025-02-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,120.7
+2025-02-01,Saskatchewan,house,107.6
+2025-02-01,"Saskatoon, Saskatchewan",house,110.4
+2025-02-01,"Sherbrooke, Quebec",house,108.7
+2025-02-01,"St. Catharines-Niagara, Ontario",house,125.6
+2025-02-01,"St. John's, Newfoundland and Labrador",house,109.1
+2025-02-01,"Toronto, Ontario",house,112.8
+2025-02-01,"Trois-Rivières, Quebec",house,115.9
+2025-02-01,"Vancouver, British Columbia",house,127.9
+2025-02-01,"Victoria, British Columbia",house,120.8
+2025-02-01,"Windsor, Ontario",house,145
+2025-02-01,"Winnipeg, Manitoba",house,141
+2025-03-01,Alberta,house,121.8
+2025-03-01,Atlantic Region,house,120.3
+2025-03-01,British Columbia,house,126.9
+2025-03-01,"Calgary, Alberta",house,133.4
+2025-03-01,Canada,house,124.5
+2025-03-01,"Charlottetown, Prince Edward Island",house,122
+2025-03-01,"Edmonton, Alberta",house,108.6
+2025-03-01,"Greater Sudbury, Ontario",house,117.8
+2025-03-01,"Guelph, Ontario",house,123
+2025-03-01,"Halifax, Nova Scotia",house,126.3
+2025-03-01,"Hamilton, Ontario",house,113.6
+2025-03-01,"Kelowna, British Columbia",house,122.6
+2025-03-01,"Kitchener-Cambridge-Waterloo, Ontario",house,156.3
+2025-03-01,"London, Ontario",house,140.5
+2025-03-01,Manitoba,house,142.5
+2025-03-01,"Montréal, Quebec",house,153.9
+2025-03-01,New Brunswick,house,120.7
+2025-03-01,Newfoundland and Labrador,house,109.1
+2025-03-01,Nova Scotia,house,126.3
+2025-03-01,Ontario,house,123.2
+2025-03-01,"Oshawa, Ontario",house,119.8
+2025-03-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,163.9
+2025-03-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.8
+2025-03-01,Prairie Region,house,122.8
+2025-03-01,Prince Edward Island,house,122
+2025-03-01,Quebec,house,145.6
+2025-03-01,"Québec, Quebec",house,141
+2025-03-01,"Regina, Saskatchewan",house,102.2
+2025-03-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,120.7
+2025-03-01,Saskatchewan,house,107.2
+2025-03-01,"Saskatoon, Saskatchewan",house,109.8
+2025-03-01,"Sherbrooke, Quebec",house,109
+2025-03-01,"St. Catharines-Niagara, Ontario",house,125.7
+2025-03-01,"St. John's, Newfoundland and Labrador",house,109.1
+2025-03-01,"Toronto, Ontario",house,112.6
+2025-03-01,"Trois-Rivières, Quebec",house,115.9
+2025-03-01,"Vancouver, British Columbia",house,127.8
+2025-03-01,"Victoria, British Columbia",house,121.8
+2025-03-01,"Windsor, Ontario",house,145
+2025-03-01,"Winnipeg, Manitoba",house,142.5
+2025-04-01,Alberta,house,120.7
+2025-04-01,Atlantic Region,house,120.4
+2025-04-01,British Columbia,house,126.8
+2025-04-01,"Calgary, Alberta",house,131.9
+2025-04-01,Canada,house,124
+2025-04-01,"Charlottetown, Prince Edward Island",house,122
+2025-04-01,"Edmonton, Alberta",house,107.9
+2025-04-01,"Greater Sudbury, Ontario",house,117.8
+2025-04-01,"Guelph, Ontario",house,122.4
+2025-04-01,"Halifax, Nova Scotia",house,126.3
+2025-04-01,"Hamilton, Ontario",house,113.2
+2025-04-01,"Kelowna, British Columbia",house,123.3
+2025-04-01,"Kitchener-Cambridge-Waterloo, Ontario",house,156.3
+2025-04-01,"London, Ontario",house,140
+2025-04-01,Manitoba,house,142.5
+2025-04-01,"Montréal, Quebec",house,154.1
+2025-04-01,New Brunswick,house,120.7
+2025-04-01,Newfoundland and Labrador,house,109.8
+2025-04-01,Nova Scotia,house,126.3
+2025-04-01,Ontario,house,122.7
+2025-04-01,"Oshawa, Ontario",house,119.6
+2025-04-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,162.7
+2025-04-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.8
+2025-04-01,Prairie Region,house,121.9
+2025-04-01,Prince Edward Island,house,122
+2025-04-01,Quebec,house,145.7
+2025-04-01,"Québec, Quebec",house,141
+2025-04-01,"Regina, Saskatchewan",house,103.5
+2025-04-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,120.7
+2025-04-01,Saskatchewan,house,107.8
+2025-04-01,"Saskatoon, Saskatchewan",house,110.1
+2025-04-01,"Sherbrooke, Quebec",house,109.6
+2025-04-01,"St. Catharines-Niagara, Ontario",house,125.6
+2025-04-01,"St. John's, Newfoundland and Labrador",house,109.8
+2025-04-01,"Toronto, Ontario",house,112.1
+2025-04-01,"Trois-Rivières, Quebec",house,115.9
+2025-04-01,"Vancouver, British Columbia",house,127.6
+2025-04-01,"Victoria, British Columbia",house,121.5
+2025-04-01,"Windsor, Ontario",house,145
+2025-04-01,"Winnipeg, Manitoba",house,142.5
+2025-05-01,Alberta,house,120.6
+2025-05-01,Atlantic Region,house,120.9
+2025-05-01,British Columbia,house,126.3
+2025-05-01,"Calgary, Alberta",house,132.1
+2025-05-01,Canada,house,123.7
+2025-05-01,"Charlottetown, Prince Edward Island",house,122
+2025-05-01,"Edmonton, Alberta",house,107.5
+2025-05-01,"Greater Sudbury, Ontario",house,117.8
+2025-05-01,"Guelph, Ontario",house,122.4
+2025-05-01,"Halifax, Nova Scotia",house,127.3
+2025-05-01,"Hamilton, Ontario",house,113.5
+2025-05-01,"Kelowna, British Columbia",house,123.3
+2025-05-01,"Kitchener-Cambridge-Waterloo, Ontario",house,155.6
+2025-05-01,"London, Ontario",house,140
+2025-05-01,Manitoba,house,144.1
+2025-05-01,"Montréal, Quebec",house,154
+2025-05-01,New Brunswick,house,120.7
+2025-05-01,Newfoundland and Labrador,house,109.8
+2025-05-01,Nova Scotia,house,127.3
+2025-05-01,Ontario,house,122.1
+2025-05-01,"Oshawa, Ontario",house,119.2
+2025-05-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,162.7
+2025-05-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,116
+2025-05-01,Prairie Region,house,122.1
+2025-05-01,Prince Edward Island,house,122
+2025-05-01,Quebec,house,145.7
+2025-05-01,"Québec, Quebec",house,141
+2025-05-01,"Regina, Saskatchewan",house,105.1
+2025-05-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,120.7
+2025-05-01,Saskatchewan,house,108.9
+2025-05-01,"Saskatoon, Saskatchewan",house,111.1
+2025-05-01,"Sherbrooke, Quebec",house,109.6
+2025-05-01,"St. Catharines-Niagara, Ontario",house,125.6
+2025-05-01,"St. John's, Newfoundland and Labrador",house,109.8
+2025-05-01,"Toronto, Ontario",house,111.2
+2025-05-01,"Trois-Rivières, Quebec",house,115.9
+2025-05-01,"Vancouver, British Columbia",house,127.1
+2025-05-01,"Victoria, British Columbia",house,121.5
+2025-05-01,"Windsor, Ontario",house,145
+2025-05-01,"Winnipeg, Manitoba",house,144.1
+2025-06-01,Alberta,house,120
+2025-06-01,Atlantic Region,house,121.1
+2025-06-01,British Columbia,house,126.1
+2025-06-01,"Calgary, Alberta",house,131.1
+2025-06-01,Canada,house,123.4
+2025-06-01,"Charlottetown, Prince Edward Island",house,123.7
+2025-06-01,"Edmonton, Alberta",house,107.3
+2025-06-01,"Greater Sudbury, Ontario",house,116.7
+2025-06-01,"Guelph, Ontario",house,121.7
+2025-06-01,"Halifax, Nova Scotia",house,127.3
+2025-06-01,"Hamilton, Ontario",house,113.5
+2025-06-01,"Kelowna, British Columbia",house,122.4
+2025-06-01,"Kitchener-Cambridge-Waterloo, Ontario",house,155.6
+2025-06-01,"London, Ontario",house,139.2
+2025-06-01,Manitoba,house,144.5
+2025-06-01,"Montréal, Quebec",house,153.9
+2025-06-01,New Brunswick,house,120.7
+2025-06-01,Newfoundland and Labrador,house,109.8
+2025-06-01,Nova Scotia,house,127.3
+2025-06-01,Ontario,house,122
+2025-06-01,"Oshawa, Ontario",house,119
+2025-06-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,162.6
+2025-06-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,115.8
+2025-06-01,Prairie Region,house,121.5
+2025-06-01,Prince Edward Island,house,123.7
+2025-06-01,Quebec,house,145.6
+2025-06-01,"Québec, Quebec",house,141.1
+2025-06-01,"Regina, Saskatchewan",house,105.4
+2025-06-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,120.7
+2025-06-01,Saskatchewan,house,109
+2025-06-01,"Saskatoon, Saskatchewan",house,111.1
+2025-06-01,"Sherbrooke, Quebec",house,109.6
+2025-06-01,"St. Catharines-Niagara, Ontario",house,125.6
+2025-06-01,"St. John's, Newfoundland and Labrador",house,109.8
+2025-06-01,"Toronto, Ontario",house,111
+2025-06-01,"Trois-Rivières, Quebec",house,115.9
+2025-06-01,"Vancouver, British Columbia",house,126.8
+2025-06-01,"Victoria, British Columbia",house,122.4
+2025-06-01,"Windsor, Ontario",house,145
+2025-06-01,"Winnipeg, Manitoba",house,144.5
+2025-07-01,Alberta,house,120
+2025-07-01,Atlantic Region,house,121.1
+2025-07-01,British Columbia,house,126
+2025-07-01,"Calgary, Alberta",house,131.3
+2025-07-01,Canada,house,123.3
+2025-07-01,"Charlottetown, Prince Edward Island",house,123.7
+2025-07-01,"Edmonton, Alberta",house,107
+2025-07-01,"Greater Sudbury, Ontario",house,116.7
+2025-07-01,"Guelph, Ontario",house,120.7
+2025-07-01,"Halifax, Nova Scotia",house,127.3
+2025-07-01,"Hamilton, Ontario",house,111.6
+2025-07-01,"Kelowna, British Columbia",house,121.4
+2025-07-01,"Kitchener-Cambridge-Waterloo, Ontario",house,155.1
+2025-07-01,"London, Ontario",house,139.2
+2025-07-01,Manitoba,house,144.5
+2025-07-01,"Montréal, Quebec",house,154.2
+2025-07-01,New Brunswick,house,120.7
+2025-07-01,Newfoundland and Labrador,house,109.8
+2025-07-01,Nova Scotia,house,127.3
+2025-07-01,Ontario,house,121.8
+2025-07-01,"Oshawa, Ontario",house,118.9
+2025-07-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,162.3
+2025-07-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,116.1
+2025-07-01,Prairie Region,house,121.5
+2025-07-01,Prince Edward Island,house,123.7
+2025-07-01,Quebec,house,146.1
+2025-07-01,"Québec, Quebec",house,141.7
+2025-07-01,"Regina, Saskatchewan",house,105.4
+2025-07-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,120.7
+2025-07-01,Saskatchewan,house,109
+2025-07-01,"Saskatoon, Saskatchewan",house,111.1
+2025-07-01,"Sherbrooke, Quebec",house,110.8
+2025-07-01,"St. Catharines-Niagara, Ontario",house,125.5
+2025-07-01,"St. John's, Newfoundland and Labrador",house,109.8
+2025-07-01,"Toronto, Ontario",house,110.9
+2025-07-01,"Trois-Rivières, Quebec",house,115.9
+2025-07-01,"Vancouver, British Columbia",house,126.8
+2025-07-01,"Victoria, British Columbia",house,122.4
+2025-07-01,"Windsor, Ontario",house,145
+2025-07-01,"Winnipeg, Manitoba",house,144.5
+2025-08-01,Alberta,house,119.1
+2025-08-01,Atlantic Region,house,121.1
+2025-08-01,British Columbia,house,125.2
+2025-08-01,"Calgary, Alberta",house,129.9
+2025-08-01,Canada,house,122.9
+2025-08-01,"Charlottetown, Prince Edward Island",house,123.7
+2025-08-01,"Edmonton, Alberta",house,106.9
+2025-08-01,"Greater Sudbury, Ontario",house,116.5
+2025-08-01,"Guelph, Ontario",house,120.7
+2025-08-01,"Halifax, Nova Scotia",house,127.3
+2025-08-01,"Hamilton, Ontario",house,111.6
+2025-08-01,"Kelowna, British Columbia",house,120.9
+2025-08-01,"Kitchener-Cambridge-Waterloo, Ontario",house,155.1
+2025-08-01,"London, Ontario",house,139.2
+2025-08-01,Manitoba,house,145
+2025-08-01,"Montréal, Quebec",house,155
+2025-08-01,New Brunswick,house,120.7
+2025-08-01,Newfoundland and Labrador,house,109.8
+2025-08-01,Nova Scotia,house,127.3
+2025-08-01,Ontario,house,121.6
+2025-08-01,"Oshawa, Ontario",house,118.9
+2025-08-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,161.8
+2025-08-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,116.1
+2025-08-01,Prairie Region,house,120.9
+2025-08-01,Prince Edward Island,house,123.7
+2025-08-01,Quebec,house,146.5
+2025-08-01,"Québec, Quebec",house,141.7
+2025-08-01,"Regina, Saskatchewan",house,105.8
+2025-08-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,120.7
+2025-08-01,Saskatchewan,house,109.7
+2025-08-01,"Saskatoon, Saskatchewan",house,112
+2025-08-01,"Sherbrooke, Quebec",house,110.8
+2025-08-01,"St. Catharines-Niagara, Ontario",house,125.3
+2025-08-01,"St. John's, Newfoundland and Labrador",house,109.8
+2025-08-01,"Toronto, Ontario",house,110.8
+2025-08-01,"Trois-Rivières, Quebec",house,115.9
+2025-08-01,"Vancouver, British Columbia",house,125.8
+2025-08-01,"Victoria, British Columbia",house,122.3
+2025-08-01,"Windsor, Ontario",house,145
+2025-08-01,"Winnipeg, Manitoba",house,145
+2025-09-01,Alberta,house,118.9
+2025-09-01,Atlantic Region,house,121
+2025-09-01,British Columbia,house,125.4
+2025-09-01,"Calgary, Alberta",house,129.7
+2025-09-01,Canada,house,122.7
+2025-09-01,"Charlottetown, Prince Edward Island",house,123.7
+2025-09-01,"Edmonton, Alberta",house,106.6
+2025-09-01,"Greater Sudbury, Ontario",house,115.5
+2025-09-01,"Guelph, Ontario",house,120.7
+2025-09-01,"Halifax, Nova Scotia",house,127.2
+2025-09-01,"Hamilton, Ontario",house,110.8
+2025-09-01,"Kelowna, British Columbia",house,121.3
+2025-09-01,"Kitchener-Cambridge-Waterloo, Ontario",house,153.5
+2025-09-01,"London, Ontario",house,139
+2025-09-01,Manitoba,house,145.5
+2025-09-01,"Montréal, Quebec",house,157.6
+2025-09-01,New Brunswick,house,120.7
+2025-09-01,Newfoundland and Labrador,house,109.8
+2025-09-01,Nova Scotia,house,127.2
+2025-09-01,Ontario,house,121
+2025-09-01,"Oshawa, Ontario",house,118.8
+2025-09-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,160.7
+2025-09-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,116.2
+2025-09-01,Prairie Region,house,120.7
+2025-09-01,Prince Edward Island,house,123.7
+2025-09-01,Quebec,house,148.1
+2025-09-01,"Québec, Quebec",house,141.5
+2025-09-01,"Regina, Saskatchewan",house,105.8
+2025-09-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,120.7
+2025-09-01,Saskatchewan,house,109.6
+2025-09-01,"Saskatoon, Saskatchewan",house,111.8
+2025-09-01,"Sherbrooke, Quebec",house,110.8
+2025-09-01,"St. Catharines-Niagara, Ontario",house,124.2
+2025-09-01,"St. John's, Newfoundland and Labrador",house,109.8
+2025-09-01,"Toronto, Ontario",house,110.4
+2025-09-01,"Trois-Rivières, Quebec",house,115.9
+2025-09-01,"Vancouver, British Columbia",house,126.1
+2025-09-01,"Victoria, British Columbia",house,122.3
+2025-09-01,"Windsor, Ontario",house,144.7
+2025-09-01,"Winnipeg, Manitoba",house,145.5
+2025-10-01,Alberta,house,118.3
+2025-10-01,Atlantic Region,house,121.2
+2025-10-01,British Columbia,house,125.1
+2025-10-01,"Calgary, Alberta",house,129.5
+2025-10-01,Canada,house,122.2
+2025-10-01,"Charlottetown, Prince Edward Island",house,123.7
+2025-10-01,"Edmonton, Alberta",house,105.6
+2025-10-01,"Greater Sudbury, Ontario",house,115.5
+2025-10-01,"Guelph, Ontario",house,120.7
+2025-10-01,"Halifax, Nova Scotia",house,127.7
+2025-10-01,"Hamilton, Ontario",house,110.8
+2025-10-01,"Kelowna, British Columbia",house,120
+2025-10-01,"Kitchener-Cambridge-Waterloo, Ontario",house,152.9
+2025-10-01,"London, Ontario",house,138.9
+2025-10-01,Manitoba,house,144.5
+2025-10-01,"Montréal, Quebec",house,158
+2025-10-01,New Brunswick,house,120.7
+2025-10-01,Newfoundland and Labrador,house,109.8
+2025-10-01,Nova Scotia,house,127.7
+2025-10-01,Ontario,house,120.3
+2025-10-01,"Oshawa, Ontario",house,117.9
+2025-10-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,160.7
+2025-10-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,116.2
+2025-10-01,Prairie Region,house,120.2
+2025-10-01,Prince Edward Island,house,123.7
+2025-10-01,Quebec,house,148.6
+2025-10-01,"Québec, Quebec",house,142.1
+2025-10-01,"Regina, Saskatchewan",house,106.1
+2025-10-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,120.7
+2025-10-01,Saskatchewan,house,109.6
+2025-10-01,"Saskatoon, Saskatchewan",house,111.7
+2025-10-01,"Sherbrooke, Quebec",house,110.8
+2025-10-01,"St. Catharines-Niagara, Ontario",house,123.7
+2025-10-01,"St. John's, Newfoundland and Labrador",house,109.8
+2025-10-01,"Toronto, Ontario",house,109.4
+2025-10-01,"Trois-Rivières, Quebec",house,119.1
+2025-10-01,"Vancouver, British Columbia",house,125.9
+2025-10-01,"Victoria, British Columbia",house,121.6
+2025-10-01,"Windsor, Ontario",house,144.7
+2025-10-01,"Winnipeg, Manitoba",house,144.5
+2025-11-01,Alberta,house,118.7
+2025-11-01,Atlantic Region,house,121.2
+2025-11-01,British Columbia,house,124.9
+2025-11-01,"Calgary, Alberta",house,130.2
+2025-11-01,Canada,house,122.2
+2025-11-01,"Charlottetown, Prince Edward Island",house,123.7
+2025-11-01,"Edmonton, Alberta",house,105.6
+2025-11-01,"Greater Sudbury, Ontario",house,117.1
+2025-11-01,"Guelph, Ontario",house,120.7
+2025-11-01,"Halifax, Nova Scotia",house,127.7
+2025-11-01,"Hamilton, Ontario",house,110.8
+2025-11-01,"Kelowna, British Columbia",house,119.5
+2025-11-01,"Kitchener-Cambridge-Waterloo, Ontario",house,153.4
+2025-11-01,"London, Ontario",house,137.8
+2025-11-01,Manitoba,house,145
+2025-11-01,"Montréal, Quebec",house,158.2
+2025-11-01,New Brunswick,house,120.7
+2025-11-01,Newfoundland and Labrador,house,109.8
+2025-11-01,Nova Scotia,house,127.7
+2025-11-01,Ontario,house,120.2
+2025-11-01,"Oshawa, Ontario",house,117.5
+2025-11-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,160.7
+2025-11-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,116.2
+2025-11-01,Prairie Region,house,120.6
+2025-11-01,Prince Edward Island,house,123.7
+2025-11-01,Quebec,house,148.7
+2025-11-01,"Québec, Quebec",house,142.1
+2025-11-01,"Regina, Saskatchewan",house,107.1
+2025-11-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,120.7
+2025-11-01,Saskatchewan,house,110.1
+2025-11-01,"Saskatoon, Saskatchewan",house,112
+2025-11-01,"Sherbrooke, Quebec",house,110.8
+2025-11-01,"St. Catharines-Niagara, Ontario",house,122.7
+2025-11-01,"St. John's, Newfoundland and Labrador",house,109.8
+2025-11-01,"Toronto, Ontario",house,109.4
+2025-11-01,"Trois-Rivières, Quebec",house,119.1
+2025-11-01,"Vancouver, British Columbia",house,125.7
+2025-11-01,"Victoria, British Columbia",house,122.1
+2025-11-01,"Windsor, Ontario",house,144.5
+2025-11-01,"Winnipeg, Manitoba",house,145
+2025-12-01,Alberta,house,118.5
+2025-12-01,Atlantic Region,house,121.2
+2025-12-01,British Columbia,house,124.6
+2025-12-01,"Calgary, Alberta",house,130.3
+2025-12-01,Canada,house,122
+2025-12-01,"Charlottetown, Prince Edward Island",house,123.7
+2025-12-01,"Edmonton, Alberta",house,105
+2025-12-01,"Greater Sudbury, Ontario",house,118.9
+2025-12-01,"Guelph, Ontario",house,120.7
+2025-12-01,"Halifax, Nova Scotia",house,127.5
+2025-12-01,"Hamilton, Ontario",house,109.6
+2025-12-01,"Kelowna, British Columbia",house,118.9
+2025-12-01,"Kitchener-Cambridge-Waterloo, Ontario",house,153
+2025-12-01,"London, Ontario",house,137.8
+2025-12-01,Manitoba,house,145.4
+2025-12-01,"Montréal, Quebec",house,158.4
+2025-12-01,New Brunswick,house,120.7
+2025-12-01,Newfoundland and Labrador,house,109.8
+2025-12-01,Nova Scotia,house,127.5
+2025-12-01,Ontario,house,120
+2025-12-01,"Oshawa, Ontario",house,116.9
+2025-12-01,"Ottawa-Gatineau, Ontario part, Ontario/Quebec",house,160.4
+2025-12-01,"Ottawa-Gatineau, Quebec part, Ontario/Quebec",house,116.2
+2025-12-01,Prairie Region,house,120.4
+2025-12-01,Prince Edward Island,house,123.7
+2025-12-01,Quebec,house,149.1
+2025-12-01,"Québec, Quebec",house,143.1
+2025-12-01,"Regina, Saskatchewan",house,107
+2025-12-01,"Saint John, Fredericton, and Moncton, New Brunswick",house,120.7
+2025-12-01,Saskatchewan,house,110.1
+2025-12-01,"Saskatoon, Saskatchewan",house,112
+2025-12-01,"Sherbrooke, Quebec",house,112.4
+2025-12-01,"St. Catharines-Niagara, Ontario",house,122.7
+2025-12-01,"St. John's, Newfoundland and Labrador",house,109.8
+2025-12-01,"Toronto, Ontario",house,109.3
+2025-12-01,"Trois-Rivières, Quebec",house,119.5
+2025-12-01,"Vancouver, British Columbia",house,125.4
+2025-12-01,"Victoria, British Columbia",house,122
+2025-12-01,"Windsor, Ontario",house,144.5
+2025-12-01,"Winnipeg, Manitoba",house,145.4
