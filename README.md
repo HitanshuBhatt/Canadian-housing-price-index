@@ -1,16 +1,34 @@
-# 🏠 HousingAnalytics  
-### Production-Ready Housing Price Intelligence Platform (Canada)
+# HousingAnalytics
 
-> Transform raw Statistics Canada housing data into actionable insights through a secure, full-stack analytics dashboard.
+**A full-stack Django dashboard for exploring Canadian housing price index data.**
+
+Upload raw Statistics Canada CSV datasets and instantly explore national trends, provincial comparisons, and city-level breakdowns through interactive Chart.js visualizations — no data wrangling required.
 
 ---
 
-## 🚀 Live Capabilities
+## Features
 
-- Upload raw HPI datasets → instantly visualize trends  
-- Compare provinces and cities interactively  
-- Analyze housing market shifts over time  
-- Secure, authenticated, role-aware access  
+- **Secure Authentication** — Email-based registration and login built on Django's auth system, with a custom `UserProfile` model to store date of birth. CSRF protection on all forms.
+- **Protected Routes** — Upload and charts pages require authentication (`@login_required`). Unauthenticated users are redirected to login automatically.
+- **CSV Ingestion Pipeline** — Upload raw Statistics Canada HPI files. The pipeline validates required columns (`Date`, `GEO`, `Category`, `VALUE`), handles encoding (`UTF-8-sig`), skips malformed rows, and uses `update_or_create` for idempotent imports — re-uploading the same file never creates duplicates.
+- **Four Chart Views** via Chart.js:
+  - National HPI time-series line chart (Canada, 2020–2025)
+  - Provincial index bar chart for the latest available date
+  - Toronto vs. Vancouver side-by-side trend comparison
+  - Interactive Market Explorer — select up to 4 provinces or cities, choose date range, toggle between line and bar chart
+- **Django Admin Panel** — Full `HousingData` admin with filtering by region, category, and date; searchable by geo and category; ordered by most recent date.
+
+---
+
+## Tech Stack
+
+| Layer      | Technology                        |
+|------------|-----------------------------------|
+| Backend    | Python, Django                    |
+| Frontend   | HTML, CSS, Vanilla JavaScript     |
+| Charts     | Chart.js (CDN)                    |
+| Database   | SQLite (development)              |
+| Auth       | Django Auth + Custom UserProfile  |
 
 ---
 
@@ -39,125 +57,101 @@
 
 ---
 
-## 🎯 Problem
+## Project Structure
 
-Housing affordability is one of Canada’s most urgent economic challenges.  
-
-- Statistics Canada datasets are complex and difficult to explore  
-- No simple tools exist for non-technical users  
-- Analysts spend significant time cleaning data before gaining insights  
-
----
-
-## 💡 Solution
-
-**HousingAnalytics** is a full-stack Django platform that:
-
-- Ingests raw CSV datasets  
-- Validates and structures data automatically  
-- Provides interactive visualizations  
-- Enables instant exploration without coding  
-
----
-
-## 🧠 Key Engineering Highlights
-
-### 🔐 Secure Authentication
-- Email-based login using Django Auth  
-- Extended `UserProfile` model  
-- CSRF-protected forms  
-
-### 📂 Data Pipeline
-- Schema validation (columns, encoding, data types)  
-- Fault-tolerant CSV ingestion  
-- Idempotent imports using `update_or_create` (no duplicates)  
-
-### 📈 Visualizations (Chart.js)
-- National HPI trend (time-series)  
-- Province comparison  
-- Toronto vs Vancouver analysis  
-- Interactive Market Explorer:
-  - Compare up to 4 regions  
-  - Custom date range  
-  - Toggle chart types  
-
-### ⚙️ Admin Panel
-- Full Django admin integration  
-- Filtering, search, and ordering  
+```
+Canadian-housing-price-index/
+└── housing_project/
+    ├── manage.py
+    ├── db.sqlite3
+    ├── housing_project/
+    │   ├── settings.py
+    │   ├── urls.py
+    │   ├── wsgi.py
+    │   └── asgi.py
+    └── dashboard/
+        ├── models.py          # HousingData, UserProfile
+        ├── views.py           # login, signup, logout, home, upload_csv, charts
+        ├── forms.py           # CSVUploadForm, LoginForm, SignUpForm
+        ├── urls.py
+        ├── admin.py
+        ├── migrations/
+        └── templates/
+            └── dashboard/
+                ├── base.html        # Base file containing base layout 
+                ├── home.html        # Home Page
+                ├── login.html       # LoginForm
+                ├── signup.html      # SignUpForm
+                ├── upload.html     # CSVUploadForm 
+                └── charts.html     # Charts page 
+```
 
 ---
 
-## 🏗 Architecture
-Client (HTML/CSS/JS + Chart.js)
-↓
-Django Views (Business Logic)
-↓
-Django ORM
-↓
-SQLite Database
-
-
-- Follows Django MTV (Model–Template–View)
-- Modular and scalable design
-
----
-
-## 🛠 Tech Stack
-
-| Layer        | Technology |
-|-------------|-----------|
-| Backend      | Django, Python |
-| Frontend     | HTML, CSS, JavaScript |
-| Charts       | Chart.js |
-| Database     | SQLite |
-| Auth         | Django Auth + Custom Profile |
-
----
-
-## ⚡ Quick Start
+## Quick Start
 
 ```bash
-# Clone repo
+# 1. Clone the repository
 git clone https://github.com/HitanshuBhatt/Canadian-housing-price-index.git
 cd Canadian-housing-price-index/housing_project
 
-# Create virtual environment
+# 2. Create and activate a virtual environment
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+source venv/bin/activate        # Windows: venv\Scripts\activate
 
-# Install dependencies
+# 3. Install dependencies
 pip install django
 
-# Apply migrations
+# 4. Apply database migrations
 python manage.py migrate
 
-# Run server
+# 5. (Optional) Create a superuser for the admin panel
+python manage.py createsuperuser
+
+# 6. Start the development server
 python manage.py runserver
-Open at
-http://127.0.0.1:8000
+```
+
+Open [http://127.0.0.1:8000](http://127.0.0.1:8000) in your browser.
+
+---
 
 ## CSV Format
-required format
-| Column   | Description                     |
-| -------- | ------------------------------- |
-| Date     | YYYY-MM-DD                      |
-| GEO      | Region (Canada, province, city) |
-| Category | Housing type                    |
-| VALUE    | Numeric index                   |
 
-## Project Structure
-housing_project/
-├── manage.py
-├── housing_project/
-└── dashboard/
-    ├── models.py
-    ├── views.py
-    ├── forms.py
-    ├── urls.py
-    ├── admin.py
-    └── templates/
+The upload page expects a CSV file with exactly these four columns:
 
-##📈 Scalability
-Idempotent ingestion prevents duplicate data
-Designed for PostgreSQL migration
-Ready for Docker and cloud deployment
+| Column     | Format / Notes                              |
+|------------|---------------------------------------------|
+| `Date`     | `YYYY-MM-DD`                                |
+| `GEO`      | Region name — e.g. `Canada`, `Ontario`, `Toronto, Ontario` |
+| `Category` | Housing type — e.g. `house`                 |
+| `VALUE`    | Numeric index value                          |
+
+Statistics Canada New Housing Price Index files match this format with minimal preparation.
+
+---
+
+## Architecture
+
+The application follows Django's MTV (Model–Template–View) pattern:
+
+```
+Browser (HTML + Chart.js)
+        ↓
+  Django Views  (business logic, query assembly, JSON serialization)
+        ↓
+  Django ORM
+        ↓
+  SQLite Database
+```
+
+All chart data is computed server-side in `views.py` and passed to templates as JSON-serialized context variables. The Interactive Market Explorer renders client-side using the pre-loaded `full_dataset` payload — no AJAX calls required.
+
+---
+
+## Roadmap
+
+- PostgreSQL support for production deployments
+- Docker + Gunicorn + nginx configuration
+- Export filtered datasets to CSV
+- Additional Statistics Canada dataset categories (condo, townhouse, etc.)
