@@ -15,12 +15,27 @@
 ---
 
 ## 📊 Demo Preview
+### Homepage
 
-> Add GIFs or screenshots here (highly recommended)
+![Home](assets/homepage.png)
+### Login Page
 
-![Home](assets/demo-home.gif)
-![Charts](assets/demo-charts.gif)
-![Upload](assets/demo-upload.gif)
+![Charts](assets/loginpage.png)
+
+### SignUp Page
+
+![Upload](assets/signuppage.png)
+
+### Upload Page
+
+![upload](assets/uploadpage.png)
+
+### Charts Page 
+
+![upload](assets/chartspage.png)
+![upload](assets/chartspage2.png)
+![upload](assets/chartspage3.png)
+![upload](assets/chartspage4.png)
 
 ---
 
