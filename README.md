@@ -32,7 +32,7 @@ Upload raw Statistics Canada CSV datasets and instantly explore national trends,
 
 ---
 
-## 📊 Demo Preview
+## Demo Preview
 ### Homepage
 
 ![Home](assets/homepage.png)
